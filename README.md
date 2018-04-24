@@ -1,6 +1,6 @@
-#My Resume
+# My Resume
 
-ToDO
+ToDos
 ----
 - [ ] Change work to experience
 - [ ] Add Highlights section to match current resume
