@@ -63,21 +63,21 @@
     "experience":[
       {
         "company":"Lake Jericho",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "title":"Financial Technology Intern",
+        "years":"Janurary 2017 - Present",
+        "description":"In charge of designing and implementing software solutions to assist with customer resource management and meeting Global Investment Performance Standard. Created a custom CRM application using Electron, React JS, and NeDB."
       },
       {
         "company":"Tau Kappa Epsilon",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "title":"Historian & Webmaster",
+        "years":"August 2016 - April 2018",
+        "description":"Grew chapter websites and online resources. Member of Board of Advisors, Executive Board, Philanthropy and Recruitment Committees. Assisted in coordinating social media fundraising and creating event webpages. Coordinated and marketed events between alumni and undergraduates. Published quarterly newsletters and maintained Alumni Website"
       },
       {
         "company":"Midwest Pool Management",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "title":"Assistant Manager / Head Guard",
+        "years":"May 2012 - July 2016",
+        "description":"Responsible for monitoring pool safety and responding to emergency situations. Managed 20 guard staff, resolved patron issues, and performed bi-hourly maintenance checks. Substituted for Manager when needed."
       }
     ],
     "skills":[

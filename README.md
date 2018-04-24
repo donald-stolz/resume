@@ -6,7 +6,7 @@ ToDos
 - [ ] Improve modularity of Resume component
 - [ ] Complete About Me section
 - [ ] Finish Education
-- [ ] Finish Experience
+- [x] Finish Experience
 - [ ] Finish Portfolio
 - [ ] Add Highlights section to match current resume
 - [ ] Change colors in css, Highlights & backgrounds
