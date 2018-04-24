@@ -2,7 +2,7 @@
   "main": {
     "name":"Donald Stolz",
     "occupation":"Software Engineer",
-    "description":" ",
+    "description":"I develop applications using the React framework. I also have experience using languages such as R, C, & Java",
     "image":"profilepic.jpg",
     "bio":"Enjoys new challenges, actively goes outside comfort zone to pursues experiences of diverse cultures, communities, and ideas. Completes tasks in a highly organized manner, with a strong attention detail. Proven ability to coordinate large group efforts through proficient communication skills.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -51,13 +51,13 @@
         "school":"Loyola University Chicago",
         "degree":"Bachelors of Science in Software Engineering",
         "graduated":"May 2018",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Earned 3.4 gpa. Actively involved on campus through Greek Life and Food Recovery Network."
       },
       {
         "school":"St.Louis University High School",
         "degree":"College Preparatory Diploma ",
         "graduated":"May 2015",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"32 Superscore ACT. 3 years National Honor Society and two year AP scholar"
       }
     ],
     "experience":[
@@ -115,33 +115,33 @@
     "projects": [
       {
         "title":"RIPPEN",
-        "category":"TODO description",
+        "category":"R based scipt providing a new Quarter Back analysis metric.",
         "image":"nfl-logo.png",
         "url":"https://github.com/gjm112/RIPPEN"
       },
       {
         "title":"Lake Jericho App",
-        "category":"TODO description",
+        "category":"React & Electron based custom CRM tool.",
         "image":"lake-jericho.png",
         "url":"https://github.com/donald-stolz/lake-jericho-app"
       },
       {
         "title":"2017 SABR Analytics Project",
-        "category":"TODO description",
+        "category":"Project submission for 2017 SABR Diamond Dollars Competition.",
         "image":"sabr-analytics.png",
         "url":"https://github.com/donald-stolz/Loyola_SABR_2017"
       },
       {
         "title":"42 Piscine",
-        "category":"TODO description",
+        "category":"My programs and exercises submitted during 42's July 2016 Piscine.",
         "image":"42-logo.png",
         "url":"https://github.com/donald-stolz/Piscine_42_July_2016"
       },
       {
         "title":"Facility Management System",
-        "category":"TODO description",
+        "category":"Course work from Comp 373/473 - Objects, Frameworks, and Patterns.",
         "image":"java-logo.jpg",
-        "url":"https://github.com/donald-stolz/Facility-Management-System-Java"
+        "url":"https://github.com/donald-stolz/Loyola_Comp373_Projects"
       }
     ]
   },
