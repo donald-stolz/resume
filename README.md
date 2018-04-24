@@ -3,12 +3,14 @@
 ToDos
 ----
 - [x] Change work to experience
+- [ ] Improve modularity of Resume component
 - [ ] Complete About Me section
 - [ ] Finish Education
 - [ ] Finish Experience
+- [ ] Finish Portfolio
 - [ ] Add Highlights section to match current resume
 - [ ] Change colors in css, Highlights & backgrounds
-- [ ] Add photos for Portfolio
+- [X] Add photos for Portfolio
 - [ ] Fix/Setup Contact component
 - [ ] Set up to run on [Github Pages](https://pages.github.com/)
 - [ ] Update to match [resume.json](https://jsonresume.org/) format
