@@ -3,7 +3,7 @@
 ToDos
 ----
 - [x] Change work to experience
-- [ ] Improve modularity of Resume component
+- [x] Improve modularity of Resume component
 - [ ] Complete About Me section
 - [ ] Finish Education
 - [x] Finish Experience

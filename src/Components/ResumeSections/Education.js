@@ -1,7 +1,5 @@
 import React from 'react';
 
-// <Education data={this.props.data.education}/>
-
 const Education = (props) => {
 
   if (props.data) {
