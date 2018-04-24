@@ -45,7 +45,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":" ",
     "education":[
       {
         "school":"Loyola University Chicago",
@@ -60,7 +60,7 @@
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
-    "work":[
+    "experience":[
       {
         "company":"Lake Jericho",
         "title":"Senior UX God ",
@@ -102,12 +102,12 @@
 				"level":"50%"
 			},
 			{
-				"name":"ReactJs & React Native",
+				"name":"React Js & React Native",
 				"level":"80%"
 			},
 			{
 				"name":"Electron",
-				"level":"70%"
+				"level":"60%"
 			}
     ]
   },
