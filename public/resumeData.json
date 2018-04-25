@@ -113,20 +113,20 @@
 		"highlights":[
 			{
 				"title" : "First Element",
-				"subtitle" : "Subtititle",
 				"date" : "May 2017",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"link": "/"
 			},
 			{
-				"title" : "First Element",
-				"subtitle" : "Subtititle",
-				"date" : "2017",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				"title" : "2nd Element",
+				"date" : "April 2017",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"link": "/"
 			},{
 				"title" : "First Element",
-				"subtitle" : "Subtititle",
 				"date" : "2017",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"link": "/"
 			}
 		]
   },

@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #F6F6E9; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -66,7 +66,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #194769;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #F2855E; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -151,6 +151,7 @@ ul#nav {
 
    /* center align the menu */
    text-align: center;
+	 background: #194769;
 }
 ul#nav li {
    position: relative;
@@ -179,7 +180,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #F2855E; }
 
 
 /* ------------------------------------------------------------------ */
@@ -219,7 +220,7 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #8b9798;
 }
 #about .download .button:hover {
    background: #fff;
@@ -241,8 +242,8 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+/* #resume a, #resume a:visited  { color: #11ABB0; }
+#resume a:hover, #resume a:focus { color: #313131; } */
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -273,21 +274,20 @@ ul#nav li.current a { color: #F06000; }
 
 #resume .header-col { padding-top: 9px; }
 
-.experience {
+.experience, .skill {
    margin-bottom: 48px;
    padding-bottom: 24px;
 	 border-bottom: 1px solid #F2855E;
 }
 
 .education {
-   margin-bottom: 24px;
+   margin-bottom: 60px;
 }
 
 .skill, .highlights {
-	padding-top: 48px;
+	padding-top: 70px;
 	padding-bottom: 24px;
 	width: auto;
-	background-size: auto;
 }
 
 
@@ -310,14 +310,16 @@ ul#nav li.current a { color: #F06000; }
 		background: #D7EEF2;
 }
 
-.vertical-timeline-element-content .vertical-timeline-element-date {
-	position: absolute;
-	width: 100%;
-	left: 150%;
-	top: 6px;
-	font-size: 16px;
-	font-size: 1rem;
+/* VerticalTimeline Stuff */
+#resume .vertical-timeline-button {
+	margin-top: 10px;
+	font-size: 1.25rem;
+	color: #fff;
+	background-color: #F2855E;
+	text-transform: none;
+	font-weight: bold;
 }
+
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -983,14 +985,14 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #000;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: #194769; }
+footer a:hover, footer a:focus { color: #525252; }
 
 /* copyright */
 footer .copyright {
@@ -1045,7 +1047,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #194769;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1058,4 +1060,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover {background-color: #F2855E;}

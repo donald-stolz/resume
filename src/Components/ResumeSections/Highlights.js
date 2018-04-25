@@ -2,6 +2,7 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import ImageIcon from '../Common/ImageIcon';
+import Button from 'material-ui/Button';
 
 // TODO: add highlights class to css
 // TODO: Add icons or avatar
@@ -13,14 +14,20 @@ const Highlights = (props) => {
     var highlights = props.data.highlights.map(function(highlight) {
       return (
 				<VerticalTimelineElement
-	        date={highlight.date}
 	        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					icon={<ImageIcon/>}
 				>
 	        <h3 className="vertical-timeline-element-title">{highlight.title}</h3>
-	        <h4 className="vertical-timeline-element-subtitle">{highlight.subtitle}</h4>
+	        <h4 className="vertical-timeline-element-subtitle date">{highlight.date}</h4>
 	        <p>{highlight.description}</p>
-	        <p>Add Link Here</p>
+					<Button
+							href={highlight.link}
+							size="medium"
+							variant="raised"
+							color="primary"
+							className="vertical-timeline-button">
+						Learn More
+					</Button>
 	      </VerticalTimelineElement>);
     })
   }
