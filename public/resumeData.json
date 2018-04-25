@@ -112,21 +112,40 @@
     ],
 		"highlights":[
 			{
-				"title" : "First Element",
-				"date" : "May 2017",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-				"link": "/"
+				"title" : "New Member of the Year",
+				"date" : "April 2017",
+				"description": " Was awarded Sorority & Fraternity Life New Member of the Year in recognition for my work as Webmaster",
+				"link": "https://www.luc.edu/excellenceweekend/2017/awardwinners/sororityfraternitylifeawardswinners/"
 			},
 			{
-				"title" : "2nd Element",
-				"date" : "April 2017",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-				"link": "/"
-			},{
-				"title" : "First Element",
-				"date" : "2017",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-				"link": "/"
+				"title" : "Diamond Dollars Competition",
+				"date" : "March 2017",
+				"description": "description",
+				"link": "https://sabr.org/analytics/case/2017"
+			},
+			{
+				"title" : "42 Cadet",
+				"date" : "July 2016",
+				"description": "description",
+				"link": "https://www.42.us.org/"
+			},
+			{
+				"title" : "Signed NCAA Division 2",
+				"date" : "February 2015",
+				"description": "description",
+				"link": "https://www.instagram.com/p/yseNBYiZN3/"
+			},
+			{
+				"title" : "Rotary Youth Exchange",
+				"date" : "September 2012 - May 2013",
+				"description": "description",
+				"link": "https://www.rotary.org/en/our-programs/youth-exchanges"
+			},
+			{
+				"title" : "Eagle Scout",
+				"date" : "February 2011",
+				"description": "description",
+				"link": "https://www.scouting.org/resources/guide-to-advancement/eagle-scout-rank/"
 			}
 		]
   },

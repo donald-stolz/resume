@@ -11,8 +11,10 @@ ToDos
 - [x] Portfolio
 - [x] Add photos for Portfolio
 - [ ] Highlights
+- [ ] Move Highlights below
 - [ ] Testimonials
 - [x] Change colors in css, Highlights & backgrounds
+- [ ] Create css palette constants  
 - [ ] Spelling/grammar check
 - [ ] Fix or create new Contact component
 - [ ] Set up to run on [Github Pages](https://pages.github.com/)
