@@ -109,7 +109,26 @@
 				"name":"Electron",
 				"level":"60%"
 			}
-    ]
+    ],
+		"highlights":[
+			{
+				"title" : "First Element",
+				"subtitle" : "Subtititle",
+				"date" : "2017",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			},
+			{
+				"title" : "First Element",
+				"subtitle" : "Subtititle",
+				"date" : "2017",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			},{
+				"title" : "First Element",
+				"subtitle" : "Subtititle",
+				"date" : "2017",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			}
+		]
   },
   "portfolio":{
     "projects": [

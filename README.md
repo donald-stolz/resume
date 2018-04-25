@@ -10,9 +10,9 @@ ToDos
 - [x] Portfolio
 - [ ] Testimonials
 - [ ] Add Highlights section to match current resume
+- [ ] Change colors in css, Highlights & backgrounds
 - [ ] Spelling/grammar check
 - [ ] Fix/Setup Contact component
-- [ ] Change colors in css, Highlights & backgrounds
 - [X] Add photos for Portfolio
 - [ ] Set up to run on [Github Pages](https://pages.github.com/)
 - [ ] Update to match [resume.json](https://jsonresume.org/) format
