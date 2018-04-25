@@ -187,7 +187,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #194769;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -203,7 +203,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #ddd;
 }
 #about .profile-pic {
    position: relative;
@@ -236,9 +236,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   background: #F6F6E9;
+   padding-top: 70px;
    overflow: hidden;
 }
 
@@ -249,23 +248,49 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+	 width: 100%;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #F2855E;
    padding-bottom: 6px;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume p {
+   color: #333
+}
 
-.education, .experience {
+#resume .highlights-col {
+		width: 100%;
+		padding-bottom: : 50px;
+}
+
+#resume .vertical-timeline {
+    margin: 4em auto;
+}
+
+#resume .header-col { padding-top: 9px; }
+
+.experience {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+	 border-bottom: 1px solid #F2855E;
 }
+
+.education {
+   margin-bottom: 24px;
+}
+
+.skill, .highlights {
+	padding-top: 48px;
+	padding-bottom: 24px;
+	width: auto;
+	background-size: auto;
+}
+
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -279,6 +304,19 @@ ul#nav li.current a { color: #F06000; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+#skills {
+		background: #D7EEF2;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+	position: absolute;
+	width: 100%;
+	left: 150%;
+	top: 6px;
+	font-size: 16px;
+	font-size: 1rem;
 }
 
 /*----------------------------------------------*/
@@ -318,7 +356,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #F2855E;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -417,20 +455,28 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
-   padding-top: 90px;
+   background: #194769;
+   padding-top: 5%;
    padding-bottom: 60px;
 }
 #portfolio h1 {
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
+	 color: #fff;
+}
+#portfolio h1 span {
+   border-bottom: 3px solid #F2855E;
+   padding-bottom: 6px;
 }
 
 /* Portfolio Content */
+#portfolio .item-wrap {
+	width: 200px;
+}
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
    overflow: hidden;
    position: relative;
 
@@ -443,6 +489,13 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+}
+
+#portfolio .portfolio-item .item-wrap img {
+	background: #fff;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
 }
 
 /* overlay */

@@ -10,14 +10,14 @@ class Resume extends Component {
     return (
       <section id="resume">
 
+				<Experience {...this.props} />
         <Education {...this.props}/>
 
-        <Experience {...this.props} />
+				<section id="skills">
+	        <Skills {...this.props} />
 
-        <Skills {...this.props} />
-
-				<Highlights {...this.props} />
-
+					<Highlights {...this.props} />
+				</section>
       </section>
     );
   }

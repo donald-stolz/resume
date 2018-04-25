@@ -5,8 +5,8 @@ import Avatar from 'material-ui/Avatar';
 
 const styles = {
   avatar: {
-    width: 60,
-    height: 60,
+    width: 'auto',
+    height: 'auto',
   },
 };
 

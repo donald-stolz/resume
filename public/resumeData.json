@@ -114,7 +114,7 @@
 			{
 				"title" : "First Element",
 				"subtitle" : "Subtititle",
-				"date" : "2017",
+				"date" : "May 2017",
 				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 			},
 			{
@@ -159,7 +159,7 @@
       {
         "title":"Facility Management System",
         "category":"Course work from Comp 373/473 - Objects, Frameworks, and Patterns.",
-        "image":"java-logo.jpg",
+        "image":"java-logo.png",
         "url":"https://github.com/donald-stolz/Loyola_Comp373_Projects"
       }
     ]

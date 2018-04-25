@@ -27,7 +27,7 @@ const Highlights = (props) => {
 
   return (
     <div className="row highlights">
-      <div className="three columns header-col">
+      <div className="three columns header-col highlights-col">
         <h1><span>Highlights</span></h1>
       </div>
 			<VerticalTimeline>
