@@ -2,15 +2,10 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
-import Portfolio from './Components/Portfolio';
-import Highlights from './Components/Highlights';
-
+import { Header, Footer } from './Components/Common/';
+import { About, Contact } from './Components/Contact/';
+import { Resume } from './Components/Resume/';
+import { Testimonials, Portfolio, Highlights } from './Components/Featured/';
 
 class App extends Component {
 
