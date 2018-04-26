@@ -11,18 +11,31 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
+   f. Highlights
+   g. Call To Action Section
+   h. Testimonials Section
+   i. Contact Section
+	 j. Footer
 
 ===================================================================== */
+
+/* ------------------------------------------------------------------ */
+/* Color Palette - http://colorhunt.co/c/108141
+/* ------------------------------------------------------------------ */
+
+:root {
+	--primary-bg-color: #194769;
+	--secondary-bg-color: #F6F6E9;
+	--tertiary-bg-color: #D7EEF2;
+	--accent-color: #F2855E;
+
+}
 
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #F6F6E9; }
+body { background: var(--secondary-bg-color); }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -66,7 +79,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #194769;
+   color: var(--primary-bg-color);
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -95,7 +108,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #194769; }
+header .social li a:hover { color: var(--primary-bg-color); }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +130,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #F2855E; }
+header .scrolldown a:hover { color: var(--accent-color); }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -151,7 +164,7 @@ ul#nav {
 
    /* center align the menu */
    text-align: center;
-	 background: #194769;
+	 background: var(--primary-bg-color);
 }
 ul#nav li {
    position: relative;
@@ -180,7 +193,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F2855E; }
+ul#nav li.current a { color: var(--accent-color); }
 
 
 /* ------------------------------------------------------------------ */
@@ -188,7 +201,7 @@ ul#nav li.current a { color: #F2855E; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #194769;
+   background: var(--primary-bg-color);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -231,13 +244,12 @@ ul#nav li.current a { color: #F2855E; }
    font-size: 20px;
 }
 
-
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #F6F6E9;
+   background: var(--secondary-bg-color);
    padding-top: 70px;
    overflow: hidden;
 }
@@ -252,7 +264,7 @@ ul#nav li.current a { color: #F2855E; }
 	 width: 100%;
 }
 #resume h1 span {
-   border-bottom: 3px solid #F2855E;
+   border-bottom: 3px solid var(--accent-color);
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -274,10 +286,10 @@ ul#nav li.current a { color: #F2855E; }
 
 #resume .header-col { padding-top: 9px; }
 
-.experience, .skill {
+.experience {
    margin-bottom: 48px;
    padding-bottom: 24px;
-	 border-bottom: 1px solid #F2855E;
+	 border-bottom: 1px solid var(--accent-color);
 }
 
 .education {
@@ -307,17 +319,7 @@ ul#nav li.current a { color: #F2855E; }
 }
 
 #skills {
-		background: #D7EEF2;
-}
-
-/* VerticalTimeline Stuff */
-#resume .vertical-timeline-button {
-	margin-top: 10px;
-	font-size: 1.25rem;
-	color: #fff;
-	background-color: #F2855E;
-	text-transform: none;
-	font-weight: bold;
+		background: var(--tertiary-bg-color);
 }
 
 
@@ -358,7 +360,7 @@ ul#nav li.current a { color: #F2855E; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #F2855E;
+  	background: var(--accent-color);
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -457,7 +459,7 @@ ul#nav li.current a { color: #F2855E; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #194769;
+   background: var(--primary-bg-color);
    padding-top: 5%;
    padding-bottom: 60px;
 }
@@ -468,7 +470,7 @@ ul#nav li.current a { color: #F2855E; }
 	 color: #fff;
 }
 #portfolio h1 span {
-   border-bottom: 3px solid #F2855E;
+   border-bottom: 3px solid var(--accent-color);
    padding-bottom: 6px;
 }
 
@@ -636,7 +638,40 @@ ul#nav li.current a { color: #F2855E; }
 }
 
 /* ------------------------------------------------------------------ */
-/* f. Call To Action Section
+/* f. Highlights
+/* ------------------------------------------------------------------ */
+
+#highlights {
+		background: var(--primary-bg-color);
+    overflow: hidden;
+}
+#highlights .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+#highlights .vertical-timeline-button {
+	margin-top: 10px;
+	font-size: 1.25rem;
+	color: #fff;
+	background-color: var(--accent-color);
+	text-transform: none;
+	font-weight: bold;
+}
+
+#highlights h1 {
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+	 color: #fff;
+}
+
+#highlights h1 span {
+   border-bottom: 3px solid var(--accent-color);
+   padding-bottom: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* g. Call To Action Section
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
@@ -842,7 +877,7 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
+/* i. Contact Section
 /* ------------------------------------------------------------------ */
 
 #contact {
@@ -979,7 +1014,7 @@ call-to-action .button {
 
 
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* j. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
@@ -991,7 +1026,7 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #194769; }
+footer a, footer a:visited { color: var(--primary-bg-color); }
 footer a:hover, footer a:focus { color: #525252; }
 
 /* copyright */
@@ -1047,7 +1082,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #194769;
+	background-color: var(--accent-color);
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1060,4 +1095,7 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover {background-color: #F2855E;}
+#go-top a:hover {
+	background-color: var(--tertiary-bg-color);
+	color: var(--accent-color);
+}

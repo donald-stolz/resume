@@ -1,7 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import ImageIcon from '../Common/ImageIcon';
+import ImageIcon from './Common/ImageIcon';
 import Button from 'material-ui/Button';
 
 // TODO: add highlights class to css
@@ -33,14 +33,16 @@ const Highlights = (props) => {
   }
 
   return (
-    <div className="row highlights">
-      <div className="three columns header-col highlights-col">
-        <h1><span>Highlights</span></h1>
-      </div>
-			<VerticalTimeline>
-				{highlights}
-			</VerticalTimeline>
-    </div>
+		<section id="highlights">
+	    <div className="row highlights">
+	        <h1><span>Highlights</span></h1>
+
+				<VerticalTimeline>
+					{highlights}
+				</VerticalTimeline>
+	    </div>
+		</section>
+
   );
 }
 
