@@ -1,0 +1,168 @@
+{
+  "basics": {
+    "name": "Donald Stolz",
+    "label": "Software Engineer",
+    "picture": "profilepic.jpg",
+    "email": "DonaldTStolz@gmail.com",
+    "phone": "(314) 216-0123",
+    "website": "https://donald-stolz.github.io/resume/",
+		"resumedownload": "https://www.visualcv.com/donald-stolz/pdf",
+    "summary": "Enjoys new challenges, actively goes outside comfort zone to pursues experiences of diverse cultures, communities, and ideas. Completes tasks in a highly organized manner, with a strong attention detail. Proven ability to coordinate large group efforts through proficient communication skills.",
+    "location": {
+      "address": "437 Reavis Place",
+      "postalCode": "63119",
+      "city": "St. Louis",
+      "countryCode": "US",
+      "region": "Missouri"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "example",
+      "url": "http://twitter.com/john"
+    },
+		{
+			"network": "Facebook",
+			"username": "dtstolz",
+			"url": "http://facebook.com/dtstolz"
+		},{
+			"network": "Twitter",
+			"username": "donstolz",
+			"url": "https://twitter.com/donstolz"
+		},{
+			"network": "Linkedin",
+			"username": "Donald Stolz",
+			"url": "https://www.linkedin.com/in/donaldstolz"
+		},
+		{
+			"network":"Instagram",
+			"username": "donstolz",
+			"url":"https://www.instagram.com/donstolz/",
+		},
+		{
+			"network":"Github",
+			"username": "donald-stolz",
+			"url":"https://github.com/donald-stolz",
+		}]
+  },
+  "work": [{
+    "company": "Lake Jericho",
+    "position": "Financial Technology Intern",
+    "website": "http://company.com",
+    "startDate": "Janurary 2017",
+    "endDate": "Present",
+    "summary": "In charge of designing and implementing software solutions to assist with customer resource management and meeting Global Investment Performance Standard.",
+    "highlights": [
+      "Created a custom CRM application using Electron, React JS, and NeDB."
+    ]
+  },{
+    "company": "Tau Kappa Epsilon",
+    "position": "Historian & Webmaster",
+    "website": "http://tkeloyola.org",
+    "startDate": "August 2016",
+    "endDate": "April 2018",
+    "summary": "Responsible for improving Alumni involvement, developing chapter website, and coordinating online fundraising.",
+    "highlights": [
+      "Member of Board of Advisors, Executive Board, Philanthropy and Recruitment Committees.",
+			"Assisted with marketing, coordinating social media fundraising and creating event webpages.",
+			"Coordinated and marketed events between alumni and undergraduates.",
+			"Published quarterly newsletters and maintained Alumni Website."
+    ]
+  }{
+    "company": "Midwest Pool Management",
+    "position": "Assistant Manager / Head Guard",
+    "website": "http://company.com",
+    "startDate": "May 2012",
+    "endDate": "July 2016",
+    "summary": "Responsible for monitoring pool safety and responding to emergency situations.",
+    "highlights": [
+			"Managed 20 guard staff",
+			"resolved patron issues",
+			"performed bi-hourly maintenance checks",
+			"Substituted for Manager when needed"
+    ]
+  }
+],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "website": "http://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description...",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Loyola University Chicago",
+    "area": "Software Engineering",
+    "studyType": "Bachelors of Science",
+    "startDate": "Janurary 2016",
+    "endDate": "May 2018",
+    "gpa": "3.4",
+    "courses": [
+      "todo - Basic SQL"
+    ]
+  },{
+    "institution": "St.Louis University High School",
+    "area": "College Preparatory",
+    "studyType": " ",
+    "startDate": "Augusy 2010",
+    "endDate": "May 2015",
+    "gpa": "3.6",
+    "courses": [
+      "todo - Basic SQL"
+    ]
+  }
+
+	],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "80%",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  },{
+    "name": "App Development",
+    "level": "80%",
+    "keywords": [
+      "React",
+      "React Native",
+      "Electron",
+			"Redux"
+    ]
+  }],
+  "languages": [{
+    "name": "English",
+    "level": "Native speaker"
+  },
+	{
+    "name": "Spanich",
+    "level": "Proficient"
+  }],
+  "interests": [{
+    "name": "ToDo",
+    "keywords": [
+      "none"
+    ]
+  }],
+  "references": [{
+    "name": "Nicholas Kimble",
+    "reference": "Don strives for academic excellence, he has invested himself so much in an uncharted area of leadership in TKE by becoming the backbone of our design, PR, and website. Don demonstrates commitment to Loyola, the SFL community, and the future through his voluntarily involvement in the clubs and volunteer programs at Loyola."
+  }]
+}
