@@ -1,6 +1,6 @@
 # [React Resume App](https://donald-stolz.github.io/resume/)
 
-My resume hosted as a react aplication using [Github Pages](https://pages.github.com/). Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker.
+My resume hosted as a react aplication on [Github Pages](https://pages.github.com/). Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker.
 
 ToDos
 -------
@@ -28,7 +28,7 @@ ToDos
 - [x] Create css palette constants
 - [x] Set up to run on [Github Pages](https://pages.github.com/)
 
-#### Update Log
+### Content Update Log
 
 | Section			| Date     |
 | :---------	| :--------|
@@ -39,5 +39,5 @@ ToDos
 | Highlights	| 04/25/18 |
 | Volunteer		| na       |
 
-#### Note
+#### Self-Note
 Add St. Jude experience and Teke Week to Highlights and/or Volunteer
