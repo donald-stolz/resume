@@ -36,7 +36,7 @@ function SocialIcons(props) {
 	)})
 
 	return (
-		<ul className="social">
+		<ul className={props.className}>
 			 {profiles}
 		</ul>
 	);

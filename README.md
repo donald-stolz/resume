@@ -10,14 +10,15 @@ ToDos
 
 ### Later
 - [ ] Get additional Testimonials
+- [ ] Change Skills to card component
 - [ ] Change Education & Experience to timeline
 - May want to create common component
 - Style with Material Icons & orange line
 - [ ] Create Volunteer Component
-- [ ] Update to match [resume.json](https://jsonresume.org/) format
 
 
 ### Completed
+- [x] Update to match [resume.json](https://jsonresume.org/) format
 - [x] Improve modularity of Components
 - [x] Create Highlights Component
 - [x] About Me

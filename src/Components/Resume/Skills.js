@@ -1,15 +1,16 @@
 import React from 'react';
 
+// TODO: Update to skill card type component to display keywords
 const Skills = (props) => {
 
-  if (props.data) {
-    var skillmessage = props.data.skillmessage;
-
-    var skills = props.data.skills.map(function(skills){
-      var className = 'bar-expand '+skills.name.toLowerCase();
-      return (<li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>)
+    var skills = props.data.map(function(skill){
+      var className = 'bar-expand '+skill.name.toLowerCase();
+      return (
+				<li key={skill.name}>
+					<span style={{width:skill.level}}className={className}></span>
+					<em>{skill.name}</em>
+				</li>)
     })
-  }
 
   return (
 		<section id="skills">
@@ -20,8 +21,7 @@ const Skills = (props) => {
 	       </div>
 
 	       <div className="nine columns main-col">
-
-	            <h3>{skillmessage}</h3>
+				 		{/*<h3>Skills Message </h3>*/}
 	        <div className="bars">
 
 	           <ul className="skills">

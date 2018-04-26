@@ -6,12 +6,12 @@ import Skills from './Skills';
 class Resume extends Component {
   render() {
 		console.log(this.props.data);
-
+		const {work, education, skills} = this.props.data;
     return (
       <section id="resume">
-				<Experience data={this.props.data} />
-				<Education {...this.props}/>
-				<Skills {...this.props} />
+				<Experience data={work} />
+				<Education data={education}/>
+				<Skills data={skills}/>
       </section>
     );
   }

@@ -96,17 +96,19 @@
     "endDate": "May 2018",
     "gpa": "3.4",
     "courses": [
-      "todo - Basic SQL"
-    ]
-  },{
+			"Greek Life",
+      "Food Recovery Network"
+    ]},{
     "institution": "St.Louis University High School",
-    "area": "College Preparatory",
-    "studyType": " ",
-    "startDate": "Augusy 2010",
+    "area": " ",
+    "studyType": "College Preparatory Diploma",
+    "startDate": "August 2010",
     "endDate": "May 2015",
     "gpa": "3.6",
     "courses": [
-      "todo - Basic SQL"
+      "32 ACT Superscore",
+			"Three years National Honor Society",
+			"Two years National AP scholar"
     ]
   }],
   "awards": [{
@@ -138,6 +140,32 @@
       "React Native",
       "Electron",
 			"Redux"
+    ]
+  },{
+    "name": "Data Analytics",
+    "level": "80%",
+    "keywords": [
+      "R",
+      "NoSQL",
+      "Electron",
+			"Redux"
+    ]
+  },{
+    "name": "Programming Languages",
+    "level": "80%",
+    "keywords": [
+      "R",
+			"C",
+			"Java"
+    ]
+  },{
+    "name": "Event Management",
+    "level": "80%",
+    "keywords": [
+      "Committee Coordination",
+			"Organization wide communication",
+      "Web Marketing",
+      "Social Media Campaigning"
     ]
   }],
   "languages": [{

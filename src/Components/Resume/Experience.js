@@ -2,17 +2,18 @@ import React from 'react';
 
 const Experience = (props) => {
 
-	console.log(props);
-
-  if (props.data) {
-    var experience = props.data.experience.map(function(experience){
+    var experiences = props.data.map(function(experience){
+			// TODO: Map highlights in a table or list for styling
       return(
       <div key={experience.company}><h3>{experience.company}</h3>
-          <p className="info">{experience.title}<span>&bull;</span> <em className="date">{experience.years}</em></p>
-          <p>{experience.description}</p>
+          <p className="info">{experience.position}
+						<span>&bull;</span>
+						<em className="date">{experience.startDate} -  {experience.endDate}</em>
+					</p>
+          <p>{experience.summary}</p>
+					<p>{experience.highlights}</p>
       </div>)
     })
-  }
 
   return (
     <div className="row experience ">
@@ -21,7 +22,7 @@ const Experience = (props) => {
       </div>
 
       <div className="nine columns main-col">
-        {experience}
+        {experiences}
       </div>
     </div>
   )

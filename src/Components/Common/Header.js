@@ -24,7 +24,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         	<li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a className="smoothscroll" href="#references">References</a></li>
          </ul>
 
       </nav>
@@ -34,7 +34,7 @@ class Header extends Component {
             <h1 className="responsive-headline">Hi, Im {name}</h1>
             <h3>A {location.city} based <span>{label}</span>. {description}.</h3>
             <hr />
-						<SocialIcons data={profiles}/>
+						<SocialIcons data={profiles} className="social"/>
          </div>
       </div>
 

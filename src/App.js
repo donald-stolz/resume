@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import './App.css';
-import data from './Data/resumeData';
 import resume from './Data/RESUME';
 import site from './Data/siteData'
 import { Header, Footer } from './Components/Common/';
 import { About, Contact } from './Components/Contact/';
 import { Resume } from './Components/Resume/';
-import { Testimonials, Portfolio, Highlights } from './Components/Featured/';
+import { References, Portfolio, Highlights } from './Components/Featured/';
 
 class App extends Component {
 
@@ -16,7 +15,6 @@ class App extends Component {
     this.state = {
 			siteData: site,
 			resume: resume,
-			resumeData: data,
     };
 
     ReactGA.initialize('UA-110570651-1');
@@ -24,22 +22,19 @@ class App extends Component {
   }
 
   render() {
-		const { resume, resumeData, siteData} = this.state;
+		const { resume, siteData} = this.state;
 
     return (
       <div className="App">
         <Header data={resume.basics} site={siteData}/>
         <About data={resume.basics}/>
-        <Resume data={resumeData.resume}/>
-        <Portfolio data={resumeData.portfolio}/>
-        <Testimonials data={resumeData.testimonials}/>
-				<Footer data={resumeData.main}/>
+        <Resume data={resume}/>
+        <Portfolio data={resume.portfolio}/>
+        <References data={resume.references}/>
+				<Footer data={resume.basics}/>
       </div>
     );
   }
 }
 
 export default App;
-
-// <Highlights data={this.state.resumeData.resume}/>
-// <Contact data={this.state.resumeData.main}/>
