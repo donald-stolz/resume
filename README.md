@@ -15,6 +15,7 @@ ToDos
 - May want to create common component
 - Style with Material Icons & orange line
 - [ ] Create Volunteer Component
+- [ ] Implement proptypes
 
 
 ### Completed
