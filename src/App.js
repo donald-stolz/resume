@@ -6,8 +6,7 @@ import site from './Data/siteData'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import { About, Contact } from './Components/Information/';
-import { Resume } from './Components/Resume/';
-import { References, Portfolio, Highlights } from './Components/Sections/';
+import { Resume, References, Portfolio, Highlights } from './Components/Sections/';
 
 class App extends Component {
 
