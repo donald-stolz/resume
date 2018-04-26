@@ -1,6 +1,6 @@
 # [React Resume App](https://donald-stolz.github.io/resume/)
 
-My resume hosted as a react aplication on [Github Pages](https://pages.github.com/). Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker.
+My resume redesigned as a react web aplication. Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker.
 
 ToDos
 -------
