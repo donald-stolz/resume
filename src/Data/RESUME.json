@@ -16,11 +16,6 @@
       "region": "Missouri"
     },
     "profiles": [{
-      "network": "Twitter",
-      "username": "example",
-      "url": "http://twitter.com/john"
-    },
-		{
 			"network": "Facebook",
 			"username": "dtstolz",
 			"url": "http://facebook.com/dtstolz"
@@ -29,19 +24,19 @@
 			"username": "donstolz",
 			"url": "https://twitter.com/donstolz"
 		},{
-			"network": "Linkedin",
+			"network": "LinkedIn",
 			"username": "Donald Stolz",
 			"url": "https://www.linkedin.com/in/donaldstolz"
 		},
 		{
 			"network":"Instagram",
 			"username": "donstolz",
-			"url":"https://www.instagram.com/donstolz/",
+			"url":"https://www.instagram.com/donstolz/"
 		},
 		{
 			"network":"Github",
 			"username": "donald-stolz",
-			"url":"https://github.com/donald-stolz",
+			"url":"https://github.com/donald-stolz"
 		}]
   },
   "work": [{
@@ -54,34 +49,34 @@
     "highlights": [
       "Created a custom CRM application using Electron, React JS, and NeDB."
     ]
-  },{
-    "company": "Tau Kappa Epsilon",
-    "position": "Historian & Webmaster",
-    "website": "http://tkeloyola.org",
-    "startDate": "August 2016",
-    "endDate": "April 2018",
-    "summary": "Responsible for improving Alumni involvement, developing chapter website, and coordinating online fundraising.",
-    "highlights": [
-      "Member of Board of Advisors, Executive Board, Philanthropy and Recruitment Committees.",
-			"Assisted with marketing, coordinating social media fundraising and creating event webpages.",
-			"Coordinated and marketed events between alumni and undergraduates.",
-			"Published quarterly newsletters and maintained Alumni Website."
-    ]
-  }{
-    "company": "Midwest Pool Management",
-    "position": "Assistant Manager / Head Guard",
-    "website": "http://company.com",
-    "startDate": "May 2012",
-    "endDate": "July 2016",
-    "summary": "Responsible for monitoring pool safety and responding to emergency situations.",
-    "highlights": [
-			"Managed 20 guard staff",
-			"resolved patron issues",
-			"performed bi-hourly maintenance checks",
-			"Substituted for Manager when needed"
-    ]
-  }
-],
+	  },{
+	    "company": "Tau Kappa Epsilon",
+	    "position": "Historian & Webmaster",
+	    "website": "http://tkeloyola.org",
+	    "startDate": "August 2016",
+	    "endDate": "April 2018",
+	    "summary": "Responsible for improving Alumni involvement, developing chapter website, and coordinating online fundraising.",
+	    "highlights": [
+	      "Member of Board of Advisors, Executive Board, Philanthropy and Recruitment Committees.",
+				"Assisted with marketing, coordinating social media fundraising and creating event webpages.",
+				"Coordinated and marketed events between alumni and undergraduates.",
+				"Published quarterly newsletters and maintained Alumni Website."
+	    ]
+	  },{
+	    "company": "Midwest Pool Management",
+	    "position": "Assistant Manager / Head Guard",
+	    "website": "http://company.com",
+	    "startDate": "May 2012",
+	    "endDate": "July 2016",
+	    "summary": "Responsible for monitoring pool safety and responding to emergency situations.",
+	    "highlights": [
+				"Managed 20 guard staff",
+				"resolved patron issues",
+				"performed bi-hourly maintenance checks",
+				"Substituted for Manager when needed"
+	    ]
+	  }
+	],
   "volunteer": [{
     "organization": "Organization",
     "position": "Volunteer",
@@ -113,9 +108,7 @@
     "courses": [
       "todo - Basic SQL"
     ]
-  }
-
-	],
+  }],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",
@@ -164,5 +157,39 @@
   "references": [{
     "name": "Nicholas Kimble",
     "reference": "Don strives for academic excellence, he has invested himself so much in an uncharted area of leadership in TKE by becoming the backbone of our design, PR, and website. Don demonstrates commitment to Loyola, the SFL community, and the future through his voluntarily involvement in the clubs and volunteer programs at Loyola."
-  }]
+  }],
+	"portfolio":{
+    "projects": [
+      {
+        "title":"RIPPEN",
+        "description":"R based scipt providing a new Quarter Back analysis metric.",
+        "image":"nfl-logo.png",
+        "website":"https://github.com/gjm112/RIPPEN"
+      },
+      {
+        "title":"Lake Jericho App",
+        "description":"React & Electron based custom CRM tool.",
+        "image":"lake-jericho.png",
+        "website":"https://github.com/donald-stolz/lake-jericho-app"
+      },
+      {
+        "title":"2017 SABR Analytics Project",
+        "description":"Project submission for 2017 SABR Diamond Dollars Competition.",
+        "image":"sabr-analytics.png",
+        "website":"https://github.com/donald-stolz/Loyola_SABR_2017"
+      },
+      {
+        "title":"42 Piscine",
+        "description":"My programs and exercises submitted during 42's July 2016 Piscine.",
+        "image":"42-logo.png",
+        "website":"https://github.com/donald-stolz/Piscine_42_July_2016"
+      },
+      {
+        "title":"Facility Management System",
+        "description":"Course work from Comp 373/473 - Objects, Frameworks, and Patterns.",
+        "image":"java-logo.png",
+        "website":"https://github.com/donald-stolz/Loyola_Comp373_Projects"
+      }
+    ]
+  }
 }

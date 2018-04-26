@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
+import SocialIcons from './SocialIcons';
+
+// TODO: proptypes
 
 class Header extends Component {
   render() {
+		const { name, label, location, profiles } = this.props.data;
+		const { description } = this.props.site;
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
-      var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
-    }
+// TODO:
 //	<li><a className="smoothscroll" href="#highlights">Highlights</a></li>
 //	<li><a className="smoothscroll" href="#contact">Contact</a></li>
     return (
@@ -19,7 +16,7 @@ class Header extends Component {
 
       <nav id="nav-wrap">
 
-         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
@@ -34,12 +31,10 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">Hi, I'm {name}</h1>
-            <h3>A {city} based <span>{occupation}</span>. {description}.</h3>
+            <h1 className="responsive-headline">Hi, Im {name}</h1>
+            <h3>A {location.city} based <span>{label}</span>. {description}.</h3>
             <hr />
-            <ul className="social">
-               {networks}
-            </ul>
+						<SocialIcons data={profiles}/>
          </div>
       </div>
 

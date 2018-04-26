@@ -5,10 +5,11 @@ import Skills from './Skills';
 
 class Resume extends Component {
   render() {
+		console.log(this.props.data);
 
     return (
       <section id="resume">
-				<Experience {...this.props} />
+				<Experience data={this.props.data} />
 				<Education {...this.props}/>
 				<Skills {...this.props} />
       </section>

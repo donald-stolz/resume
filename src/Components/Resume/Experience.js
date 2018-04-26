@@ -2,6 +2,8 @@ import React from 'react';
 
 const Experience = (props) => {
 
+	console.log(props);
+
   if (props.data) {
     var experience = props.data.experience.map(function(experience){
       return(
