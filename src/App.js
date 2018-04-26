@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import './App.css';
 import resume from './Data/RESUME';
-import site from './Data/siteData'
-import Header from './Components/Header'
-import Footer from './Components/Footer'
-import { About, Contact } from './Components/Information/';
-import { Resume, References, Portfolio, Highlights } from './Components/Sections/';
+import site from './Data/siteData';
+import {
+	Header,
+	Footer,
+	About,
+	Contact,
+	Resume,
+	References,
+	Portfolio,
+	Highlights
+} from './Components/';
 
 class App extends Component {
 
