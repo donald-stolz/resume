@@ -3,10 +3,11 @@ import ReactGA from 'react-ga';
 import './App.css';
 import resume from './Data/RESUME';
 import site from './Data/siteData'
-import { Header, Footer } from './Components/Common/';
-import { About, Contact } from './Components/Contact/';
+import Header from './Components/Header'
+import Footer from './Components/Footer'
+import { About, Contact } from './Components/Information/';
 import { Resume } from './Components/Resume/';
-import { References, Portfolio, Highlights } from './Components/Featured/';
+import { References, Portfolio, Highlights } from './Components/Sections/';
 
 class App extends Component {
 
