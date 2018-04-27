@@ -15,29 +15,32 @@
       "countryCode": "US",
       "region": "Missouri"
     },
-    "profiles": [{
-			"network": "Facebook",
-			"username": "dtstolz",
-			"url": "http://facebook.com/dtstolz"
-		},{
-			"network": "Twitter",
-			"username": "donstolz",
-			"url": "https://twitter.com/donstolz"
-		},{
-			"network": "LinkedIn",
-			"username": "Donald Stolz",
-			"url": "https://www.linkedin.com/in/donaldstolz"
-		},
-		{
-			"network":"Instagram",
-			"username": "donstolz",
-			"url":"https://www.instagram.com/donstolz/"
-		},
-		{
-			"network":"Github",
-			"username": "donald-stolz",
-			"url":"https://github.com/donald-stolz"
-		}]
+		"profiles":	[{
+				"network": "Facebook",
+				"username": "dtstolz",
+				"url": "http://facebook.com/dtstolz"
+			},
+			{
+				"network": "Twitter",
+				"username": "donstolz",
+				"url": "https://twitter.com/donstolz"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "Donald Stolz",
+				"url": "https://www.linkedin.com/in/donaldstolz"
+			},
+			{
+				"network":"Instagram",
+				"username": "donstolz",
+				"url":"https://www.instagram.com/donstolz/"
+			},
+			{
+				"network":"Github",
+				"username": "donald-stolz",
+				"url":"https://github.com/donald-stolz"
+			}
+		]
   },
   "work": [{
     "company": "Lake Jericho",
@@ -77,8 +80,8 @@
 	    ]
 	  }
 	],
-  "volunteer": [{
-    "organization": "Organization",
+	"volunteer": [{
+    "organization": "St. Jude",
     "position": "Volunteer",
     "website": "http://organization.com/",
     "startDate": "2012-01-01",
@@ -86,7 +89,43 @@
     "summary": "Description...",
     "highlights": [
       "Awarded 'Volunteer of the Month'"
-    ]
+    ]},{
+    "organization": "Food Recovery Network",
+    "position": "Volunteer",
+    "website": "http://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description...",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+			]},{
+	    "organization": "KEEN",
+	    "position": "Volunteer",
+	    "website": "http://organization.com/",
+	    "startDate": "2012-01-01",
+	    "endDate": "2013-01-01",
+	    "summary": "Played sports with mentally and physically disabled kids, mentoring them and building social skills.",
+	    "highlights": [
+	      "Awarded 'Volunteer of the Month'"
+			]},{
+	    "organization": "Loyola Academy",
+	    "position": "Volunteer",
+	    "website": "http://organization.com/",
+	    "startDate": "2012-01-01",
+	    "endDate": "2013-01-01",
+	    "summary": "Description...",
+	    "highlights": [
+	      "Awarded 'Volunteer of the Month'"
+			]},{
+	    "organization": "ISkate",
+	    "position": "Volunteer",
+	    "website": "http://organization.com/",
+	    "startDate": "2012-01-01",
+	    "endDate": "2013-01-01",
+	    "summary": "Description...",
+	    "highlights": [
+	      "Awarded 'Volunteer of the Month'"
+	    ]
   }],
   "education": [{
     "institution": "Loyola University Chicago",
@@ -132,7 +171,7 @@
       "CSS",
       "Javascript"
     ]
-  },{
+		},{
     "name": "App Development",
     "level": "80%",
     "keywords": [
@@ -141,7 +180,7 @@
       "Electron",
 			"Redux"
     ]
-  },{
+  	},{
     "name": "Data Analytics",
     "level": "80%",
     "keywords": [
@@ -150,7 +189,7 @@
       "Electron",
 			"Redux"
     ]
-  },{
+  	},{
     "name": "Programming Languages",
     "level": "80%",
     "keywords": [
@@ -158,7 +197,7 @@
 			"C",
 			"Java"
     ]
-  },{
+  	},{
     "name": "Event Management",
     "level": "80%",
     "keywords": [
@@ -168,14 +207,14 @@
       "Social Media Campaigning"
     ]
   }],
-  "languages": [{
+	"languages": [{
     "name": "English",
     "level": "Native speaker"
-  },
-	{
-    "name": "Spanich",
+  	},{
+    "name": "Spanish",
     "level": "Proficient"
-  }],
+		}
+	],
   "interests": [{
     "name": "ToDo",
     "keywords": [
