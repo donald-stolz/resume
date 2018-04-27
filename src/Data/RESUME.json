@@ -81,50 +81,45 @@
 	  }
 	],
 	"volunteer": [{
-    "organization": "St. Jude",
+    "organization": "St. Jude Children's Research Hospital",
     "position": "Volunteer",
     "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
+    "startDate": "February 2016",
+    "endDate": "Present",
+    "summary": "The mission of St. Jude Children’s Research Hospital is to advance cures, and means of prevention, for pediatric catastrophic diseases through research and treatment. I coordinated and participated in philanthropic events for St. Jude",
     "highlights": [
-      "Awarded 'Volunteer of the Month'"
     ]},{
     "organization": "Food Recovery Network",
     "position": "Volunteer",
     "website": "http://organization.com/",
     "startDate": "2012-01-01",
     "endDate": "2013-01-01",
-    "summary": "Description...",
+    "summary": "Participated in food recovery runs after campus events, recovering food that can be donated to a local food pantry. Assisted with food drives and helped coordinate volunteers from my fraternity.",
     "highlights": [
-      "Awarded 'Volunteer of the Month'"
 			]},{
 	    "organization": "KEEN",
 	    "position": "Volunteer",
 	    "website": "http://organization.com/",
-	    "startDate": "2012-01-01",
-	    "endDate": "2013-01-01",
+	    "startDate": "September 2011",
+	    "endDate": "May 2015",
 	    "summary": "Played sports with mentally and physically disabled kids, mentoring them and building social skills.",
 	    "highlights": [
-	      "Awarded 'Volunteer of the Month'"
 			]},{
 	    "organization": "Loyola Academy",
 	    "position": "Volunteer",
 	    "website": "http://organization.com/",
-	    "startDate": "2012-01-01",
-	    "endDate": "2013-01-01",
-	    "summary": "Description...",
+	    "startDate": "Janurary 2015",
+	    "endDate": "Janurary 2015",
+	    "summary": "Served as a tutor and teacher’s assistant at Loyola Academy, a Jesuit Middle School for boys who have the potential for college preparatory work, but whose progress may be impeded by economic or social circumstances",
 	    "highlights": [
-	      "Awarded 'Volunteer of the Month'"
 			]},{
 	    "organization": "ISkate",
 	    "position": "Volunteer",
 	    "website": "http://organization.com/",
-	    "startDate": "2012-01-01",
-	    "endDate": "2013-01-01",
-	    "summary": "Description...",
+	    "startDate": "October 2011",
+	    "endDate": "December 2014",
+	    "summary": "Served as a “buddy” to kids with mental and physical disabilities, assisted them in learning to ice skate and build social skills.",
 	    "highlights": [
-	      "Awarded 'Volunteer of the Month'"
 	    ]
   }],
   "education": [{
