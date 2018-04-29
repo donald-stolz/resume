@@ -7,28 +7,48 @@ import Icon from 'material-ui/Icon';
 import {styles} from './styles'
 
 const responsiveStyle = theme => ({
-	container: {
+	...styles,
+	rightContainer: {
+		float: 'right',
+    left: '130%',
 		width: '100%',
-		top: '16px',
+		top: '4px',
 		position: 'absolute',
-		[theme.breakpoints.down('sm')]: {
+		[theme.breakpoints.down('md')]: {
 			position: 'relative',
+			left: '0%',
+			right: '0%',
+			float: 'none',
+		}
+	},
+	leftContainer: {
+		float: 'left',
+		textAlign: 'right',
+    right: '130%',
+		width: '100%',
+		top: '4px',
+		position: 'absolute',
+		[theme.breakpoints.down('md')]: {
+			position: 'relative',
+			left: '0%',
+			right: '0%',
+			float: 'none',
 		}
 	}
 })
 
 function Timeline(props) {
+		const { classes } = props
 
     var events = props.data.map(function(event, i) {
 			var position = ((i%2) ? 'right' : 'left');
-			const mirror = ((i%2) ? styles.leftContent : styles.rightContent)
-			const mirrorPosition = {...responsiveStyle.container, mirror}
-			console.log(mirrorPosition);
+			const mirror = ((i%2) ? classes.leftContainer : classes.rightContainer)
+
 			return (
 				<VerticalTimelineElement
 					position={position}
 					iconStyle={styles.icon}
-					icon={<Icon style={styles.iconSize}> add_circle</Icon>}
+					icon={<Icon className={classes.iconSize}> add_circle</Icon>}
 				>
 					{console.log(props)}
 	        <h3>{event.title}</h3>
@@ -41,9 +61,9 @@ function Timeline(props) {
 							>
 						Learn More
 					</Button>
-					<span style={mirrorPosition}>
+					<span className={mirror}>
 						<img
-							style={styles.image}
+							className={classes.image}
 							src="https://media.licdn.com/dms/image/C5103AQH7tdSf3cCB3A/profile-displayphoto-shrink_200_200/0?e=1530219600&v=beta&t=LtBiRYhL8LlUyfeCul4foXACUpzvTvBW5igs7Mo7yvo"
 							alt="Smiley face"
 						/>
