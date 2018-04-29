@@ -275,11 +275,6 @@ ul#nav li.current a { color: var(--accent-palette-color); }
    color: #333
 }
 
-#resume .highlights-col {
-		width: 100%;
-		padding-bottom: : 50px;
-}
-
 #resume .vertical-timeline {
     margin: 4em auto;
 }
