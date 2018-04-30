@@ -15,9 +15,9 @@ class About extends Component {
 
   render() {
 
+		const { site } = this.props
 		const { data } = this.state;
 		const { location } = data;
-		console.log(data);
 
     return (
       <section id="about">
@@ -43,7 +43,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={data.resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={site.resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

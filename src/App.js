@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={resume.basics} site={siteData}/>
-        <About data={resume.basics}/>
+        <About data={resume.basics} site={siteData}/>
         <Resume data={resume}/>
         <Portfolio data={resume.portfolio}/>
         <References data={resume.references}/>

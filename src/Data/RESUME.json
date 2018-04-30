@@ -4,9 +4,8 @@
     "label": "Software Engineer",
     "picture": "profilepic.jpg",
     "email": "DonaldTStolz@gmail.com",
-    "phone": "(314) 216-0123",
+    "phone": "314-216-0123",
     "website": "https://donald-stolz.github.io/resume/",
-		"resumedownload": "https://www.visualcv.com/donald-stolz/pdf",
     "summary": "Enjoys new challenges, actively goes outside comfort zone to pursues experiences of diverse cultures, communities, and ideas. Completes tasks in a highly organized manner, with a strong attention detail. Proven ability to coordinate large group efforts through proficient communication skills.",
     "location": {
       "address": "437 Reavis Place",
@@ -46,8 +45,8 @@
     "company": "Lake Jericho",
     "position": "Financial Technology Intern",
     "website": "http://company.com",
-    "startDate": "Janurary 2017",
-    "endDate": "Present",
+    "startDate": "2017-01-01",
+    "endDate": "2018-05-01",
     "summary": "In charge of designing and implementing software solutions to assist with customer resource management and meeting Global Investment Performance Standard.",
     "highlights": [
       "Created a custom CRM application using Electron, React JS, and NeDB."
@@ -56,8 +55,8 @@
 	    "company": "Tau Kappa Epsilon",
 	    "position": "Historian & Webmaster",
 	    "website": "http://tkeloyola.org",
-	    "startDate": "August 2016",
-	    "endDate": "April 2018",
+	    "startDate": "2016-08-01",
+	    "endDate": "2018-04-01",
 	    "summary": "Responsible for improving Alumni involvement, developing chapter website, and coordinating online fundraising.",
 	    "highlights": [
 	      "Member of Board of Advisors, Executive Board, Philanthropy and Recruitment Committees.",
@@ -69,8 +68,8 @@
 	    "company": "Midwest Pool Management",
 	    "position": "Assistant Manager / Head Guard",
 	    "website": "http://company.com",
-	    "startDate": "May 2012",
-	    "endDate": "July 2016",
+	    "startDate": "2012-05-01",
+	    "endDate": "2016-07-01",
 	    "summary": "Responsible for monitoring pool safety and responding to emergency situations.",
 	    "highlights": [
 				"Managed 20 guard staff",
@@ -84,8 +83,8 @@
     "organization": "St. Jude Children's Research Hospital",
     "position": "Volunteer",
     "website": "http://organization.com/",
-    "startDate": "February 2016",
-    "endDate": "Present",
+    "startDate": "2016-02-01",
+    "endDate": "2018-05-01",
     "summary": "The mission of St. Jude Children’s Research Hospital is to advance cures, and means of prevention, for pediatric catastrophic diseases through research and treatment. I coordinated and participated in philanthropic events for St. Jude",
     "highlights": [
     ]},{
@@ -100,24 +99,24 @@
 	    "organization": "KEEN",
 	    "position": "Volunteer",
 	    "website": "http://organization.com/",
-	    "startDate": "September 2011",
-	    "endDate": "May 2015",
+	    "startDate": "2011-09-01",
+	    "endDate": "2015-05-01",
 	    "summary": "Played sports with mentally and physically disabled kids, mentoring them and building social skills.",
 	    "highlights": [
 			]},{
 	    "organization": "Loyola Academy",
 	    "position": "Volunteer",
 	    "website": "http://organization.com/",
-	    "startDate": "Janurary 2015",
-	    "endDate": "Janurary 2015",
+	    "startDate": "2015-01-01",
+	    "endDate": "2015-01-30",
 	    "summary": "Served as a tutor and teacher’s assistant at Loyola Academy, a Jesuit Middle School for boys who have the potential for college preparatory work, but whose progress may be impeded by economic or social circumstances",
 	    "highlights": [
 			]},{
 	    "organization": "ISkate",
 	    "position": "Volunteer",
 	    "website": "http://organization.com/",
-	    "startDate": "October 2011",
-	    "endDate": "December 2014",
+	    "startDate": "2011-10-01",
+	    "endDate": "2014-12-01",
 	    "summary": "Served as a “buddy” to kids with mental and physical disabilities, assisted them in learning to ice skate and build social skills.",
 	    "highlights": [
 	    ]
@@ -126,8 +125,8 @@
     "institution": "Loyola University Chicago",
     "area": "Software Engineering",
     "studyType": "Bachelors of Science",
-    "startDate": "Janurary 2016",
-    "endDate": "May 2018",
+    "startDate": "2016-01-16",
+    "endDate": "2018-05-12",
     "gpa": "3.4",
     "courses": [
 			"Greek Life",
@@ -136,8 +135,8 @@
     "institution": "St.Louis University High School",
     "area": " ",
     "studyType": "College Preparatory Diploma",
-    "startDate": "August 2010",
-    "endDate": "May 2015",
+    "startDate": "2010-08-01",
+    "endDate": "2015-05-01",
     "gpa": "3.6",
     "courses": [
       "32 ACT Superscore",
@@ -180,15 +179,12 @@
     "level": "80%",
     "keywords": [
       "R",
-      "NoSQL",
-      "Electron",
-			"Redux"
+      "NoSQL"
     ]
   	},{
     "name": "Programming Languages",
     "level": "80%",
     "keywords": [
-      "R",
 			"C",
 			"Java"
     ]
@@ -220,38 +216,36 @@
     "name": "Nicholas Kimble",
     "reference": "Don strives for academic excellence, he has invested himself so much in an uncharted area of leadership in TKE by becoming the backbone of our design, PR, and website. Don demonstrates commitment to Loyola, the SFL community, and the future through his voluntarily involvement in the clubs and volunteer programs at Loyola."
   }],
-	"portfolio":{
-    "projects": [
-      {
-        "title":"RIPPEN",
-        "description":"R based scipt providing a new Quarter Back analysis metric.",
-        "image":"nfl-logo.png",
-        "website":"https://github.com/gjm112/RIPPEN"
-      },
-      {
-        "title":"Lake Jericho App",
-        "description":"React & Electron based custom CRM tool.",
-        "image":"lake-jericho.png",
-        "website":"https://github.com/donald-stolz/lake-jericho-app"
-      },
-      {
-        "title":"2017 SABR Analytics Project",
-        "description":"Project submission for 2017 SABR Diamond Dollars Competition.",
-        "image":"sabr-analytics.png",
-        "website":"https://github.com/donald-stolz/Loyola_SABR_2017"
-      },
-      {
-        "title":"42 Piscine",
-        "description":"My programs and exercises submitted during 42's July 2016 Piscine.",
-        "image":"42-logo.png",
-        "website":"https://github.com/donald-stolz/Piscine_42_July_2016"
-      },
-      {
-        "title":"Facility Management System",
-        "description":"Course work from Comp 373/473 - Objects, Frameworks, and Patterns.",
-        "image":"java-logo.png",
-        "website":"https://github.com/donald-stolz/Loyola_Comp373_Projects"
-      }
-    ]
-  }
+	"portfolio": [
+    {
+      "title":"RIPPEN",
+      "description":"R based scipt providing a new Quarter Back analysis metric.",
+      "image":"nfl-logo.png",
+      "website":"https://github.com/gjm112/RIPPEN"
+    },
+    {
+      "title":"Lake Jericho App",
+      "description":"React & Electron based custom CRM tool.",
+      "image":"lake-jericho.png",
+      "website":"https://github.com/donald-stolz/lake-jericho-app"
+    },
+    {
+      "title":"2017 SABR Analytics Project",
+      "description":"Project submission for 2017 SABR Diamond Dollars Competition.",
+      "image":"sabr-analytics.png",
+      "website":"https://github.com/donald-stolz/Loyola_SABR_2017"
+    },
+    {
+      "title":"42 Piscine",
+      "description":"My programs and exercises submitted during 42's July 2016 Piscine.",
+      "image":"42-logo.png",
+      "website":"https://github.com/donald-stolz/Piscine_42_July_2016"
+    },
+    {
+      "title":"Facility Management System",
+      "description":"Course work from Comp 373/473 - Objects, Frameworks, and Patterns.",
+      "image":"java-logo.png",
+      "website":"https://github.com/donald-stolz/Loyola_Comp373_Projects"
+    }
+  ]
 }

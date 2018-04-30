@@ -4,7 +4,7 @@ class Portfolio extends Component {
   render() {
 
     if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
+      var projects = this.props.data.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
 					<a target="_blank" href={projects.url} title={projects.title}>
