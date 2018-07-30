@@ -6,7 +6,7 @@ class About extends Component {
 		super(props);
 
 		const { data } = this.props;
-		var profilepic = "images/"+ data.picture;
+		var profilepic = 'images/'+ data.picture;
 		this.state = {
 			data,
 			profilepic

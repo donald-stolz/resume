@@ -7,6 +7,8 @@ const Education = (props) => {
 
 			const nextIndex = index + 1;
 			const divider = nextIndex === array.length ? (<br/>) : (<hr/>);
+			var schoolImage = 'images/education/'+education.image;
+
 
 			var info = education.studyType +" in " + education.area;
 			if (education.area === " ") {
@@ -17,7 +19,7 @@ const Education = (props) => {
 				<div className="row item">
 
 					<div className='three columns image-cont'>
-							<img className='school-pic' src={"images/education/"+education.image}/>
+							<img className='school-pic' src={schoolImage}/>
 					</div>
 					<div className='nine columns'>
 		        <div key={education.institution}>

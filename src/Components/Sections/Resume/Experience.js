@@ -7,12 +7,14 @@ const Experience = (props) => {
 			// TODO: Map highlights in a table or list for styling
 			const nextIndex = index + 1;
 			const divider = nextIndex === array.length ? (<br/>) : (<hr/>);
+			var workImage = 'images/work/'+experience.image;
+
 
       return(
 
 				<div className='row item'>
 							<div className='three columns image-cont'>
-									<img className='work-pic' src={"images/work/"+experience.image}/>
+									<img className='work-pic' src={workImage}/>
 							</div>
 							<div className='nine columns'>
 					      <div key={experience.company}><h3>{experience.company}</h3>
