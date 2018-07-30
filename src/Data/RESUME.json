@@ -157,47 +157,148 @@
     "website": "http://publication.com",
     "summary": "Description..."
   }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "80%",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
-		},{
-    "name": "App Development",
-    "level": "80%",
-    "keywords": [
-      "React",
-      "React Native",
-      "Electron",
-			"Redux"
-    ]
-  	},{
-    "name": "Data Analytics",
-    "level": "80%",
-    "keywords": [
-      "R",
-      "NoSQL"
-    ]
-  	},{
-    "name": "Programming Languages",
-    "level": "80%",
-    "keywords": [
-			"C",
-			"Java"
-    ]
-  	},{
-    "name": "Event Management",
-    "level": "80%",
-    "keywords": [
-      "Committee Coordination",
-			"Organization wide communication",
-      "Web Marketing",
-      "Social Media Campaigning"
-    ]
-  }],
+	"skills": [
+					{
+							"title": "Application Development",
+							"description": [
+									"<DESCRIPTION_1>"
+							],
+							"skillDetails": [
+									{
+											"name": "React",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									},
+									{
+											"name": "React Native",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									},
+									{
+											"name": "Electron",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									}
+							]
+					},
+					{
+							"title": "Web Development",
+							"description": [
+									"<DESCRIPTION_1>"
+							],
+							"skillDetails": [
+									{
+											"name": "Javascript",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									},
+									{
+											"name": "CSS",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									},
+									{
+											"name": "HTML",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									}
+							]
+					},
+					{
+							"title": "Programming Languages",
+							"description": [
+									"<DESCRIPTION_1>"
+							],
+							"skillDetails": [
+									{
+											"name": "C",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									},
+									{
+											"name": "R",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									},
+									{
+											"name": "Java",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									}
+							]
+					},
+					{
+							"title": "Leadership",
+							"description": [
+									"<DESCRIPTION_1>"
+							],
+							"skillDetails": [
+									{
+											"name": "Event Plannig",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									},
+									{
+											"name": "Committee Coordination",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									},
+									{
+											"name": "Task Delegation",
+											"level": "60%",
+											"keywords": [
+													"<KEYWORD_1>",
+													"<KEYWORD_2>",
+													"<KEYWORD_3>"
+											]
+									}
+							]
+					}
+			],
 	"languages": [{
     "name": "English",
     "level": "Native speaker"

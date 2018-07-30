@@ -80,36 +80,148 @@
         "description":"Responsible for monitoring pool safety and responding to emergency situations. Managed 20 guard staff, resolved patron issues, and performed bi-hourly maintenance checks. Substituted for Manager when needed."
       }
     ],
-    "skills":[
-			{
-				"name":"Web Development - JS, HTML, CSS",
-				"level":"80%"
-			},
-			{
-				"name":"R",
-				"level":"60%"
-			},
-			{
-				"name":"C",
-				"level":"50%"
-			},
-			{
-				"name":"Java",
-				"level":"70%"
-			},
-			{
-				"name":"NoSQL",
-				"level":"50%"
-			},
-			{
-				"name":"React Js & React Native",
-				"level":"80%"
-			},
-			{
-				"name":"Electron",
-				"level":"60%"
-			}
-    ],
+		"skills": [
+		        {
+		            "title": "Application Development",
+		            "description": [
+		                "<DESCRIPTION_1>"
+		            ],
+		            "skillDetails": [
+		                {
+		                    "name": "React",
+		                    "level": "60",
+		                    "keywords": [
+		                        "<KEYWORD_1>",
+		                        "<KEYWORD_2>",
+		                        "<KEYWORD_3>"
+		                    ]
+		                },
+										{
+		                    "name": "React Native",
+		                    "level": "60",
+		                    "keywords": [
+		                        "<KEYWORD_1>",
+		                        "<KEYWORD_2>",
+		                        "<KEYWORD_3>"
+		                    ]
+		                },
+										{
+		                    "name": "Electron",
+		                    "level": "60",
+		                    "keywords": [
+		                        "<KEYWORD_1>",
+		                        "<KEYWORD_2>",
+		                        "<KEYWORD_3>"
+		                    ]
+		                }
+		            ]
+		        },
+						{
+		            "title": "Web Development",
+		            "description": [
+		                "<DESCRIPTION_1>"
+		            ],
+		            "skillDetails": [
+		                {
+		                    "name": "Javascript",
+		                    "level": "60",
+		                    "keywords": [
+		                        "<KEYWORD_1>",
+		                        "<KEYWORD_2>",
+		                        "<KEYWORD_3>"
+		                    ]
+		                },
+										{
+		                    "name": "CSS",
+		                    "level": "60",
+		                    "keywords": [
+		                        "<KEYWORD_1>",
+		                        "<KEYWORD_2>",
+		                        "<KEYWORD_3>"
+		                    ]
+		                },
+										{
+		                    "name": "HTML",
+		                    "level": "60",
+		                    "keywords": [
+		                        "<KEYWORD_1>",
+		                        "<KEYWORD_2>",
+		                        "<KEYWORD_3>"
+		                    ]
+		                }
+		            ]
+		        },
+						{
+								"title": "Programming Languages",
+								"description": [
+										"<DESCRIPTION_1>"
+								],
+								"skillDetails": [
+										{
+												"name": "C",
+												"level": "60",
+												"keywords": [
+														"<KEYWORD_1>",
+														"<KEYWORD_2>",
+														"<KEYWORD_3>"
+												]
+										},
+										{
+												"name": "R",
+												"level": "60",
+												"keywords": [
+														"<KEYWORD_1>",
+														"<KEYWORD_2>",
+														"<KEYWORD_3>"
+												]
+										},
+										{
+												"name": "Java",
+												"level": "60",
+												"keywords": [
+														"<KEYWORD_1>",
+														"<KEYWORD_2>",
+														"<KEYWORD_3>"
+												]
+										}
+								]
+						},
+						{
+								"title": "Leadership",
+								"description": [
+										"<DESCRIPTION_1>"
+								],
+								"skillDetails": [
+										{
+												"name": "Event Plannig",
+												"level": "60",
+												"keywords": [
+														"<KEYWORD_1>",
+														"<KEYWORD_2>",
+														"<KEYWORD_3>"
+												]
+										},
+										{
+												"name": "Committee Coordination",
+												"level": "60",
+												"keywords": [
+														"<KEYWORD_1>",
+														"<KEYWORD_2>",
+														"<KEYWORD_3>"
+												]
+										},
+										{
+												"name": "Task Delegation",
+												"level": "60",
+												"keywords": [
+														"<KEYWORD_1>",
+														"<KEYWORD_2>",
+														"<KEYWORD_3>"
+												]
+										}
+								]
+						}
+		    ],
 		"highlights":[
 			{
 				"title" : "New Member of the Year",

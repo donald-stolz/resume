@@ -272,7 +272,7 @@ ul#nav li.current a { color: var(--accent-palette-color); }
 }
 
 #resume p {
-   color: #333
+   color: #333;
 }
 
 #resume .vertical-timeline {
@@ -304,6 +304,11 @@ ul#nav li.current a { color: var(--accent-palette-color); }
    margin-bottom: 18px;
    margin-top: 9px;
 }
+
+#resume .details {
+   margin-bottom: 10px;
+}
+
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
@@ -1093,4 +1098,17 @@ footer .social-links li:first-child { margin-left: 0; }
 #go-top a:hover {
 	background-color: var(--tertiary-palette-color);
 	color: var(--accent-palette-color);
+}
+
+.bullet-points {
+	margin: 0 0 20px 0;
+}
+
+.bullet-point {
+  font-size: 140%;
+  vertical-align: middle;
+}
+
+.point {
+   margin: 0 0 10px 0;
 }

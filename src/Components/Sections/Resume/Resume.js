@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
-import {Timeline} from '../../../Components'
-// import SkillsCard from './SkillsCard';
 
 class Resume extends Component {
   render() {
@@ -20,7 +18,6 @@ class Resume extends Component {
 		} )
     return (
       <section id="resume">
-				<Timeline data={volunteerEvents}/>
 				<Experience data={work} />
 				<Education data={education}/>
 				<Skills data={skills}/>
