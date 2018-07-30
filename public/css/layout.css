@@ -221,9 +221,9 @@ ul#nav li.current a { color: var(--accent-palette-color); }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -279,7 +279,10 @@ ul#nav li.current a { color: var(--accent-palette-color); }
     margin: 4em auto;
 }
 
-#resume .header-col { padding-top: 9px; }
+#resume .header-col {
+	padding-top: 9px;
+	padding-bottom: 30px;
+}
 
 .experience {
    margin-bottom: 48px;
@@ -295,6 +298,36 @@ ul#nav li.current a { color: var(--accent-palette-color); }
 	padding-top: 70px;
 	padding-bottom: 24px;
 	width: auto;
+}
+
+#resume .work-pic {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+   border: 7px solid rgba(255, 255, 255, 1);
+
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resume .school-pic {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+	 border-radius: 50%;
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+   border: 7px solid rgba(255, 255, 255, 1);
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+
+#resume .image-cont {
+	padding-bottom: 20px;
 }
 
 

@@ -43,8 +43,9 @@
   },
   "work": [{
     "company": "Lake Jericho",
+		"image": "lake-jericho-logo.png",
     "position": "Financial Technology Intern",
-    "website": "http://company.com",
+    "website": "http://lakejericho.com",
     "startDate": "2017-01-01",
     "endDate": "2018-05-01",
     "summary": "In charge of designing and implementing software solutions to assist with customer resource management and meeting Global Investment Performance Standard.",
@@ -53,6 +54,7 @@
     ]
 	  },{
 	    "company": "Tau Kappa Epsilon",
+			"image": "tke-logo.jpg",
 	    "position": "Historian & Webmaster",
 	    "website": "http://tkeloyola.org",
 	    "startDate": "2016-08-01",
@@ -66,6 +68,7 @@
 	    ]
 	  },{
 	    "company": "Midwest Pool Management",
+			"image": "mpm-logo.png",
 	    "position": "Assistant Manager / Head Guard",
 	    "website": "http://company.com",
 	    "startDate": "2012-05-01",
@@ -123,16 +126,19 @@
   }],
   "education": [{
     "institution": "Loyola University Chicago",
+		"image": "loyola-logo.png",
     "area": "Software Engineering",
     "studyType": "Bachelors of Science",
     "startDate": "2016-01-16",
     "endDate": "2018-05-12",
-    "gpa": "3.4",
+    "gpa": "3.48",
     "courses": [
-			"Greek Life",
+			"3.48 GPA",
+			"Sorority and Fraternity Life - New Member of the Year 2016",
       "Food Recovery Network"
     ]},{
     "institution": "St.Louis University High School",
+		"image": "sluh-logo.png",
     "area": " ",
     "studyType": "College Preparatory Diploma",
     "startDate": "2010-08-01",
