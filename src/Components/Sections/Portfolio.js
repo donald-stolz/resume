@@ -7,7 +7,7 @@ class Portfolio extends Component {
       var projects = this.props.data.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
-					<a target="_blank" href={projects.url} title={projects.title}>
+					<a target="_blank" href={projects.website} title={projects.title}>
 	           <div className="item-wrap">
 	             <img alt={projects.title} src={projectImage} />
 	             <div className="overlay">

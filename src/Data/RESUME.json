@@ -200,46 +200,38 @@
 							]
 					},
 					{
-							"title": "Web Development",
-							"description": [
-									"<DESCRIPTION_1>"
-							],
-							"skillDetails": [
-									{
-											"name": "Javascript",
-											"level": "60%",
-											"keywords": [
-													"<KEYWORD_1>",
-													"<KEYWORD_2>",
-													"<KEYWORD_3>"
-											]
-									},
-									{
-											"name": "CSS",
-											"level": "60%",
-											"keywords": [
-													"<KEYWORD_1>",
-													"<KEYWORD_2>",
-													"<KEYWORD_3>"
-											]
-									},
-									{
-											"name": "HTML",
-											"level": "60%",
-											"keywords": [
-													"<KEYWORD_1>",
-													"<KEYWORD_2>",
-													"<KEYWORD_3>"
-											]
-									}
-							]
-					},
-					{
 							"title": "Programming Languages",
 							"description": [
 									"<DESCRIPTION_1>"
 							],
 							"skillDetails": [
+								{
+										"name": "Javascript",
+										"level": "60%",
+										"keywords": [
+												"<KEYWORD_1>",
+												"<KEYWORD_2>",
+												"<KEYWORD_3>"
+										]
+								},
+								{
+										"name": "CSS",
+										"level": "60%",
+										"keywords": [
+												"<KEYWORD_1>",
+												"<KEYWORD_2>",
+												"<KEYWORD_3>"
+										]
+								},
+								{
+										"name": "HTML",
+										"level": "60%",
+										"keywords": [
+												"<KEYWORD_1>",
+												"<KEYWORD_2>",
+												"<KEYWORD_3>"
+										]
+								},
 									{
 											"name": "C",
 											"level": "60%",
