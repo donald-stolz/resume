@@ -13,7 +13,7 @@
    e. Portfolio Section
    f. Highlights
    g. Call To Action Section
-   h. Testimonials Section
+   h. references Section
    i. Contact Section
 	 j. Footer
 
@@ -221,9 +221,9 @@ ul#nav li.current a { color: var(--accent-palette-color); }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -272,19 +272,17 @@ ul#nav li.current a { color: var(--accent-palette-color); }
 }
 
 #resume p {
-   color: #333
-}
-
-#resume .highlights-col {
-		width: 100%;
-		padding-bottom: : 50px;
+   color: #333;
 }
 
 #resume .vertical-timeline {
     margin: 4em auto;
 }
 
-#resume .header-col { padding-top: 9px; }
+#resume .header-col {
+	padding-top: 9px;
+	padding-bottom: 30px;
+}
 
 .experience {
    margin-bottom: 48px;
@@ -302,6 +300,36 @@ ul#nav li.current a { color: var(--accent-palette-color); }
 	width: auto;
 }
 
+#resume .work-pic {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+   border: 7px solid rgba(255, 255, 255, 1);
+
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resume .school-pic {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+	 border-radius: 50%;
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+   border: 7px solid rgba(255, 255, 255, 1);
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+
+#resume .image-cont {
+	padding-bottom: 20px;
+}
+
 
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -309,6 +337,11 @@ ul#nav li.current a { color: var(--accent-palette-color); }
    margin-bottom: 18px;
    margin-top: 9px;
 }
+
+#resume .details {
+   margin-bottom: 10px;
+}
+
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
@@ -339,19 +372,20 @@ ul#nav li.current a { color: var(--accent-palette-color); }
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
+  	margin-bottom: 30px;
+  	background: var(--primary-palette-color);
   	height: 42px;
   	border-radius: 3px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #FFFFFF;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	 top: 10px;
+   left: 10px;
 }
 .bar-expand {
    position: absolute;
@@ -728,11 +762,11 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. references
 /* ------------------------------------------------------------------ */
 
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+#references {
+   background: #1F1F1F url(../images/references-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -742,19 +776,19 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#references .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#references h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#references h1 span { display: none; }
+#references .header-col { padding-top: 9px; }
+#references .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -766,30 +800,30 @@ call-to-action .button {
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
+#references blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
+#references blockquote:before { content: none; }
+#references blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#testimonials blockquote cite {
+#references blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#references blockquote cite:before { content: "\2014 \0020"; }
+#references blockquote cite a,
+#references blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -1098,4 +1132,17 @@ footer .social-links li:first-child { margin-left: 0; }
 #go-top a:hover {
 	background-color: var(--tertiary-palette-color);
 	color: var(--accent-palette-color);
+}
+
+.bullet-points {
+	margin: 0 0 20px 0;
+}
+
+.bullet-point {
+  font-size: 140%;
+  vertical-align: middle;
+}
+
+.point {
+   margin: 0 0 10px 0;
 }
