@@ -6,7 +6,7 @@ class About extends Component {
 		super(props);
 
 		const { data } = this.props;
-		var profilepic = "/images/"+ data.picture;
+		var profilepic = "images/"+ data.picture;
 		this.state = {
 			data,
 			profilepic
@@ -23,7 +23,7 @@ class About extends Component {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={this.state.profilepic} alt="Tim Baker Profile Pic" />
+            <img className="profile-pic"  src={this.state.profilepic} alt="Donald Stolz Profile Pic" />
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>

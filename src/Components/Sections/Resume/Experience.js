@@ -12,7 +12,7 @@ const Experience = (props) => {
 
 				<div className='row item'>
 							<div className='three columns image-cont'>
-									<img className='work-pic' src={"/images/work/"+experience.image}/>
+									<img className='work-pic' src={"images/work/"+experience.image}/>
 							</div>
 							<div className='nine columns'>
 					      <div key={experience.company}><h3>{experience.company}</h3>
