@@ -32,7 +32,7 @@ var skills = props.skillDetails.map(function(skill){
 // TODO: Update to skill card type component to display keywords
 const Skills = (props) => {
 
-    var skills = props.data.map((skill) => {
+    var skills = props.skillsData.map((skill) => {
 
       return (<Entry
 								title={skill.title}
@@ -40,6 +40,13 @@ const Skills = (props) => {
 								skillDetails={skill.skillDetails}
 							/>)
     })
+
+		var languages = props.languagesData.map((language) => {
+			return (
+				<div className='row '>
+						<h3>{language.name}:  {language.level}</h3>
+				</div>)
+		})
 
   return (
 		<section id="skills">
@@ -50,11 +57,21 @@ const Skills = (props) => {
 	       </div>
 
 	       <div className="nine columns main-col">
-				 		{/*<h3>Skills Message </h3>*/}
 	            {skills}
 	        </div>
 
 	    </div>
+{/*			<div className="row languages">
+
+	       <div className="three columns header-col">
+	          <h1><span>Languages</span></h1>
+	       </div>
+
+	       <div className="nine columns main-col">
+				 	{languages}
+	        </div>
+
+	    </div>*/}
 		</section>
   )
 }
