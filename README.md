@@ -1,21 +1,18 @@
 # [React Resume App](https://donald-stolz.github.io/resume/)
 
-My resume redesigned as a react web application. Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker.
+My resume redesigned as a react web application. Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker. Used some component styles from [suddi.github.io](https://github.com/suddi/suddi.github.io) by Sudharshan Ravindran
 
 ToDos
 -------
 - [ ] Revise grammar and wording
-- [ ] Timeline component
-- [ ] Highlights
-- [ ] Volunteer
-- [ ] Contact form
+- [ ] Volunteer work
+- [ ] Testimonials Carousel
+- [ ] Skill descriptions
+- [ ] Projects Modal
 
 ### Later
-- [ ] Create Volunteer Component
+- [ ] Contact form
 - [ ] Get additional Testimonials
-- [ ] Change Skills to card component
-- [ ] Change Education & Experience to timeline
-- Style with Material Icons, orange line, & tertiary blue
 - [ ] Implement prop-types
 
 
