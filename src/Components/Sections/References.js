@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Carousel from 'nuka-carousel';
 
 class References extends Component {
   render() {
@@ -12,6 +13,13 @@ class References extends Component {
        </li>
     })
 
+		const carouselConfig = {
+			autoplay: true,
+			// framePadding: '10px',
+			// cellSpacing: 30,
+			wrapAround: true
+		};
+
     return (
       <section id="references">
       <div className="text-container">
@@ -22,9 +30,12 @@ class References extends Component {
             </div>
 
             <div className="ten columns flex-container">
-                  <ul className="slides">
+                  <Carousel
+										autoplay={carouselConfig.autoplay}
+										wrapAround={carouselConfig.wrapAround}
+									>
                       {references}
-                  </ul>
+                  </Carousel>
                </div>
             </div>
          </div>
