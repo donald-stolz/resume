@@ -15,8 +15,9 @@ class References extends Component {
 
 		const carouselConfig = {
 			autoplay: true,
-			// framePadding: '10px',
-			// cellSpacing: 30,
+			decorators: [],
+			framePadding: '10px',
+			cellSpacing: 30,
 			wrapAround: true
 		};
 
@@ -26,18 +27,18 @@ class References extends Component {
          <div className="row">
 
             <div className="two columns header-col">
-               <h1><span>References</span></h1>
+               <h1><span></span></h1>
             </div>
-
-            <div className="ten columns flex-container">
+							<div style={{height: '60vh', display: 'flex', alignContent: 'center',}}>
                   <Carousel
 										autoplay={carouselConfig.autoplay}
+										decorators={carouselConfig.decorators}
 										wrapAround={carouselConfig.wrapAround}
 									>
                       {references}
                   </Carousel>
-               </div>
-            </div>
+									</div>
+             </div>
          </div>
    </section>
     );

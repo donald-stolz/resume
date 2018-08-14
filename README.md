@@ -6,8 +6,9 @@ ToDos
 -------
 - [ ] Revise grammar and wording
 - [ ] Volunteer work
-- [ ] Testimonials Carousel
-- [ ] Skill descriptions
+- [ ] Testimonials Carousel Styles
+<!-- - [ ] Skill descriptions -->
+- [ ] Mobile styling
 - [ ] Projects Modal
 
 ### Later
