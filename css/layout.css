@@ -836,6 +836,9 @@ call-to-action .button {
 .flex-direction-nav { margin: 0; padding: 0; list-style: none; }
 .slides li { margin: 0; padding: 0;}
 
+/* FIXME: Mobile style issues */
+.slider-list { max-height: 500px}
+
 /* Necessary Styles */
 .flexslider {
    position: relative;
@@ -849,7 +852,7 @@ call-to-action .button {
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
 /* Suggested container for slide animation setups. Can replace this with your own */
-.flex-container { zoom: 1; position: relative; }
+.flex-container { zoom: 1; position: relative; width: 82%; }
 
 /* Clearfix for .slides */
 .slides:before,
@@ -909,6 +912,7 @@ call-to-action .button {
     background: rgba(255, 255, 255, .9);
     cursor: default;
 }
+
 
 /* ------------------------------------------------------------------ */
 /* i. Contact Section
