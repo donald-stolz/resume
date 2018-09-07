@@ -5,17 +5,18 @@ class References extends Component {
   render() {
 
     var references = this.props.data.map(function(reference){
-      return  <li key={reference.name}>
+      return(
+				<div>
           <blockquote>
              <p>{reference.reference}</p>
              <cite>{reference.name}</cite>
           </blockquote>
-       </li>
+				</div>
+		 )
     })
 
 		const carouselConfig = {
 			autoplay: true,
-			decorators: [],
 			framePadding: '10px',
 			cellSpacing: 30,
 			wrapAround: true
@@ -29,17 +30,21 @@ class References extends Component {
             <div className="two columns header-col">
                <h1><span></span></h1>
             </div>
-							<div style={{height: '60vh', display: 'flex', alignContent: 'center',}}>
+						<div className='columns flex-container'>
+							<div className='flexslider'>
                   <Carousel
 										autoplay={carouselConfig.autoplay}
-										decorators={carouselConfig.decorators}
 										wrapAround={carouselConfig.wrapAround}
+										renderCenterLeftControls={() => (null)}
+										renderCenterRightControls={() => (null)}
+										renderBottomCenterControls={() => {null}}
 									>
                       {references}
                   </Carousel>
-									</div>
-             </div>
+							</div>
+						</div>
          </div>
+       </div>
    </section>
     );
   }
