@@ -12,7 +12,7 @@ class Header extends Component {
 //	<li><a className="smoothscroll" href="#highlights">Highlights</a></li>
 //	<li><a className="smoothscroll" href="#contact">Contact</a></li>
     return (
-      <header id="home">
+      <header id="home" style={{backgroundPosition: 'right'}}>
 
       <nav id="nav-wrap">
 

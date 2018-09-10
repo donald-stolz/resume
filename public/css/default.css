@@ -716,6 +716,7 @@ properly.
    .first { clear: none; }
    .s-first { clear: left; }
 
+   header {background-position: right; }
 }
 
 /* mobile wide/smaller tablets
