@@ -167,34 +167,28 @@
 					{
 							"title": "Application Development",
 							"description": [
-									"<DESCRIPTION_1>"
+									"I have built cross-platform mobile and desktop utilizing the react and react-native libraries."
 							],
 							"skillDetails": [
 									{
 											"name": "React",
 											"level": "72%",
 											"keywords": [
-													"<KEYWORD_1>",
-													"<KEYWORD_2>",
-													"<KEYWORD_3>"
+													"<KEYWORD_1>"
 											]
 									},
 									{
 											"name": "React Native",
 											"level": "78%",
 											"keywords": [
-													"<KEYWORD_1>",
-													"<KEYWORD_2>",
-													"<KEYWORD_3>"
+													"<KEYWORD_1>"
 											]
 									},
 									{
 											"name": "Electron",
 											"level": "66%",
 											"keywords": [
-													"<KEYWORD_1>",
-													"<KEYWORD_2>",
-													"<KEYWORD_3>"
+													"<KEYWORD_1>"
 											]
 									}
 							]
@@ -202,61 +196,52 @@
 					{
 							"title": "Programming Languages",
 							"description": [
-									"<DESCRIPTION_1>"
+                                "I have extensive experience with building applications using Javascript and web technologies.",
+                                "I am building fairly extensive personal libraries using C.",
+                                "I studied object-oriented programming with Java.",
+                                "I built out metrics and simulations for competitions and research using R."
 							],
 							"skillDetails": [
 								{
 										"name": "Javascript",
 										"level": "83%",
 										"keywords": [
-												"<KEYWORD_1>",
-												"<KEYWORD_2>",
-												"<KEYWORD_3>"
+												"<KEYWORD_1>"
 										]
 								},
 								{
 										"name": "CSS",
 										"level": "75%",
 										"keywords": [
-												"<KEYWORD_1>",
-												"<KEYWORD_2>",
-												"<KEYWORD_3>"
+												"<KEYWORD_1>"
 										]
 								},
 								{
 										"name": "HTML",
 										"level": "70%",
 										"keywords": [
-												"<KEYWORD_1>",
-												"<KEYWORD_2>",
-												"<KEYWORD_3>"
+												"<KEYWORD_1>"
 										]
 								},
 									{
 											"name": "C",
-											"level": "60%",
+											"level": "73%",
 											"keywords": [
-													"<KEYWORD_1>",
-													"<KEYWORD_2>",
-													"<KEYWORD_3>"
+													"<KEYWORD_1>"
 											]
 									},
 									{
 											"name": "R",
 											"level": "65%",
 											"keywords": [
-													"<KEYWORD_1>",
-													"<KEYWORD_2>",
-													"<KEYWORD_3>"
+													"<KEYWORD_1>"
 											]
 									},
 									{
 											"name": "Java",
 											"level": "68%",
 											"keywords": [
-													"<KEYWORD_1>",
-													"<KEYWORD_2>",
-													"<KEYWORD_3>"
+													"<KEYWORD_1>"
 											]
 									}
 							]
@@ -264,7 +249,8 @@
 					{
 							"title": "Leadership",
 							"description": [
-									"<DESCRIPTION_1>"
+									"I have great leadership experience from earning my Eagle Scout and serving as a member of my Fraternity's Executive Board.",
+                                    "I have been responsible for planning online fundraising multiple years and was in charg of our annual Philanthropy as a Senior."
 							],
 							"skillDetails": [
 									{
