@@ -1,9 +1,9 @@
 import React from 'react';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-ui/core/styles';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import Button from 'material-ui/Button';
-import Icon from 'material-ui/Icon';
+import Button from '@material-ui/core/Button';
+import Icon from '@material-ui/core/Icon';
 import {styles} from './styles'
 
 const responsiveStyle = theme => ({
