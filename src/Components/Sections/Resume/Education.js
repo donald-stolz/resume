@@ -19,7 +19,7 @@ const Education = (props) => {
 				<div className="row item">
 
 					<div className='three columns image-cont'>
-							<img className='school-pic' src={schoolImage}/>
+							<img alt={education.institution} className='school-pic' src={schoolImage}/>
 					</div>
 					<div className='nine columns'>
 		        <div key={education.institution}>

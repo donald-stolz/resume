@@ -35,9 +35,9 @@ class References extends Component {
                   <Carousel
 										autoplay={carouselConfig.autoplay}
 										wrapAround={carouselConfig.wrapAround}
-										renderCenterLeftControls={() => (null)}
-										renderCenterRightControls={() => (null)}
-										renderBottomCenterControls={() => {null}}
+										renderCenterLeftControls={null}
+										renderCenterRightControls={null}
+										renderBottomCenterControls={null}
 									>
                       {references}
                   </Carousel>

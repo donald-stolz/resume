@@ -14,7 +14,7 @@ const Experience = (props) => {
 
 				<div className='row item'>
 							<div className='three columns image-cont'>
-									<img className='work-pic' src={workImage}/>
+							<img alt={experience.company} className='work-pic' src={workImage}/>
 							</div>
 							<div className='nine columns'>
 					      <div key={experience.company}><h3>{experience.company}</h3>

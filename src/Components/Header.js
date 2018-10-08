@@ -5,9 +5,7 @@ import {SocialIcons} from './Common';
 
 class Header extends Component {
   render() {
-		const { name, label, location, profiles } = this.props.data;
-		const { description } = this.props.site;
-
+		const { name, profiles } = this.props.data
 // TODO:
 //	<li><a className="smoothscroll" href="#highlights">Highlights</a></li>
 //	<li><a className="smoothscroll" href="#contact">Contact</a></li>

@@ -353,8 +353,15 @@ ul#nav li.current a { color: var(--accent-palette-color); }
 }
 
 #skills {
-		background: var(--tertiary-palette-color);
+	background: var(--tertiary-palette-color);
+	padding-bottom: 50px
 }
+
+#skills h3 {
+	padding-top: 25px
+}
+
+.skill-summary {margin: 0}
 
 
 /*----------------------------------------------*/
@@ -368,7 +375,7 @@ ul#nav li.current a { color: var(--accent-palette-color); }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+  	margin-top: 18px;
    list-style: none;
 }
 .bars li {

@@ -1,10 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Card, { CardActions, CardContent } from '@material-ui/core/Card';
+import Card, { CardContent } from '@material-ui/core/Card';
 import { CircularProgress } from '@material-ui/core/CircularProgress';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 
 const styles = {
   card: {

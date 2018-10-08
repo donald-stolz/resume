@@ -35,18 +35,18 @@ const Skills = (props) => {
     var skills = props.skillsData.map((skill) => {
 
       return (<Entry
-								title={skill.title}
-								description={skill.description}
-								skillDetails={skill.skillDetails}
-							/>)
+					title={skill.title}
+					description={skill.description}
+					skillDetails={skill.skillDetails}
+				/>)
     })
 
-		var languages = props.languagesData.map((language) => {
-			return (
-				<div className='row '>
-						<h3>{language.name}:  {language.level}</h3>
-				</div>)
-		})
+		// var languages = props.languagesData.map((language) => {
+		// 	return (
+		// 		<div className='row '>
+		// 				<h3>{language.name}:  {language.level}</h3>
+		// 		</div>)
+		// })
 
   return (
 		<section id="skills">
@@ -61,7 +61,7 @@ const Skills = (props) => {
 	        </div>
 
 	    </div>
-{/*			<div className="row languages">
+		{/*<div className="row languages">
 
 	       <div className="three columns header-col">
 	          <h1><span>Languages</span></h1>

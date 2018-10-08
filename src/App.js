@@ -7,11 +7,9 @@ import {
 	Header,
 	Footer,
 	About,
-	Contact,
 	Resume,
 	References,
 	Portfolio,
-	Highlights
 } from './Components/';
 
 class App extends Component {
