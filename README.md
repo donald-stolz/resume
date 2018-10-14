@@ -5,9 +5,10 @@ My resume redesigned as a react web application. Started from [react-resume-temp
 ToDos
 -------
 - [ ] Revise grammar and wording
-- [ ] Volunteer work
+- [ ] add **Axlry** to *Experience*
+- [ ] Add **42** to *Education*
 - [ ] Testimonials Carousel Styles
-<!-- - [ ] Skill descriptions -->
+<!-- - [ ] Skill descriptions & links to projects -->
 - [ ] Mobile styling
 - [ ] Projects Modal
 
@@ -25,6 +26,7 @@ ToDos
 - [x] Education
 - [x] Experience
 - [x] Portfolio
+- [x] Volunteer
 - [x] Change colors & images
 - [x] Create CSS color palette constants
 - [x] Set up to run on [Github Pages](https://pages.github.com/)
@@ -36,9 +38,10 @@ ToDos
 | About Me  	| 04/25/18 |
 | Education 	| 04/24/18 |
 | Experience	| 04/24/18 |
-| Portfolio 	| 04/25/18 |
+| Portfolio 	| 10/13/18 |
+| References	| 04/26/18 |
 | Highlights	| 04/26/18 |
-| Volunteer		| 04/26/18       |
+| Volunteer		| 10/13/18 |
 
 #### Self-Note
-Add St. Jude experience and Teke Week to Highlights and/or Volunteer
+Add Teke Week coordination to Highlights/Volunteer/TKE
