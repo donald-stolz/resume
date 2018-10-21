@@ -12,6 +12,7 @@ ToDos
 <!-- - [ ] Skill descriptions & links to projects -->
 - [ ] Mobile styling
 - [ ] Projects Modal
+- [ ] Fix nav bar disappear
 
 ### Later
 - [ ] Contact form

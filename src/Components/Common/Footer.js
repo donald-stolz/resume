@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SocialIcons } from './Common';
+import SocialIcons from './SocialIcons';
 
 class Footer extends Component {
     render() {
