@@ -5,8 +5,9 @@ My resume redesigned as a react web application. Started from [react-resume-temp
 ToDos
 -------
 - [ ] Revise grammar and wording
-- [ ] add **Axlry** to *Experience*
+- [ ] Add **Axlry** to *Experience*
 - [ ] Add **42** to *Education*
+- [ ] Add date formatter
 - [ ] Testimonials Carousel Styles
 <!-- - [ ] Skill descriptions & links to projects -->
 - [ ] Mobile styling
@@ -30,6 +31,8 @@ ToDos
 - [x] Change colors & images
 - [x] Create CSS color palette constants
 - [x] Set up to run on [Github Pages](https://pages.github.com/)
+- [x] Make resume images links
+
 
 ### Content Update Log
 

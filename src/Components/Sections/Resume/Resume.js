@@ -8,15 +8,6 @@ class Resume extends Component {
   render() {
 		console.log(this.props.data);
 		const { work, education, skills, languages, volunteer} = this.props.data;
-		// const volunteerEvents = volunteer.map(function(event) {
-		// 	return {
-		// 		date: event.startDate + " - " + event.endDate,
-		// 		title: event.organization,
-		// 		subtitle: event.position,
-		// 		description: event.summary,
-		// 		link: event.website
-		// 	};
-		// } )
     return (
       <section id="resume">
 				<Experience data={work} />

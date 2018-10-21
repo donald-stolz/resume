@@ -13,9 +13,11 @@ const Experience = (props) => {
       return(
 
 				<div className='row item'>
-							<div className='three columns image-cont'>
+					<div className='three columns image-cont'>
+						<a href={experience.website} target="_blank">
 							<img alt={experience.company} className='work-pic' src={workImage}/>
-							</div>
+						</a>						
+					</div>
 							<div className='nine columns'>
 					      <div key={experience.company}><h3>{experience.company}</h3>
 					          <p className="info">{experience.position}

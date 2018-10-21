@@ -19,7 +19,9 @@ const Education = (props) => {
 				<div className="row item">
 
 					<div className='three columns image-cont'>
+						<a href={education.website} target="_blank">
 							<img alt={education.institution} className='school-pic' src={schoolImage}/>
+						</a>
 					</div>
 					<div className='nine columns'>
 		        <div key={education.institution}>

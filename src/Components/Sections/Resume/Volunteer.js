@@ -13,9 +13,11 @@ const Volunteer = (props) => {
       return(
 
 				<div className='row item'>
-							<div className='three columns image-cont'>
+					<div className='three columns image-cont'>
+						<a href={experience.website} target="_blank">
 							<img alt={experience.organization} className='work-pic' src={workImage}/>
-							</div>
+						</a>
+					</div>
 							<div className='nine columns'>
 					      <div key={experience.organization}><h3>{experience.organization}</h3>
 					          <p className="info">{experience.position}
