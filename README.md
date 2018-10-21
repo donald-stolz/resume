@@ -13,6 +13,7 @@ ToDos
 - [ ] Mobile styling
 - [ ] Projects Modal
 - [ ] Fix nav bar disappear
+- [ ] Turn each section of resume into a dropdown bar
 
 ### Later
 - [ ] Contact form
