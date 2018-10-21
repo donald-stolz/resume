@@ -1,67 +1,66 @@
 import React from 'react';
 
-const Entry = (props) => {
+const Entry = props => {
+    var skills = props.skillDetails.map(function(skill) {
+        var className = 'bar-expand ' + skill.name.toLowerCase();
+        return (
+            <li key={skill.name}>
+                <span style={{ width: skill.level }} className={className} />
+                <em>{skill.name}</em>
+            </li>
+        );
+    });
 
-var skills = props.skillDetails.map(function(skill){
-	var className = 'bar-expand '+skill.name.toLowerCase();
-	return (
-		<li key={skill.name}>
-			<span style={{width:skill.level}}className={className}></span>
-			<em>{skill.name}</em>
-		</li>)
-})
+    const summary = props.description.map((point, index) => {
+        return (
+            <p key={index} className="skill-summary">
+                {point}
+            </p>
+        );
+    });
 
-	const summary = props.description.map((point, index) => {
-		return (
-				<p key={index} className='skill-summary'>{point}</p>
-		);
-	});
-
-	return (
-		<div className='row '>
-				<h3>{props.title}</h3>
-				{summary}
-				<div className='bars'>
-						<ul className='skills'>
-								{skills}
-						</ul>
-				</div>
-		</div>)
-}
+    return (
+        <div className="row ">
+            <h3>{props.title}</h3>
+            {summary}
+            <div className="bars">
+                <ul className="skills">{skills}</ul>
+            </div>
+        </div>
+    );
+};
 
 // TODO: Update to skill card type component to display keywords
-const Skills = (props) => {
+const Skills = props => {
+    var skills = props.skillsData.map(skill => {
+        return (
+            <Entry
+                title={skill.title}
+                description={skill.description}
+                skillDetails={skill.skillDetails}
+            />
+        );
+    });
 
-    var skills = props.skillsData.map((skill) => {
+    // var languages = props.languagesData.map((language) => {
+    // 	return (
+    // 		<div className='row '>
+    // 				<h3>{language.name}:  {language.level}</h3>
+    // 		</div>)
+    // })
 
-      return (<Entry
-					title={skill.title}
-					description={skill.description}
-					skillDetails={skill.skillDetails}
-				/>)
-    })
+    return (
+        <section id="skills">
+            <div className="row skill">
+                <div className="three columns header-col">
+                    <h1>
+                        <span>Skills</span>
+                    </h1>
+                </div>
 
-		// var languages = props.languagesData.map((language) => {
-		// 	return (
-		// 		<div className='row '>
-		// 				<h3>{language.name}:  {language.level}</h3>
-		// 		</div>)
-		// })
-
-  return (
-		<section id="skills">
-	    <div className="row skill">
-
-	       <div className="three columns header-col">
-	          <h1><span>Skills</span></h1>
-	       </div>
-
-	       <div className="nine columns main-col">
-	            {skills}
-	        </div>
-
-	    </div>
-		{/*<div className="row languages">
+                <div className="nine columns main-col">{skills}</div>
+            </div>
+            {/*<div className="row languages">
 
 	       <div className="three columns header-col">
 	          <h1><span>Languages</span></h1>
@@ -72,8 +71,8 @@ const Skills = (props) => {
 	        </div>
 
 	    </div>*/}
-		</section>
-  )
-}
+        </section>
+    );
+};
 
 export default Skills;
