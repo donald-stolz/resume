@@ -3,7 +3,7 @@ import { BulletPoints } from '../../Common';
 
 const Experience = props => {
     var experiences = props.data.map((experience, index, array) => {
-        // TODO: Map highlights in a table or list for styling
+        // TODO: Map highlights into a table or list for styling
         const nextIndex = index + 1;
         const divider = nextIndex === array.length ? <br /> : <hr />;
         var workImage = 'images/work/' + experience.image;
