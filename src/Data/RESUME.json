@@ -44,6 +44,16 @@
     },
     "work": [
         {
+            "company": "Axlry",
+            "image": "axlry-logo.png",
+            "position": "Software Engineer",
+            "website": "http://axlry.com",
+            "startDate": "2017-01-01",
+            "endDate": "",
+            "summary": "",
+            "highlights": ["."]
+        },
+        {
             "company": "Lake Jericho",
             "image": "lake-jericho-logo.png",
             "position": "Financial Technology Intern",
@@ -74,7 +84,7 @@
             "company": "Midwest Pool Management",
             "image": "mpm-logo.png",
             "position": "Assistant Manager / Head Guard",
-            "website": "http://company.com",
+            "website": "http://midwestpool.com/",
             "startDate": "2012-05-01",
             "endDate": "2016-07-01",
             "summary": "Responsible for monitoring pool safety and responding to emergency situations.",
@@ -130,12 +140,24 @@
     ],
     "education": [
         {
+            "institution": "42 - Silicon Valley",
+            "image": "42-logo.png",
+            "area": "Software Engineering",
+            "studyType": "Bachelors of Science",
+            "startDate": "2018-09-16",
+            "endDate": "",
+            "website": "https://www.42.us.org/",
+            "gpa": "NA",
+            "courses": [""]
+        },
+        {
             "institution": "Loyola University Chicago",
             "image": "loyola-logo.png",
             "area": "Software Engineering",
             "studyType": "Bachelors of Science",
             "startDate": "2016-01-16",
             "endDate": "2018-05-12",
+            "website": "https://www.luc.edu/",
             "gpa": "3.48",
             "courses": [
                 "3.48 GPA",
@@ -150,6 +172,7 @@
             "studyType": "College Preparatory Diploma",
             "startDate": "2010-08-01",
             "endDate": "2015-05-01",
+            "website": "https://www.sluh.org/",
             "gpa": "3.6",
             "courses": [
                 "32 ACT Superscore",
