@@ -2,9 +2,9 @@ import React from 'react';
 import Carousel from 'nuka-carousel';
 
 const References = props => {
-    var references = props.data.map(function(reference) {
+    var references = props.data.map(function(reference, index) {
         return (
-            <div>
+            <div key={reference.name}>
                 <blockquote>
                     <p>{reference.reference}</p>
                     <cite>{reference.name}</cite>

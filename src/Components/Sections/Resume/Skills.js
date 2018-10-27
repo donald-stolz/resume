@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Entry = props => {
-    var skills = props.skillDetails.map(function(skill) {
+    const skills = props.skillDetails.map(skill => {
         var className = 'bar-expand ' + skill.name.toLowerCase();
         return (
             <li key={skill.name}>
@@ -35,6 +35,7 @@ const Skills = props => {
     var skills = props.skillsData.map(skill => {
         return (
             <Entry
+                key={skill.title}
                 title={skill.title}
                 description={skill.description}
                 skillDetails={skill.skillDetails}

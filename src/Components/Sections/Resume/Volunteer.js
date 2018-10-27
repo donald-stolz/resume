@@ -9,7 +9,7 @@ const Volunteer = props => {
         var workImage = 'images/volunteer/' + experience.image;
 
         return (
-            <div className="row item">
+            <div className="row item" key={experience.organization}>
                 <div className="three columns image-cont">
                     <a href={experience.website} target="_blank">
                         <img

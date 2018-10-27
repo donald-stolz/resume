@@ -12,8 +12,10 @@ const Education = props => {
             info = education.studyType;
         }
 
+        // var endDate = moment(education.endDate).format
+
         return (
-            <div className="row item">
+            <div className="row item" key={education.institution}>
                 <div className="three columns image-cont">
                     <a href={education.website} target="_blank">
                         <img

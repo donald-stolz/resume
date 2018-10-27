@@ -9,7 +9,7 @@ const Experience = props => {
         var workImage = 'images/work/' + experience.image;
 
         return (
-            <div className="row item">
+            <div className="row item" key={experience.company}>
                 <div className="three columns image-cont">
                     <a href={experience.website} target="_blank">
                         <img
