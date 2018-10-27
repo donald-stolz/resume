@@ -1,9 +1,19 @@
-//TODO: Integrate travis on push; Also should start branching and creating PRs
-// Setup for deploying to gh-pages.
-//deploy:
-//  provider: pages
-//  skip-cleanup: true
-//  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-//  keep-history: true
-//  on:
-//    branch: master
+language: node_js
+node_js:
+    - 'stable'
+cache:
+    directories:
+        - node_modules
+script:
+    - cd test-app
+    - npm install
+    - npm test
+    - npm run build
+deploy:
+    provider: pages
+    skip_cleanup: true
+    github_token: $githubToken
+    local_dir: build
+    keep-history: true
+    on:
+        branch: master
