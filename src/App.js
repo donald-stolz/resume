@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 import resume from './Data/RESUME';
 import site from './Data/siteData';
 import {
@@ -18,9 +18,6 @@ class App extends Component {
             siteData: site,
             resume: resume,
         };
-
-        ReactGA.initialize('UA-110570651-1');
-        ReactGA.pageview(window.location.pathname);
     }
 
     render() {

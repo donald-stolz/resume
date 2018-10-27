@@ -26,7 +26,7 @@ function SocialIcons(props) {
 
         return (
             <li key={profile.network}>
-                <a href={profile.url}>
+                <a href={profile.url} target="_blank">
                     <i className={iconClass} />
                 </a>
             </li>

@@ -1,28 +1,24 @@
 {
-  "name": "resume",
-  "version": "0.3.0",
-  "homepage": "http://donstolz.tech",
-  "private": true,
-  "dependencies": {
-    "@@material-ui/core/core": "^3.2.0",
-    "gh-pages": "^1.1.0",
-    "jquery": "^3.3.1",
-    "nuka-carousel": "^4.3.6",
-    "prop-types": "^15.6.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-ga": "^2.5.0",
-    "react-scripts": "^1.1.4",
-    "react-vertical-timeline-component": "^2.0.6"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-  }
+    "name": "resume",
+    "version": "0.3.0",
+    "homepage": "http://donstolz.tech/",
+    "private": true,
+    "dependencies": {
+        "gh-pages": "^1.1.0",
+        "jquery": "^3.3.1",
+        "nuka-carousel": "^4.3.6",
+        "prop-types": "^15.6.1",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "react-scripts": "^1.1.4"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "devDependencies": {}
 }
