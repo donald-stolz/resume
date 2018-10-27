@@ -1,4 +1,4 @@
-# [React Resume App](https://donald-stolz.github.io/resume/)
+# [React Resume App](https://donald-stolz.github.io/resume/) [![Build Status](https://travis-ci.org/donald-stolz/resume.svg?branch=master)](https://travis-ci.org/donald-stolz/resume)
 
 My resume redesigned as a react web application. Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker. Used some component styles from [suddi.github.io](https://github.com/suddi/suddi.github.io) by Sudharshan Ravindran
 
