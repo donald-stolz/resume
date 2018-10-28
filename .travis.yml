@@ -15,4 +15,4 @@ deploy:
     local_dir: build
     keep-history: true
     on:
-        branch: master
+        branch: gh-pages
