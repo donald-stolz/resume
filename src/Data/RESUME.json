@@ -8,11 +8,11 @@
         "website": "https://donald-stolz.github.io/resume/",
         "summary": "Enjoys new challenges, actively goes outside comfort zone to pursues experiences of diverse cultures, communities, and ideas. Completes tasks in a highly organized manner, with a strong attention detail. Proven ability to coordinate large group efforts through proficient communication skills.",
         "location": {
-            "address": "437 Reavis Place",
-            "postalCode": "63119",
-            "city": "St. Louis",
+            "address": "6600 Dumbarton Circle",
+            "postalCode": "94555",
+            "city": "Fremont",
             "countryCode": "US",
-            "region": "Missouri"
+            "region": "California"
         },
         "profiles": [
             {
@@ -49,9 +49,12 @@
             "position": "Software Engineer",
             "website": "http://axlry.com",
             "startDate": "2017-01-01",
-            "endDate": "",
-            "summary": "",
-            "highlights": ["."]
+            "endDate": "Present",
+            "summary": "Axlry is an app that helps connect independent artists and record labels to music video directors.",
+            "highlights": [
+                "Front-end react-native developer",
+                "Full stack web developer"
+            ]
         },
         {
             "company": "Lake Jericho",
@@ -142,13 +145,15 @@
         {
             "institution": "42 - Silicon Valley",
             "image": "42-logo.png",
-            "area": "Software Engineering",
-            "studyType": "Bachelors of Science",
+            "area": " ",
+            "studyType": "Software Engineering ",
             "startDate": "2018-09-16",
-            "endDate": "",
+            "endDate": "Current",
             "website": "https://www.42.us.org/",
             "gpa": "NA",
-            "courses": [""]
+            "highlights": [
+                "42 is an innovative engineering and programming college that offers rigorous, industry-leading education in a professional environment."
+            ]
         },
         {
             "institution": "Loyola University Chicago",
@@ -159,10 +164,9 @@
             "endDate": "2018-05-12",
             "website": "https://www.luc.edu/",
             "gpa": "3.48",
-            "courses": [
+            "highlights": [
                 "3.48 GPA",
-                "Sorority and Fraternity Life - New Member of the Year 2016",
-                "Food Recovery Network"
+                "Sorority and Fraternity Life - New Member of the Year 2016"
             ]
         },
         {
@@ -174,7 +178,7 @@
             "endDate": "2015-05-01",
             "website": "https://www.sluh.org/",
             "gpa": "3.6",
-            "courses": [
+            "highlights": [
                 "32 ACT Superscore",
                 "Three years National Honor Society",
                 "Two years National AP scholar"

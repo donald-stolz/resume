@@ -33,7 +33,7 @@ const Education = props => {
                             <span>&bull;</span>
                             <em className="date">{education.endDate}</em>
                         </p>
-                        <BulletPoints points={education.courses} />
+                        <BulletPoints points={education.highlights} />
                     </div>
                 </div>
                 {divider}
