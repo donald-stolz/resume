@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 import { BulletPoints } from '../../Common';
 
 const Education = props => {
@@ -12,7 +13,7 @@ const Education = props => {
             info = education.studyType;
         }
 
-        // var endDate = moment(education.endDate).format
+        var date = moment(education.endDate).format('MMMM YYYY');
 
         return (
             <div className="row item" key={education.institution}>
@@ -30,8 +31,12 @@ const Education = props => {
                         <h3>{education.institution}</h3>
                         <p className="info">
                             {info}
-                            <span>&bull;</span>
-                            <em className="date">{education.endDate}</em>
+                            {education.endDate ? (
+                                <span>
+                                    <span>&bull;</span>
+                                    <em className="date">{date}</em>
+                                </span>
+                            ) : null}
                         </p>
                         <BulletPoints points={education.highlights} />
                     </div>
