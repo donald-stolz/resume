@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 import { BulletPoints } from '../../Common';
 
 const Experience = props => {
@@ -7,6 +8,10 @@ const Experience = props => {
         const nextIndex = index + 1;
         const divider = nextIndex === array.length ? <br /> : <hr />;
         var workImage = 'images/work/' + experience.image;
+        const startDate = moment(experience.startDate).format('MMMM YYYY');
+        const endDate = experience.endDate
+            ? moment(experience.endDate).format('MMMM YYYY')
+            : 'Present';
 
         return (
             <div className="row item" key={experience.company}>
@@ -26,7 +31,7 @@ const Experience = props => {
                             {experience.position}
                             <span>&bull;</span>
                             <em className="date">
-                                {experience.startDate} - {experience.endDate}
+                                {startDate} - {endDate}
                             </em>
                         </p>
                         <p className="details">{experience.summary}</p>
