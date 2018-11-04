@@ -1,18 +1,16 @@
 import React from 'react';
+import moment from 'moment';
 import { BulletPoints } from '../../Common';
 
 const Education = props => {
     var education = props.data.map((education, index, array) => {
         const nextIndex = index + 1;
         const divider = nextIndex === array.length ? <br /> : <hr />;
-        var schoolImage = 'images/education/' + education.image;
-
+        const schoolImage = 'images/education/' + education.image;
+        // clean up this var assign
         var info = education.studyType + ' in ' + education.area;
-        if (education.area === ' ') {
-            info = education.studyType;
-        }
-
-        // var endDate = moment(education.endDate).format
+        if (education.area === ' ') info = education.studyType;
+        const date = moment(education.endDate).format('MMMM YYYY');
 
         return (
             <div className="row item" key={education.institution}>
@@ -30,8 +28,12 @@ const Education = props => {
                         <h3>{education.institution}</h3>
                         <p className="info">
                             {info}
-                            <span>&bull;</span>
-                            <em className="date">{education.endDate}</em>
+                            {education.endDate ? (
+                                <span>
+                                    <span>&bull;</span>
+                                    <em className="date">{date}</em>
+                                </span>
+                            ) : null}
                         </p>
                         <BulletPoints points={education.highlights} />
                     </div>

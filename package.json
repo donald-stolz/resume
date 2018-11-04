@@ -6,6 +6,7 @@
     "dependencies": {
         "gh-pages": "^1.1.0",
         "jquery": "^3.3.1",
+        "moment": "^2.22.2",
         "nuka-carousel": "^4.3.6",
         "prop-types": "^15.6.1",
         "react": "^16.3.2",

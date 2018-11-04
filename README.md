@@ -4,7 +4,6 @@ My resume redesigned as a react web application. Started from [react-resume-temp
 
 ## ToDos
 
--   [ ] Add date formatter (moment js)
 -   [ ] Revise grammar and wording
 -   [ ] Testimonials Carousel Styles
 -   [ ] Mobile styling
@@ -22,6 +21,7 @@ My resume redesigned as a react web application. Started from [react-resume-temp
 
 ### Completed
 
+-   [x] Add date formatter (moment js)
 -   [x] Add **Axlry** to _Experience_
 -   [x] Add **42** to _Education_
 -   [x] Update to match [resume.json](https://jsonresume.org/) format
