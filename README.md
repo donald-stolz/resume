@@ -18,6 +18,7 @@ My resume redesigned as a react web application. Started from [react-resume-temp
 -   [ ] Contact form
 -   [ ] Projects Modal
 -   [ ] Links skills to projects
+-   [ ] [Move to gatsby](https://gatsby-strata.surge.sh/)
 
 ### Completed
 
