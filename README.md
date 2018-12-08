@@ -9,6 +9,7 @@ My resume redesigned as a react web application. Started from [react-resume-temp
 -   [ ] Mobile styling
 -   [ ] Fix nav bar disappear
 -   [ ] Turn each section of resume into a dropdown bar
+-   Have 'present' work/education/volunteer and hide rest in dropdown
 
 ### Later
 

@@ -44,6 +44,26 @@
     },
     "work": [
         {
+            "company": "Band Djinni",
+            "image": "bandDjinni-logo.png",
+            "position": "Software Engineer",
+            "website": "http://banddjinni.com",
+            "startDate": "2018-11-20",
+            "endDate": "",
+            "summary": "We solve the biggest challenges facing the local live music industry by empowering independent artists, SMB venues, and live music lovers everywhere to book shows, fill venues, and generate direct revenue through a blockchain-powered marketplace economy.",
+            "highlights": ["Full stack react-native developer"]
+        },
+        {
+            "company": "Code for Fun",
+            "image": "cff-logo.png",
+            "position": "Instructor",
+            "website": "http://codeforfun.com",
+            "startDate": "2018-10-20",
+            "endDate": "",
+            "summary": "Code for fun is a non­profit organization, located in the San Francisco Bay Area, committed to exposing all students to computer science at an early age.",
+            "highlights": []
+        },
+        {
             "company": "Axlry",
             "image": "axlry-logo.png",
             "position": "Software Engineer",
