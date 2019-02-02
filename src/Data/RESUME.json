@@ -47,11 +47,11 @@
             "company": "Band Djinni",
             "image": "bandDjinni-logo.png",
             "position": "Software Engineer",
-            "website": "http://banddjinni.com",
+            "website": "http://banddjinni.com/djinn-team/",
             "startDate": "2018-11-20",
             "endDate": "",
             "summary": "We solve the biggest challenges facing the local live music industry by empowering independent artists, SMB venues, and live music lovers everywhere to book shows, fill venues, and generate direct revenue through a blockchain-powered marketplace economy.",
-            "highlights": ["Full stack react-native developer"]
+            "highlights": ["Full stack engineer"]
         },
         {
             "company": "Code for Fun",
