@@ -44,12 +44,32 @@
     },
     "work": [
         {
+            "company": "Band Djinni",
+            "image": "bandDjinni-logo.png",
+            "position": "Software Engineer",
+            "website": "http://banddjinni.com/djinn-team/",
+            "startDate": "2018-11-20",
+            "endDate": "",
+            "summary": "We solve the biggest challenges facing the local live music industry by empowering independent artists, SMB venues, and live music lovers everywhere to book shows, fill venues, and generate direct revenue through a blockchain-powered marketplace economy.",
+            "highlights": ["Full stack engineer"]
+        },
+        {
+            "company": "Code for Fun",
+            "image": "cff-logo.png",
+            "position": "Instructor",
+            "website": "http://codeforfun.com",
+            "startDate": "2018-10-20",
+            "endDate": "",
+            "summary": "Code for fun is a non­profit organization, located in the San Francisco Bay Area, committed to exposing all students to computer science at an early age.",
+            "highlights": []
+        },
+        {
             "company": "Axlry",
             "image": "axlry-logo.png",
             "position": "Software Engineer",
             "website": "http://axlry.com",
             "startDate": "2017-01-01",
-            "endDate": "Present",
+            "endDate": "",
             "summary": "Axlry is an app that helps connect independent artists and record labels to music video directors.",
             "highlights": [
                 "Front-end react-native developer",
@@ -115,8 +135,8 @@
             "position": "Volunteer",
             "image": "frn-logo.jpg",
             "website": "https://www.foodrecoverynetwork.org/illinois/#loyolauniversityofchicago",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
+            "startDate": "2017-01-01",
+            "endDate": "2018-05-01",
             "summary": "Participated in food recovery runs after campus events, recovering food that can be donated to a local food pantry. Assisted with food drives and helped coordinate volunteers from my fraternity.",
             "highlights": []
         },
@@ -148,7 +168,7 @@
             "area": " ",
             "studyType": "Software Engineering ",
             "startDate": "2018-09-16",
-            "endDate": "Current",
+            "endDate": "",
             "website": "https://www.42.us.org/",
             "gpa": "NA",
             "highlights": [
@@ -206,7 +226,7 @@
         {
             "title": "Application Development",
             "description": [
-                "I have built cross-platform mobile and desktop utilizing the react and react-native libraries."
+                "Built cross-platform mobile and desktop utilizing the react and react-native libraries."
             ],
             "skillDetails": [
                 {
@@ -229,10 +249,10 @@
         {
             "title": "Programming Languages",
             "description": [
-                "I have extensive experience with building applications using Javascript and web technologies.",
-                "I am building fairly extensive personal libraries using C.",
-                "I studied object-oriented programming with Java.",
-                "I built out metrics and simulations for competitions and research using R."
+                "Experienced in building applications using Javascript and web technologies.",
+                "Have built personal libraries and projects using C.",
+                "Studied object-oriented programming with Java at Loyola.",
+                "Built out metrics and simulations for competitions and research projects using R."
             ],
             "skillDetails": [
                 {
@@ -270,8 +290,8 @@
         {
             "title": "Leadership",
             "description": [
-                "I have great leadership experience from earning my Eagle Scout and serving as a member of my Fraternity's Executive Board.",
-                "I have been responsible for planning online fundraising multiple years and was in charg of our annual Philanthropy as a Senior."
+                "Gained leadership experience by achieving my Eagle Scout rank and serving as a member, in multiple positions, of my Fraternity's Executive Board.",
+                "Have been responsible for planning online fundraising multiple years and was in charge of our annual Philanthropy as a Senior."
             ],
             "skillDetails": [
                 {
