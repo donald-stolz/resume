@@ -6,6 +6,8 @@ My resume redesigned as a react web application. Started from [react-resume-temp
 
 -   [ ] [Move to gatsby](https://gatsby-strata.surge.sh/)
 -   [ ] Add H2S projects and volunteer info
+-   [ ] Update Portfolio items
+-   [ ] Update Unstoppable Domains position
 
 
 ### Content Update Log
