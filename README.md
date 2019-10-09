@@ -4,10 +4,10 @@ My resume redesigned as a react web application. Started from [react-resume-temp
 
 ## ToDos
 
--   [ ] [Move to gatsby](https://gatsby-strata.surge.sh/)
+-   [ ] Update Unstoppable Domains position & responsibilities/accomplishments
 -   [ ] Add H2S projects and volunteer info
--   [ ] Update Portfolio items
--   [ ] Update Unstoppable Domains position
+-   [ ] Update Portfolio items -> H2S app
+-   [ ] Next.js 9 & TS migration
 
 
 ### Content Update Log
