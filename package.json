@@ -21,13 +21,26 @@
         "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
+        "serve": "serve -s build",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject"
     },
     "devDependencies": {
         "eslint": "^6.6.0",
         "mem": "^6.0.0",
-        "webpack-dev-server": "^3.9.0",
+        "serve": "^11.2.0",
         "yarn-upgrade-all": "^0.5.2"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
     }
 }

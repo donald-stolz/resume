@@ -44,6 +44,16 @@
     },
     "work": [
         {
+            "company": "Unstoppable Domains",
+            "image": "unstoppable-domains-logo.png",
+            "position": "Front End Team Lead",
+            "website": "https://unstoppabledomains.com/about",
+            "startDate": "2019-04-28",
+            "endDate": "",
+            "summary": "TODO: Update",
+            "highlights": ["Full stack engineer"]
+        },
+        {
             "company": "Band Djinni",
             "image": "bandDjinni-logo.png",
             "position": "Software Engineer",
@@ -59,7 +69,7 @@
             "position": "Instructor",
             "website": "http://codeforfun.com",
             "startDate": "2018-10-20",
-            "endDate": "",
+            "endDate": "2019-05-01",
             "summary": "Code for fun is a non­profit organization, located in the San Francisco Bay Area, committed to exposing all students to computer science at an early age.",
             "highlights": []
         },
