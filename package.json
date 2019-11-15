@@ -1,7 +1,7 @@
 {
     "name": "resume",
     "version": "0.3.0",
-    "homepage": "http://donstolz.tech",
+    "homepage": "./",
     "private": true,
     "dependencies": {
         "gh-pages": "^2.1.1",
