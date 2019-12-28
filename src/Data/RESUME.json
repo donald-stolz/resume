@@ -50,18 +50,14 @@
             "website": "https://unstoppabledomains.com/about",
             "startDate": "2019-04-28",
             "endDate": "",
-            "summary": "TODO: Update",
-            "highlights": ["Full stack engineer"]
-        },
-        {
-            "company": "Band Djinni",
-            "image": "bandDjinni-logo.png",
-            "position": "Software Engineer",
-            "website": "http://banddjinni.com/djinn-team/",
-            "startDate": "2018-11-20",
-            "endDate": "2019-03-18",
-            "summary": "We solve the biggest challenges facing the local live music industry by empowering independent artists, SMB venues, and live music lovers everywhere to book shows, fill venues, and generate direct revenue through a blockchain-powered marketplace economy.",
-            "highlights": ["Full stack engineer"]
+            "summary": "Unstoppable Domains builds blockchain domains, that improve crypto payments by replacing wallet addresses with human readable names and can connect to censorship-resistant decentralized websites.",
+            "highlights": [
+                "Full stack engineer",
+                "Made major mobile UI & performance improvements",
+                "Improved site performance by transitioning site from CRA to Next JS",
+                "Setup multiple site integrations for business analytics, including technologies such as Segment, Snowflake, & Mode",
+                "Lead large projects such as multiple service architecture refactor and client side business logic refactor"
+            ]
         },
         {
             "company": "Code for Fun",
@@ -131,6 +127,20 @@
     ],
     "volunteer": [
         {
+            "organization": "Hack High School",
+            "position": "Volunteer Mentor",
+            "image": "h2s-logo.png",
+            "website": "https://www.42.us.org/program/high-school-students-free-coding-program/",
+            "startDate": "2019-01-01",
+            "endDate": "2019-05-01",
+            "summary": "The goal of HackHighSchool is to provide equality of access to computer science and digital literacy for the 21st Century to all high school students age 14-18. HackHighSchool(H2S) is a free,8-month long coding club open from September to May.",
+            "highlights": [
+                "Created Node JS Curriculum",
+                "Taught JavaScript & Web Development",
+                "Built app to help manage student check-in and daily reports."
+            ]
+        },
+        {
             "organization": "St. Jude Children's Research Hospital",
             "position": "Volunteer",
             "image": "st-jude-logo.jpg",
@@ -178,7 +188,7 @@
             "area": " ",
             "studyType": "Software Engineering ",
             "startDate": "2018-09-16",
-            "endDate": "",
+            "endDate": "2019-06-01",
             "website": "https://www.42.us.org/",
             "gpa": "NA",
             "highlights": [
@@ -217,10 +227,10 @@
     ],
     "awards": [
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
+            "title": "New Memeber Of The Year",
+            "date": "2016-11-01",
+            "awarder": "Loyola Greek Life",
+            "summary": "TODO description"
         }
     ],
     "publications": [
@@ -241,12 +251,17 @@
             "skillDetails": [
                 {
                     "name": "React",
-                    "level": "72%",
+                    "level": "85%",
+                    "keywords": ["<KEYWORD_1>"]
+                },
+                {
+                    "name": "Next JS",
+                    "level": "75%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
                     "name": "React Native",
-                    "level": "78%",
+                    "level": "70%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
@@ -259,25 +274,25 @@
         {
             "title": "Programming Languages",
             "description": [
-                "Experienced in building applications using Javascript and web technologies.",
+                "Experienced in building applications using JavaScript and web technologies.",
                 "Have built personal libraries and projects using C.",
                 "Studied object-oriented programming with Java at Loyola.",
                 "Built out metrics and simulations for competitions and research projects using R."
             ],
             "skillDetails": [
                 {
-                    "name": "Javascript",
+                    "name": "TypeScript & JavaScript",
                     "level": "83%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
                     "name": "CSS",
-                    "level": "75%",
+                    "level": "80%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
                     "name": "HTML",
-                    "level": "70%",
+                    "level": "80%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
@@ -299,24 +314,25 @@
         },
         {
             "title": "Leadership",
+            "todo": "UD leadership",
             "description": [
                 "Gained leadership experience by achieving my Eagle Scout rank and serving as a member, in multiple positions, of my Fraternity's Executive Board.",
                 "Have been responsible for planning online fundraising multiple years and was in charge of our annual Philanthropy as a Senior."
             ],
             "skillDetails": [
                 {
-                    "name": "Event Plannig",
+                    "name": "Team Organization",
+                    "level": "85%",
+                    "keywords": ["<KEYWORD_1>", "<KEYWORD_2>", "<KEYWORD_3>"]
+                },
+                {
+                    "name": "Task Management",
                     "level": "80%",
                     "keywords": ["<KEYWORD_1>", "<KEYWORD_2>", "<KEYWORD_3>"]
                 },
                 {
-                    "name": "Committee Coordination",
-                    "level": "60%",
-                    "keywords": ["<KEYWORD_1>", "<KEYWORD_2>", "<KEYWORD_3>"]
-                },
-                {
-                    "name": "Task Delegation",
-                    "level": "70%",
+                    "name": "Project Plannig",
+                    "level": "76%",
                     "keywords": ["<KEYWORD_1>", "<KEYWORD_2>", "<KEYWORD_3>"]
                 }
             ]
@@ -342,9 +358,25 @@
         {
             "name": "Nicholas Kimble",
             "reference": "Don strives for academic excellence, he has invested himself so much in an uncharted area of leadership in TKE by becoming the backbone of our design, PR, and website. Don demonstrates commitment to Loyola, the SFL community, and the future through his voluntarily involvement in the clubs and volunteer programs at Loyola."
+        },
+        {
+            "name": "Nieky Allen",
+            "reference": "A creative, intelligent, and quick-on-his-feet engineer, Don proved to be an integral addition to our team. He doesn't shy away from new opportunities to learn by taking initiative."
         }
     ],
     "portfolio": [
+        {
+            "title": "H2S - Student Management App",
+            "description": "A basic React & Node application to help manage Hack High School student check in and daily reports.",
+            "image": "h2s-logo.png",
+            "website": "https://github.com/codeforfunprojects/H2S-App"
+        },
+        {
+            "title": "H2S - Node JS Curriculum",
+            "description": "A project based intro level curriculum for building APIs with Node JS.",
+            "image": "h2s-logo.png",
+            "website": "https://github.com/donald-stolz/H2S-NodeJS-Curriculum"
+        },
         {
             "title": "RIPPEN",
             "description": "R based scipt providing a new Quarter Back analysis metric.",

@@ -16,7 +16,11 @@ const Volunteer = props => {
         return (
             <div className="row item" key={experience.organization}>
                 <div className="three columns image-cont">
-                    <a href={experience.website} target="_blank">
+                    <a
+                        href={experience.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <img
                             alt={experience.organization}
                             className="work-pic"

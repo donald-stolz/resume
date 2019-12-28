@@ -10,6 +10,7 @@ const Portfolio = props => {
                         target="_blank"
                         href={projects.website}
                         title={projects.title}
+                        rel="noopener noreferrer"
                     >
                         <div className="item-wrap">
                             <img alt={projects.title} src={projectImage} />

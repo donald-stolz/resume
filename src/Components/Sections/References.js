@@ -15,6 +15,7 @@ const References = props => {
 
     const carouselConfig = {
         autoplay: true,
+        autoplayInterval: 5000,
         framePadding: '10px',
         cellSpacing: 30,
         wrapAround: true,
@@ -33,6 +34,9 @@ const References = props => {
                         <div className="flexslider">
                             <Carousel
                                 autoplay={carouselConfig.autoplay}
+                                autoplayInterval={
+                                    carouselConfig.autoplayInterval
+                                }
                                 wrapAround={carouselConfig.wrapAround}
                                 renderCenterLeftControls={null}
                                 renderCenterRightControls={null}
