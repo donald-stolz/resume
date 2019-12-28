@@ -15,7 +15,11 @@ const Education = props => {
         return (
             <div className="row item" key={education.institution}>
                 <div className="three columns image-cont">
-                    <a href={education.website} target="_blank">
+                    <a
+                        href={education.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <img
                             alt={education.institution}
                             className="school-pic"
