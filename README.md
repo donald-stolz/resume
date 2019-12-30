@@ -1,13 +1,10 @@
-# [React Resume App](https://donald-stolz.github.io/resume/) [![Build Status](https://travis-ci.org/donald-stolz/resume.svg?branch=master)](https://travis-ci.org/donald-stolz/resume)
+# [React Resume App](https://donstolz.tech/) [![Build Status](https://travis-ci.org/donald-stolz/resume.svg?branch=master)](https://travis-ci.org/donald-stolz/resume)
 
-My resume redesigned as a react web application. Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker. Some component styles used from [suddi.github.io](https://github.com/suddi/suddi.github.io) by Sudharshan Ravindran
+My portfolio/resume website. Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker. Some component styles used from [suddi.github.io](https://github.com/suddi/suddi.github.io) by Sudharshan Ravindran
 
 ## ToDos
 
--   [ ] Update Unstoppable Domains position & responsibilities/accomplishments
--   [ ] Add H2S projects and volunteer info
--   [ ] Update Portfolio items -> H2S app
--   [ ] Next.js 9 & TS migration
+-   [ ] TS migration
 
 
 ### Content Update Log
@@ -15,11 +12,11 @@ My resume redesigned as a react web application. Started from [react-resume-temp
 | Section    | Date     |
 | :--------- | :------- |
 | About Me   | 04/25/18 |
-| Education  | 10/28/18 |
-| Experience | 12/08/18 |
-| Portfolio  | 10/13/18 |
-| References | 04/26/18 |
+| Education  | 12/28/19 |
+| Experience | 12/28/19 |
+| Portfolio  | 12/28/19 |
+| References | 12/28/19 |
 | Highlights | 04/26/18 |
-| Volunteer  | 10/13/18 |
+| Volunteer  | 12/28/19 |
 
 
