@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: donstolz.tech
+Token: 60197f76590ac1099e9b92897c28fef127c77d975d6113fbbb3d2478c47592c2
