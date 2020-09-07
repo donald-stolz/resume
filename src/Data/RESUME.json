@@ -54,9 +54,11 @@
             "highlights": [
                 "Full stack engineer",
                 "Made major mobile UI & performance improvements",
-                "Improved site performance by transitioning site from CRA to Next JS",
+                "Improved client-side site performance by transitioning site from CRA to Next JS",
                 "Setup multiple site integrations for business analytics, including technologies such as Segment, Snowflake, & Mode",
-                "Lead large projects such as client side business logic refactor"
+                "Took lead on many large tasks such as client side business logic refactor",
+                "Implemented integrations that saved development time and cut costs. E.g. RudderStack and Lever",
+                "Created first iteration of our Website builder tools and our advanced templates. New tools helped grow domains with sites from ~100 in January to >15,000 in June"
             ]
         },
         {
@@ -251,12 +253,12 @@
             "skillDetails": [
                 {
                     "name": "React",
-                    "level": "85%",
+                    "level": "88%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
                     "name": "Next JS",
-                    "level": "75%",
+                    "level": "80%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
@@ -282,17 +284,17 @@
             "skillDetails": [
                 {
                     "name": "TypeScript & JavaScript",
-                    "level": "83%",
+                    "level": "87%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
                     "name": "CSS",
-                    "level": "80%",
+                    "level": "83%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
                     "name": "HTML",
-                    "level": "80%",
+                    "level": "83%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
