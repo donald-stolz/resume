@@ -5,6 +5,7 @@ My portfolio/resume website. Started from [react-resume-template](https://github
 ## ToDos
 
 -   [ ] TS migration
+-   [ ] Update VisualCV or Create better download option
 
 
 ### Content Update Log
