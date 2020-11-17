@@ -15,7 +15,7 @@ const References = props => {
 
     const carouselConfig = {
         autoplay: true,
-        autoplayInterval: 5000,
+        autoplayInterval: 15000,
         framePadding: '10px',
         cellSpacing: 30,
         wrapAround: true,
