@@ -2,7 +2,7 @@
     "basics": {
         "name": "Donald Stolz",
         "label": "Software Engineer",
-        "picture": "profilepic.jpg",
+        "picture": "profile-pic.jpg",
         "email": "DonaldTStolz@gmail.com",
         "phone": "314-216-0123",
         "website": "https://donald-stolz.github.io/resume/",
@@ -221,7 +221,7 @@
             "website": "https://www.sluh.org/",
             "gpa": "3.6",
             "highlights": [
-                "32 ACT Superscore",
+                "32 ACT",
                 "Three years National Honor Society",
                 "Two years National AP scholar"
             ]
@@ -229,7 +229,7 @@
     ],
     "awards": [
         {
-            "title": "New Memeber Of The Year",
+            "title": "New Member Of The Year",
             "date": "2016-11-01",
             "awarder": "Loyola Greek Life",
             "summary": "TODO description"
@@ -333,7 +333,7 @@
                     "keywords": ["<KEYWORD_1>", "<KEYWORD_2>", "<KEYWORD_3>"]
                 },
                 {
-                    "name": "Project Plannig",
+                    "name": "Project Planning",
                     "level": "76%",
                     "keywords": ["<KEYWORD_1>", "<KEYWORD_2>", "<KEYWORD_3>"]
                 }
@@ -358,6 +358,10 @@
     ],
     "references": [
         {
+            "name": "Ben Sullivan, Head of Ecommerce Engineering",
+            "reference": "Don is a great individual contributor, team player, and a joy to work with. He welcomes any challenge, takes ownership from start to finish, and brings opinions to the table, but also knows when to seek input. A champion for the people part of work, Don's friendly reminders to plan a team event will make sure team morale stays high."
+        },
+        {
             "name": "Nicholas Kimble, TKE-EK President 2014-2016",
             "reference": "Don strives for academic excellence, he has invested himself so much in an uncharted area of leadership in TKE by becoming the backbone of our design, PR, and website. Don demonstrates commitment to Loyola, the SFL community, and the future through his voluntarily involvement in the clubs and volunteer programs at Loyola."
         },
@@ -381,7 +385,7 @@
         },
         {
             "title": "RIPPEN",
-            "description": "R based scipt providing a new Quarter Back analysis metric.",
+            "description": "R based script providing a new Quarter Back analysis metric.",
             "image": "nfl-logo.png",
             "website": "https://github.com/gjm112/RIPPEN"
         },
