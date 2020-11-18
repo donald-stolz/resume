@@ -4,7 +4,8 @@ My portfolio/resume website. Started from [react-resume-template](https://github
 
 ## ToDos
 
--   [ ] TS migration
+-   [ ] TS & general refactor
+-   [ ] Improve resume.json format usage 
 -   [ ] Update VisualCV or Create better download option
 
 
@@ -14,9 +15,9 @@ My portfolio/resume website. Started from [react-resume-template](https://github
 | :--------- | :------- |
 | About Me   | 04/25/18 |
 | Education  | 12/28/19 |
-| Experience | 12/28/19 |
+| Experience | 11/16/20 |
 | Portfolio  | 12/28/19 |
-| References | 12/28/19 |
+| References | 11/16/20 |
 | Highlights | 04/26/18 |
 | Volunteer  | 12/28/19 |
 
