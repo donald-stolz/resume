@@ -278,8 +278,8 @@
             "description": [
                 "Experienced in building applications using JavaScript and web technologies.",
                 "Have built personal libraries and projects using C.",
-                "Studied object-oriented programming with Java at Loyola.",
-                "Built out metrics and simulations for competitions and research projects using R."
+                "Built out metrics and simulations for competitions and research projects using R.",
+                "Studied object-oriented programming with Java at Loyola."
             ],
             "skillDetails": [
                 {
@@ -304,12 +304,12 @@
                 },
                 {
                     "name": "R",
-                    "level": "65%",
+                    "level": "75%",
                     "keywords": ["<KEYWORD_1>"]
                 },
                 {
                     "name": "Java",
-                    "level": "68%",
+                    "level": "50%",
                     "keywords": ["<KEYWORD_1>"]
                 }
             ]
