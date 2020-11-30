@@ -12,8 +12,8 @@
    d. Resume Section
    e. Portfolio Section
    f. Highlights
-   g. Call To Action Section
-   h. references Section
+   //g. Call To Action Section
+   g. references Section
    i. Contact Section
 	 j. Footer
 
@@ -273,7 +273,8 @@ ul#nav li.current a { color: var(--accent-palette-color); }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume p {
+#resume p,
+#references .details {
    color: #333;
 }
 
@@ -296,13 +297,13 @@ ul#nav li.current a { color: var(--accent-palette-color); }
    margin-bottom: 60px;
 }
 
-.skill, .highlights {
+.skill, .highlights, .reference {
 	padding-top: 70px;
 	padding-bottom: 24px;
 	width: auto;
 }
 
-#resume .work-pic {
+.work-pic {
    position: relative;
    width: 200px;
    height: 200px;
@@ -313,6 +314,10 @@ ul#nav li.current a { color: var(--accent-palette-color); }
 	 display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#references .work-pic {
+	margin-bottom: 12px;
 }
 
 #resume .school-pic {
@@ -775,37 +780,43 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #references {
-   background: #1F1F1F url(../images/references-bg.jpg) no-repeat center center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   background-attachment: fixed;
-
+   /* background: #1F1F1F url(../images/references-bg.jpg) no-repeat center center; */
+   /* background-size: cover !important; */
+	/* -webkit-background-size: cover !important; */
+   /* background-attachment: fixed; */
+   background: var(--tertiary-palette-color);
    position: relative;
    min-height: 200px;
    width: 100%;
    overflow: hidden;
 }
+
 #references .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
+.ref-span {
+	padding-right: 0;
+}
 #references h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 24px/32px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   margin-bottom: 40px;
+   /* color: #fff; */
 }
-#references h1 span { display: none; }
+/* #references h1 span {} */
+
 #references .header-col { padding-top: 9px; }
 #references .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
+   padding-right: 12px;
+   font-size: 72px;
    line-height: 72px;
    text-align: left;
-   float: left;
-   color: #fff;
+   /* float: bottom; */
+   /* color: #fff; */
 }
 
 /*	Blockquotes */

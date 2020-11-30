@@ -47,7 +47,7 @@
             "company": "Unstoppable Domains",
             "image": "unstoppable-domains-logo.png",
             "position": "Front End Team Lead",
-            "website": "https://unstoppabledomains.com/about",
+            "website": "https://unstoppabledomains.com/",
             "startDate": "2019-04-28",
             "endDate": "2020-11-13",
             "summary": "Unstoppable Domains builds blockchain domains, that improve crypto payments by replacing wallet addresses with human readable names and can connect to censorship-resistant decentralized websites.",
@@ -75,7 +75,7 @@
             "company": "Axlry",
             "image": "axlry-logo.png",
             "position": "Software Engineer",
-            "website": "http://axlry.com",
+            "website": "https://axlry.com",
             "startDate": "2018-01-01",
             "endDate": "2019-05-08",
             "summary": "Axlry is an app that helps connect independent artists and record labels to music video directors.",
@@ -370,12 +370,12 @@
             "reference": "Don is a great individual contributor, team player, and a joy to work with. He welcomes any challenge, takes ownership from start to finish, and brings opinions to the table, but also knows when to seek input. A champion for the people part of work, Don's friendly reminders to plan a team event will make sure team morale stays high."
         },
         {
-            "name": "Nicholas Kimble, TKE-EK President 2014-2016",
-            "reference": "Don strives for academic excellence, he has invested himself so much in an uncharted area of leadership in TKE by becoming the backbone of our design, PR, and website. Don demonstrates commitment to Loyola, the SFL community, and the future through his voluntarily involvement in the clubs and volunteer programs at Loyola."
-        },
-        {
             "name": "Nieky Allen, CTO Elevator Media",
             "reference": "A creative, intelligent, and quick-on-his-feet engineer, Don proved to be an integral addition to our team. He doesn't shy away from new opportunities to learn by taking initiative."
+        },
+        {
+            "name": "Nicholas Kimble, TKE-EK President 2014-2016",
+            "reference": "Don strives for academic excellence, he has invested himself so much in an uncharted area of leadership in TKE by becoming the backbone of our design, PR, and website. Don demonstrates commitment to Loyola, the SFL community, and the future through his voluntarily involvement in the clubs and volunteer programs at Loyola."
         }
     ],
     "portfolio": [
