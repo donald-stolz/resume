@@ -38,7 +38,7 @@ const References = (props) => {
                 </div>
                 <div className="nine columns">
                     <div key={company}>
-                        <p className="details">{quote}</p>
+                        <p className="details">"{quote}"</p>
                         <p className="info">{name}</p>
                     </div>
                 </div>
