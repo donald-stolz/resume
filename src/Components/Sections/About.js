@@ -40,7 +40,7 @@ class About extends Component {
                                     <span>
                                         {location.address}
                                         <br />
-                                        {location.city} {location.region},{' '}
+                                        {location.city} {location.region}{' '}
                                         {location.postalCode}
                                     </span>
                                     <br />
