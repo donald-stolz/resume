@@ -69,7 +69,11 @@
             "startDate": "2018-10-20",
             "endDate": "2019-05-01",
             "summary": "Code for fun is a non­profit organization, located in the San Francisco Bay Area, committed to exposing all students to computer science at an early age.",
-            "highlights": []
+            "highlights": [
+                "Taught students 7 to 16 years old the fundamentals of programming",
+                "Wrote curriculums for the Web Development topic at Hack High School",
+                "Conducted interviews for summer camp hiring"
+            ]
         },
         {
             "company": "Axlry",
