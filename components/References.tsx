@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import { Reference } from "../interfaces";
 
-interface PortfolioProps {
+interface ReferencesProps {
   references: Reference[];
 }
 
@@ -15,7 +15,7 @@ const CompanyInfo = {
   tke: { image: "tke-logo.jpg", website: "http://tkeloyola.org" },
 };
 
-const References: FunctionComponent<PortfolioProps> = ({ references }) => (
+const References: FunctionComponent<ReferencesProps> = ({ references }) => (
   <section id="references">
     <div className="row reference">
       <div className="three columns header-col ref-span">

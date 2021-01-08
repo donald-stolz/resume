@@ -9,6 +9,8 @@ export interface ResumeSchema {
   languages: Language[];
   interests: Interest[];
   references: Reference[];
+  // Not Resume JSON
+  portfolio: PortfolioItem[];
 }
 
 export interface AdditionalSiteContent {
