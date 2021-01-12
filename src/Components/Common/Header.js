@@ -6,6 +6,7 @@ import SocialIcons from './SocialIcons';
 class Header extends Component {
     render() {
         const { name, profiles } = this.props.data;
+        const { description } = this.props.site;
         // TODO:
         //	<li><a className="smoothscroll" href="#highlights">Highlights</a></li>
         //	<li><a className="smoothscroll" href="#contact">Contact</a></li>
@@ -59,7 +60,7 @@ class Header extends Component {
                 <div className="row banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline">Hi, I'm {name}</h1>
-
+                        <h3>{description}</h3>
                         <hr />
                         <SocialIcons data={profiles} className="social" />
                     </div>
