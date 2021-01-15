@@ -1,19 +1,19 @@
 language: node_js
 node_js:
-    - 'stable'
+  - "stable"
 cache:
-    directories:
-        - node_modules
+  directories:
+    - node_modules
 script:
-    - yarn install
-    - yarn test
-    - yarn run build
-    - cp CNAME build/
+  - yarn install
+  - yarn tsc
+  - yarn run build
+  - cp CNAME build/
 deploy:
-    provider: pages
-    skip_cleanup: true
-    github_token: $githubToken
-    local_dir: build
-    keep-history: true
-    on:
-        branch: master
+  provider: pages
+  skip_cleanup: true
+  github_token: $githubToken
+  local_dir: build
+  keep-history: true
+  on:
+    branch: master

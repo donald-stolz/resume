@@ -7,13 +7,6 @@
     "phone": "",
     "website": "https://donald-stolz.github.io/resume/",
     "summary": "Enjoys new challenges, actively goes outside comfort zone to pursues experiences of diverse cultures, communities, and ideas. Completes tasks in a highly organized manner, with a strong attention detail. Proven ability to coordinate large group efforts through proficient communication skills.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "",
-      "countryCode": "US",
-      "region": ""
-    },
     "profiles": [
       {
         "network": "Facebook",
@@ -251,7 +244,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": 5
+      "fluency": 4
     },
     {
       "language": "Spanish",

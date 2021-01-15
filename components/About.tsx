@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from "react";
 import { BasicInfo } from "../interfaces";
+import Image from "next/image";
 
 interface AboutProps {
   basics: BasicInfo;
@@ -10,10 +11,12 @@ const About: FunctionComponent<AboutProps> = ({ basics, downloadUrl }) => (
   <section id="about">
     <div className="row">
       <div className="three columns">
-        <img
+        <Image
           className="profile-pic"
-          src={basics.picture}
+          src={`/images/${basics.picture}`}
           alt="Donald Stolz Profile Pic"
+          height={200}
+          width={200}
         />
       </div>
       <div className="nine columns main-col">

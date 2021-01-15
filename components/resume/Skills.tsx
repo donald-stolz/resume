@@ -65,7 +65,7 @@ interface EntryProps {
 }
 
 const Entry: FunctionComponent<EntryProps> = ({ name, level, keywords }) => {
-  const barSize = level === 4 ? "100%" : `${level * 10 + Math.random() * 12}`;
+  const barSize = level === 4 ? "100%" : `${level * 20 + Math.random() * 10}%`;
   return (
     <div className="row ">
       <h3>{name}</h3>

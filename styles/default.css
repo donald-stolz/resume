@@ -4,6 +4,7 @@
 *   url: styleshout.com
 *   03-17-2014
 =====================================================================
+
 TOC:
 a. Webfonts and Icon fonts
 b. Reset
@@ -18,15 +19,16 @@ d. Grid
 e. Others
    1. Clearing
    2. Misc
+
 =====================================================================  */
 
 /* ------------------------------------------------------------------ */
 /* a. Webfonts and Icon fonts
  ------------------------------------------------------------------ */
 
-/* @import url("fonts.css"); */
-/* @import url("fontello/css/fontello.css"); */
-@import url("fontawesome.min.css");
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
 
 /* ------------------------------------------------------------------
  b. Reset
@@ -485,9 +487,11 @@ li {
 
 /* ---------------------------------------------------------------------
 /*  Stats Tab Markup
+
     <ul class="stats-tabs">
 		<li><a href="#">[value]<b>[name]</b></a></li>
 	 </ul>
+
     Extend this object into your markup.
 /*
 /* --------------------------------------------------------------------- */

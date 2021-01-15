@@ -2,6 +2,7 @@ import React, { FunctionComponent } from "react";
 import moment from "moment";
 import BulletPoints from "../common/BulletPoints";
 import { EducationExperience } from "../../interfaces";
+import Image from "next/image";
 
 interface EducationProps {
   experiences: EducationExperience[];
@@ -18,7 +19,7 @@ const Education: FunctionComponent<EducationProps> = ({ experiences }) => (
       {experiences.map((education, index, array) => {
         const nextIndex = index + 1;
         const divider = nextIndex === array.length ? <br /> : <hr />;
-        const schoolImage = "images/education/" + education.image;
+        const imagePath = "/images/education/" + education.image;
         // clean up this var assign
         var info = education.studyType + " in " + education.area;
         if (education.area === " ") info = education.studyType;
@@ -32,11 +33,14 @@ const Education: FunctionComponent<EducationProps> = ({ experiences }) => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  alt={education.institution}
-                  className="school-pic"
-                  src={schoolImage}
-                />
+                <div className="school-pic">
+                  <Image
+                    alt={education.institution}
+                    src={imagePath}
+                    height={200}
+                    width={200}
+                  />
+                </div>
               </a>
             </div>
             <div className="nine columns">

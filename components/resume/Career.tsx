@@ -2,6 +2,7 @@ import React, { FunctionComponent } from "react";
 import moment from "moment";
 import BulletPoints from "../common/BulletPoints";
 import { WorkExperience } from "../../interfaces";
+import Image from "next/image";
 
 interface CareerProps {
   experiences: WorkExperience[];
@@ -19,7 +20,7 @@ const Career: FunctionComponent<CareerProps> = ({ experiences }) => (
       {experiences.map((experience, index, array) => {
         const nextIndex = index + 1;
         const divider = nextIndex === array.length ? <br /> : <hr />;
-        var workImage = "images/work/" + experience.image;
+        var imagePath = "/images/work/" + experience.image;
         const startDate = moment(experience.startDate).format("MMMM YYYY");
         const endDate = experience.endDate
           ? moment(experience.endDate).format("MMMM YYYY")
@@ -33,11 +34,14 @@ const Career: FunctionComponent<CareerProps> = ({ experiences }) => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  alt={experience.company}
-                  className="work-pic"
-                  src={workImage}
-                />
+                <div className="work-pic">
+                  <Image
+                    alt={experience.company}
+                    src={imagePath}
+                    height={200}
+                    width={200}
+                  />
+                </div>
               </a>
             </div>
             <div className="nine columns">

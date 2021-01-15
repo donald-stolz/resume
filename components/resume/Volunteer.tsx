@@ -2,6 +2,7 @@ import React, { FunctionComponent } from "react";
 import moment from "moment";
 import BulletPoints from "../common/BulletPoints";
 import { VolunteerExperience } from "../../interfaces";
+import Image from "next/image";
 
 interface VolunteerProps {
   experiences: VolunteerExperience[];
@@ -19,7 +20,7 @@ const Volunteer: FunctionComponent<VolunteerProps> = ({ experiences }) => (
       {experiences.map((experience, index, array) => {
         const nextIndex = index + 1;
         const divider = nextIndex === array.length ? <br /> : <hr />;
-        var workImage = "images/volunteer/" + experience.image;
+        var imagePath = "/images/volunteer/" + experience.image;
         const startDate = moment(experience.startDate).format("MMMM YYYY");
         const endDate = experience.endDate
           ? moment(experience.endDate).format("MMMM YYYY")
@@ -33,11 +34,14 @@ const Volunteer: FunctionComponent<VolunteerProps> = ({ experiences }) => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  alt={experience.organization}
-                  className="work-pic"
-                  src={workImage}
-                />
+                <div className="work-pic">
+                  <Image
+                    alt={experience.organization}
+                    src={imagePath}
+                    height={200}
+                    width={200}
+                  />
+                </div>
               </a>
             </div>
             <div className="nine columns">
