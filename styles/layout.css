@@ -44,7 +44,7 @@ body {
 
 header {
   position: relative;
-  height: 800px;
+  height: 100vh;
   min-height: 500px;
   width: 100%;
   background: #161415 url(../public/images/header-background.jpg) no-repeat top

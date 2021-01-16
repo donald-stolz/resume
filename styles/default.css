@@ -116,6 +116,10 @@ video {
   background: transparent;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 div {
   margin: auto;
 }
