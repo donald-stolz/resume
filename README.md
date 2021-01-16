@@ -1,15 +1,20 @@
-# [React Resume App](https://donstolz.tech/) [![Build Status](https://travis-ci.org/donald-stolz/resume.svg?branch=master)](https://travis-ci.org/donald-stolz/resume)
+# [Next.JS Resume App](https://donstolz.tech/) [![Build Status](https://travis-ci.org/donald-stolz/resume.svg?branch=master)](https://travis-ci.org/donald-stolz/resume)
 
-My portfolio/resume website. Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker. Some component styles used from [suddi.github.io](https://github.com/suddi/suddi.github.io) by Sudharshan Ravindran
+My personal resume and portfolio website. Some
 
-## ToDos
+## TODO
 
--   [ ] TS & general refactor
--   [ ] Improve resume.json format usage 
--   [ ] Update VisualCV or Create better download option
+- [x] Refactor to Next.JS & typescript
+  - [ ] Update CI
+- [ ] Update resume data
+  - [ ] !!!Update Skills section!!!
+- [x] Make json file available through URL
 
+### Next project
 
-### Content Update Log
+- [ ] Add blog
+
+## Content Update Log
 
 | Section    | Date     |
 | :--------- | :------- |
@@ -21,4 +26,8 @@ My portfolio/resume website. Started from [react-resume-template](https://github
 | Highlights | 04/26/18 |
 | Volunteer  | 12/28/19 |
 
+## Credit/Inspiration
 
+- Started from [react-resume-template](https://github.com/tbakerx/react-resume-template) by Tim Baker
+- Additional component styles used from [suddi.github.io](https://github.com/suddi/suddi.github.io) by Sudharshan Ravindran
+- Schema started from [JSON Resume](https://jsonresume.org/schema/)

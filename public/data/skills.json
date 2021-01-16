@@ -1,0 +1,94 @@
+({
+  "title": "Application Development",
+  "description": [
+    "Built cross-platform mobile and desktop utilizing the react and react-native libraries."
+  ],
+  "skillDetails": [
+    {
+      "name": "React",
+      "level": "88%",
+      "keywords": ["<KEYWORD_1>"]
+    },
+    {
+      "name": "Next JS",
+      "level": "80%",
+      "keywords": ["<KEYWORD_1>"]
+    },
+    {
+      "name": "React Native",
+      "level": "70%",
+      "keywords": ["<KEYWORD_1>"]
+    },
+    {
+      "name": "Electron",
+      "level": "66%",
+      "keywords": ["<KEYWORD_1>"]
+    }
+  ]
+},
+{
+  "title": "Programming Languages",
+  "description": [
+    "Experienced in building applications using JavaScript and web technologies.",
+    "Have built personal libraries and projects using C.",
+    "Built out metrics and simulations for competitions and research projects using R.",
+    "Studied object-oriented programming with Java at Loyola."
+  ],
+  "skillDetails": [
+    {
+      "name": "TypeScript & JavaScript",
+      "level": "87%",
+      "keywords": ["<KEYWORD_1>"]
+    },
+    {
+      "name": "CSS",
+      "level": "83%",
+      "keywords": ["<KEYWORD_1>"]
+    },
+    {
+      "name": "HTML",
+      "level": "83%",
+      "keywords": ["<KEYWORD_1>"]
+    },
+    {
+      "name": "C",
+      "level": "73%",
+      "keywords": ["<KEYWORD_1>"]
+    },
+    {
+      "name": "R",
+      "level": "75%",
+      "keywords": ["<KEYWORD_1>"]
+    },
+    {
+      "name": "Java",
+      "level": "50%",
+      "keywords": ["<KEYWORD_1>"]
+    }
+  ]
+},
+{
+  "title": "Leadership",
+  "todo": "UD leadership",
+  "description": [
+    "Gained leadership experience by achieving my Eagle Scout rank and serving as a member, in multiple positions, of my Fraternity's Executive Board.",
+    "Have been responsible for planning online fundraising multiple years and was in charge of our annual Philanthropy as a Senior."
+  ],
+  "skillDetails": [
+    {
+      "name": "Team Organization",
+      "level": "85%",
+      "keywords": ["<KEYWORD_1>", "<KEYWORD_2>", "<KEYWORD_3>"]
+    },
+    {
+      "name": "Task Management",
+      "level": "80%",
+      "keywords": ["<KEYWORD_1>", "<KEYWORD_2>", "<KEYWORD_3>"]
+    },
+    {
+      "name": "Project Planning",
+      "level": "76%",
+      "keywords": ["<KEYWORD_1>", "<KEYWORD_2>", "<KEYWORD_3>"]
+    }
+  ]
+})
