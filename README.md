@@ -4,11 +4,11 @@ My personal resume and portfolio website. Some
 
 ## TODO
 
-- [ ] Refactor to Next.JS & typescript
+- [x] Refactor to Next.JS & typescript
   - [ ] Update CI
 - [ ] Update resume data
   - [ ] !!!Update Skills section!!!
-- [ ] Make json file available publicly
+- [x] Make json file available through URL
 
 ### Next project
 

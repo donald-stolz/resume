@@ -45,10 +45,10 @@
       "endDate": "2020-11-13",
       "summary": "Unstoppable Domains builds blockchain domains, that improve crypto payments by replacing wallet addresses with human readable names and can connect to censorship-resistant decentralized websites.",
       "highlights": [
+        "Took lead on many large tasks such as client side business logic refactor",
         "Made major mobile UI & performance improvements",
         "Improved client-side site performance by transitioning site from CRA to Next JS",
         "Setup multiple site integrations for business analytics, including technologies such as Segment, Snowflake, & Mode",
-        "Took lead on many large tasks such as client side business logic refactor",
         "Implemented integrations that saved development time and cut costs. E.g. RudderStack and Lever",
         "Created first iteration of our Website builder tools and our advanced templates. New tools helped grow domains with sites from ~100 in January to >15,000 in June"
       ]
