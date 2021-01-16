@@ -5,9 +5,14 @@ import SocialIcons from "../common/SocialIcons";
 interface HeaderProps {
   name: string;
   profiles?: SocialProfile[];
+  description?: string;
 }
 
-const Header: FunctionComponent<HeaderProps> = ({ name, profiles }) => (
+const Header: FunctionComponent<HeaderProps> = ({
+  name,
+  profiles,
+  description,
+}) => (
   <header id="home" style={{ backgroundPosition: "right" }}>
     <nav id="nav-wrap">
       <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -49,7 +54,7 @@ const Header: FunctionComponent<HeaderProps> = ({ name, profiles }) => (
     <div className="row banner">
       <div className="banner-text">
         <h1 className="responsive-headline">Hi, I'm {name}</h1>
-        {/* NOTE: Used to have a description using `headerIntro` */}
+        <h3>{description}</h3>
         <hr />
         {profiles && <SocialIcons profiles={profiles} />}
       </div>

@@ -240,15 +240,42 @@
       "summary": "Description..."
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Full Stack Development",
+      "level": "advanced",
+      "keywords": [
+        "React",
+        "Next JS",
+        "React Native",
+        "TypeScript & JavaScript",
+        "CSS",
+        "HTML"
+      ]
+    },
+    {
+      "name": "Data Science & Analytics",
+      "level": "intermediate",
+      "keywords": ["R", "SQL", "Segment", "Snowflake"]
+    },
+    {
+      "name": "Team Leadership",
+      "level": "intermediate",
+      "keywords": [
+        "Task Management",
+        "Project Planning",
+        "Inter-team Communication"
+      ]
+    }
+  ],
   "languages": [
     {
       "language": "English",
-      "fluency": 4
+      "fluency": "native"
     },
     {
       "language": "Spanish",
-      "fluency": 3
+      "fluency": "conversational"
     }
   ],
   "interests": [

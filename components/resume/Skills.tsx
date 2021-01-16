@@ -64,8 +64,10 @@ interface EntryProps {
   keywords?: string[];
 }
 
-const Entry: FunctionComponent<EntryProps> = ({ name, level, keywords }) => {
-  const barSize = level === 4 ? "100%" : `${level * 20 + Math.random() * 10}%`;
+const Entry: FunctionComponent<EntryProps> = ({ name, level }) => {
+  const levelNum: any = SkillLevel[level] || FluencyLevel[level];
+  const barSize =
+    levelNum === 4 ? "100%" : `${levelNum * 20 + (Math.random() + 1) * 12}%`;
   return (
     <div className="row ">
       <h3>{name}</h3>

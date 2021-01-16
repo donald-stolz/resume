@@ -2,6 +2,10 @@ import { AppProps } from "next/dist/next-server/lib/router/router";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import * as gtag from "../lib/gtag";
+import { Container } from "next/app";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
+import additionalContent from "../public/data/AdditionalSiteContent.json";
 import "../styles/default.css";
 import "../styles/layout.css";
 
@@ -16,7 +20,12 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
-  return <Component {...pageProps} />;
+  return (
+    <Container>
+      <DefaultSeo {...SEO} description={additionalContent.description} />
+      <Component {...pageProps} />
+    </Container>
+  );
 };
 
 export default MyApp;

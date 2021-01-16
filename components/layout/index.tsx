@@ -7,16 +7,17 @@ interface LayoutProps {
   children: ReactNode;
   name: string;
   profiles?: SocialProfile[];
-  // additionalContent: AdditionalSiteContent;
+  description?: string;
 }
 
 const Layout: FunctionComponent<LayoutProps> = ({
   children,
   name,
   profiles,
+  description,
 }) => (
   <div className="App">
-    <Header name={name} profiles={profiles} />
+    <Header name={name} profiles={profiles} description={description} />
     {children}
     <Footer profiles={profiles} />
   </div>

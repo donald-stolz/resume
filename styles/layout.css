@@ -343,8 +343,27 @@ ul#nav li.current a {
   align-items: center;
   justify-content: space-around;
 }
+.show-more p:hover,
+.show-more i:hover {
+  cursor: pointer;
+}
+
 .show-more p {
-  margin-bottom: 4px;
+  padding: 8px;
+  margin-top: 4px;
+  font: 14px "opensans-regular", sans-serif;
+  color: #838c95 !important;
+  font-weight: 800;
+}
+
+.show-more-closed {
+  font-size: 16px;
+  margin-top: -36px;
+}
+
+.show-more-open {
+  font-size: 16px;
+  margin-bottom: -12px;
 }
 
 .work-pic {
