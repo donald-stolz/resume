@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from "react";
+import Image from "next/image";
 import { Reference } from "../interfaces";
 
 interface ReferencesProps {
@@ -34,13 +35,20 @@ const References: FunctionComponent<ReferencesProps> = ({ references }) => (
             ? "axlry"
             : "tke";
           const { website } = CompanyInfo[company];
-          const workImage = `images/work/${CompanyInfo[company].image}`;
+          const workImage = `/images/work/${CompanyInfo[company].image}`;
 
           return (
             <div className="row item" key={index}>
               <div className="three columns image-cont">
                 <a href={website} target="_blank" rel="noopener noreferrer">
-                  <img alt={company} className="work-pic" src={workImage} />
+                  <div className="work-pic">
+                    <Image
+                      src={workImage}
+                      alt={company}
+                      height={200}
+                      width={200}
+                    />
+                  </div>
                 </a>
               </div>
               <div className="nine columns">

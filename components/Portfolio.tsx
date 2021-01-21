@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from "react";
+import Image from "next/image";
 import { PortfolioItem } from "../interfaces";
 
 interface PortfolioProps {
@@ -28,7 +29,11 @@ const Portfolio: FunctionComponent<PortfolioProps> = ({ portfolioItems }) => {
                     rel="noopener noreferrer"
                   >
                     <div className="item-wrap">
-                      <img alt={title} src={`images/portfolio/${image}`} />
+                      <Image
+                        alt={title}
+                        src={`/images/portfolio/${image}`}
+                        layout="fill"
+                      />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{title}</h5>
