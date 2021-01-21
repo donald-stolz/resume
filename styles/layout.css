@@ -861,7 +861,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #references {
-  /* background: #1F1F1F url(../public/images/references-bg.jpg) no-repeat center center; */
+  /* background: #1F1F1F url(../public/images/) no-repeat center center; */
   /* background-size: cover !important; */
   /* -webkit-background-size: cover !important; */
   /* background-attachment: fixed; */
