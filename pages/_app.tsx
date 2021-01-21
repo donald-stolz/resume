@@ -2,7 +2,6 @@ import { AppProps } from "next/dist/next-server/lib/router/router";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import * as gtag from "../lib/gtag";
-import { Container } from "next/app";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 import additionalContent from "../public/data/AdditionalSiteContent.json";
@@ -21,10 +20,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     };
   }, [router.events]);
   return (
-    <Container>
+    <>
       <DefaultSeo {...SEO} description={additionalContent.description} />
       <Component {...pageProps} />
-    </Container>
+    </>
   );
 };
 
