@@ -78,7 +78,8 @@ const Entry: FunctionComponent<EntryProps> = ({ name, level }) => {
               style={{ width: barSize }}
               className={`bar-expand ${name.toLowerCase}`}
             />
-            <em>{name}</em>
+            {/* <em>{name}</em> */}
+            <em />
           </li>
         </ul>
         {/* TODO: 
