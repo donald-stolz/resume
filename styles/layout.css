@@ -379,23 +379,6 @@ ul#nav li.current a {
   margin-right: auto;
 }
 
-#references .work-pic {
-  margin-bottom: 12px;
-}
-
-#resume .school-pic {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  border-radius: 50%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-  border: 7px solid rgba(255, 255, 255, 1);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #resume .image-cont {
   padding-bottom: 20px;
 }
@@ -870,6 +853,14 @@ call-to-action .button {
   min-height: 200px;
   width: 100%;
   overflow: hidden;
+}
+
+#references .work-pic {
+  margin-bottom: 12px;
+}
+
+#references img {
+  border-radius: 50%;
 }
 
 #references .text-container {

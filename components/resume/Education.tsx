@@ -48,7 +48,7 @@ const Education: FunctionComponent<EducationProps> = ({ experiences }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="school-pic">
+                  <div className="work-pic">
                     <Image
                       alt={education.institution}
                       src={imagePath}
