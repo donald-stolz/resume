@@ -1,5 +1,5 @@
 import React, { FunctionComponent, useState } from "react";
-import moment from "moment";
+import dayjs from "dayjs";
 import BulletPoints from "../common/BulletPoints";
 import { VolunteerExperience } from "../../interfaces";
 import Image from "next/image";
@@ -34,9 +34,9 @@ const Volunteer: FunctionComponent<VolunteerProps> = ({ experiences }) => {
               <hr />
             );
           const imagePath = "/images/volunteer/" + experience.image;
-          const startDate = moment(experience.startDate).format("MMMM YYYY");
+          const startDate = dayjs(experience.startDate).format("MMMM YYYY");
           const endDate = experience.endDate
-            ? moment(experience.endDate).format("MMMM YYYY")
+            ? dayjs(experience.endDate).format("MMMM YYYY")
             : "Present";
 
           return (

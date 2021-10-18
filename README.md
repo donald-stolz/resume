@@ -1,16 +1,12 @@
-# [Next.JS Resume App](https://donstolz.tech/) [![Build Status](https://travis-ci.org/donald-stolz/resume.svg?branch=master)](https://travis-ci.org/donald-stolz/resume)
+# [Next.JS Resume App](https://donstolz.tech/)
 
-My personal resume and portfolio website. Some
+My resume and portfolio website
 
 ## TODO
 
-- [x] Refactor to Next.JS & typescript
-  - [ ] Update CI
 - [ ] Update resume data
-  - [ ] !!!Update Skills section!!!
-- [x] Make json file available through URL
 
-### Next project
+### Next projects
 
 - [ ] Add blog
 
