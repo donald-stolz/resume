@@ -1,5 +1,5 @@
 import React, { FunctionComponent, useState } from "react";
-import moment from "moment";
+import dayjs from "dayjs";
 import BulletPoints from "../common/BulletPoints";
 import { EducationExperience } from "../../interfaces";
 import Image from "next/image";
@@ -38,7 +38,7 @@ const Education: FunctionComponent<EducationProps> = ({ experiences }) => {
             education.area === " "
               ? education.studyType
               : education.studyType + " in " + education.area;
-          const date = moment(education.endDate).format("MMMM YYYY");
+          const date = dayjs(education.endDate).format("MMMM YYYY");
 
           return (
             <div className="row item" key={education.institution}>

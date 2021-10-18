@@ -1,12 +1,12 @@
-import { AppProps } from "next/dist/next-server/lib/router/router";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import * as gtag from "../lib/gtag";
+import * as gtag from "lib/gtag";
 import { DefaultSeo } from "next-seo";
-import SEO from "../next-seo.config";
-import additionalContent from "../public/data/AdditionalSiteContent.json";
-import "../styles/default.css";
-import "../styles/layout.css";
+import SEO from "next-seo.config";
+import additionalContent from "public/data/AdditionalSiteContent.json";
+import "styles/default.css";
+import "styles/layout.css";
+import { AppProps } from "next/dist/shared/lib/router/router";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   const router = useRouter();
