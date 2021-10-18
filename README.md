@@ -1,4 +1,4 @@
-# [Next.JS Resume App](https://donstolz.tech/) [![Build Status](https://travis-ci.org/donald-stolz/resume.svg?branch=master)](https://travis-ci.org/donald-stolz/resume)
+# [Next.JS Resume App](https://donstolz.tech/)
 
 My resume and portfolio website
 
