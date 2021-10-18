@@ -1,10 +1,9 @@
 # [Next.JS Resume App](https://donstolz.tech/) [![Build Status](https://travis-ci.org/donald-stolz/resume.svg?branch=master)](https://travis-ci.org/donald-stolz/resume)
 
-My personal resume and portfolio website. Some
+My resume and portfolio website
 
 ## TODO
 
-- [ ] Update CI
 - [ ] Update resume data
 
 ### Next projects
