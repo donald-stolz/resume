@@ -16,7 +16,7 @@ My resume and portfolio website
 | :--------- | :------- |
 | About Me   | 04/25/18 |
 | Education  | 12/28/19 |
-| Experience | 11/16/20 |
+| Experience | 11/12/21 |
 | Portfolio  | 12/28/19 |
 | References | 11/16/20 |
 | Highlights | 04/26/18 |

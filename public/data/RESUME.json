@@ -6,7 +6,7 @@
     "email": "DonaldTStolz@gmail.com",
     "phone": "",
     "website": "https://donald-stolz.github.io/resume/",
-    "summary": "Enjoys new challenges, actively goes outside comfort zone to pursues experiences of diverse cultures, communities, and ideas. Completes tasks in a highly organized manner, with a strong attention detail. Proven ability to coordinate large group efforts through proficient communication skills.",
+    "summary": "Enjoys new challenges, actively goes outside comfort zone to pursues experiences of diverse cultures, communities, and ideas. Completes tasks in a highly organized manner, with a strong attention detail. Proven ability to coordinate group efforts through proficient communication skills.",
     "profiles": [
       {
         "network": "Facebook",
@@ -36,6 +36,36 @@
     ]
   },
   "work": [
+    {
+      "company": "Asset Dash",
+      "image": "asset-dash-logo.png",
+      "position": "Co-Founder & Technology Lead",
+      "website": "https://assetdash.com/",
+      "startDate": "2021-01-01",
+      "endDate": "",
+      "summary": "The leaderboard for assets. Asset Dash ranks the top stocks, ETFs, and cryptocurrencies by market capitalization. Track over 4,000 of the largest companies and cryptos.",
+      "highlights": [
+        "Migrated backend and database from Heroku to Google Cloud Platform",
+        "Updated and maintained Postgres database Refactored client to Next.js; Improved performance & SEO",
+        "Created new features to drive user growth and increase session duration"
+      ]
+    },
+    {
+      "company": "Elevator Media",
+      "image": "elevator-logo.jpeg",
+      "position": "Full Stack Engineer",
+      "website": "https://elevatormag.com/",
+      "startDate": "2021-02-18",
+      "endDate": "2021-10-03",
+      "summary": "The dopest new hip hop, upcoming artists, music news, culture, and style.",
+      "highlights": [
+        "Maintenance and support for backend, frontend, and internal tools",
+        "Created internal utility library",
+        "Updated and significantly grew usage of socialite open-source tool",
+        "Published packages privately to GitHub and publicly to NPM",
+        "Implemented BitPay crypto payments"
+      ]
+    },
     {
       "company": "Unstoppable Domains",
       "image": "unstoppable-domains-logo.png",
