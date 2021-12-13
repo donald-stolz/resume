@@ -1,14 +1,12 @@
-# [Next.JS Resume App](https://donstolz.tech/)
+# [Next.JS Resume App](https://stolz.dev/)
 
 My resume and portfolio website
-
-## TODO
-
-- [ ] Update resume data
 
 ### Next projects
 
 - [ ] Add blog
+- [ ] Add theme picker
+- [ ] Update resume data
 
 ## Content Update Log
 
