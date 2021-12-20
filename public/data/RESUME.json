@@ -42,7 +42,7 @@
       "position": "Co-Founder & Technology Lead",
       "website": "https://assetdash.com/",
       "startDate": "2021-01-01",
-      "endDate": "",
+      "endDate": "2021-12-10",
       "summary": "The leaderboard for assets. Asset Dash ranks the top stocks, ETFs, and cryptocurrencies by market capitalization. Track over 4,000 of the largest companies and cryptos.",
       "highlights": [
         "Migrated backend and database from Heroku to Google Cloud Platform",
