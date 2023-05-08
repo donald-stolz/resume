@@ -53,14 +53,14 @@ const About: FunctionComponent<AboutProps> = ({ basics, downloadUrl }) => (
               )}
             </p>
           </div>
-          <div className="columns download">
+          {/* <div className="columns download">
             <p>
               <a href={downloadUrl} className="button">
                 <i className="fa fa-download" />
                 Download Resume
               </a>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
