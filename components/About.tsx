@@ -7,7 +7,7 @@ interface AboutProps {
   downloadUrl: string;
 }
 
-const About: FunctionComponent<AboutProps> = ({ basics, downloadUrl }) => (
+const About: FunctionComponent<AboutProps> = ({ basics }) => (
   <section id="about">
     <div className="row">
       <div className="three columns">
