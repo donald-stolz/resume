@@ -3,10 +3,10 @@
     "name": "Donald Stolz",
     "label": "Software Engineer",
     "picture": "profile-pic.jpg",
-    "email": "DonaldTStolz@gmail.com",
+    "email": "Don@Stolz.dev",
     "phone": "",
     "website": "https://donald-stolz.github.io/resume/",
-    "summary": "Enjoys new challenges, actively goes outside comfort zone to pursues experiences of diverse cultures, communities, and ideas. Completes tasks in a highly organized manner, with a strong attention detail. Proven ability to coordinate group efforts through proficient communication skills.",
+    "summary": "Enjoys new challenges, actively goes outside comfort zone to pursues experiences of diverse cultures, communities, and ideas. Completes tasks in a highly organized manner, with a strong attention to detail. Proven ability to coordinate group efforts through proficient communication skills.",
     "profiles": [
       {
         "network": "Facebook",
@@ -36,6 +36,29 @@
     ]
   },
   "work": [
+    {
+      "company": "Trend",
+      "image": "trend-logo.jpeg",
+      "position": "Head of Engineering",
+      "website": "https://trend.io/",
+      "startDate": "2021-12-29",
+      "endDate": "2023-04-10",
+      "summary": "We help companies win at marketing. We connect brands with creators who provide original & specifically targeted content.",
+      "highlights": [
+        "Lead technical developer, reporting directly to CEO & CPO",
+        "Planned sprints and brokedown tickets into actionable subtasks with CPO using Asana",
+        "Presented in product demos to keep team members informed on what's being built and to hear feedback",
+        "Managed relationships with outside partners and contractors",
+        "Decided on long-term technical direction and goals. Including new AWS services, cloud function migrations, new frontend frameworks, and other major technical decisions",
+        "Maintained live site while migrating to new backend and frontend. Split traffic between old and new site",
+        "Created technical and non-technical documentation. Used tools such as Notion, Swagger, and OpenAPI",
+        "AWS - Content service, AppRunner, Lambda",
+        "Google Cloud - firestore, firebase, realtime, functions",
+        "Backend Migration - NestJs, Lambdas, AppRunner, Firestore, MongoDB",
+        "Frontend Migration - NextJs, React, Typescript, SASS, Storybook, Custom Design System",
+        "3rd Party Libraries - Stripe, SendGrid, PayPal"
+      ]
+    },
     {
       "company": "Asset Dash",
       "image": "asset-dash-logo.png",
