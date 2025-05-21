@@ -1300,3 +1300,32 @@ footer .social-links li:first-child {
 .point {
   margin: 0 0 10px 0;
 }
+
+/* Theme Picker */
+.theme-picker {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.theme-picker select {
+  padding: 8px 12px;
+  border: 2px solid var(--primary-palette-color);
+  border-radius: 4px;
+  background-color: var(--secondary-palette-color);
+  color: var(--primary-palette-color);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.theme-picker select:hover {
+  border-color: var(--accent-palette-color);
+}
+
+.theme-picker select:focus {
+  outline: none;
+  border-color: var(--accent-palette-color);
+  box-shadow: 0 0 0 2px rgba(242, 133, 94, 0.2);
+}

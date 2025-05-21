@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import { SocialProfile } from "../../interfaces";
 import SocialIcons from "../common/SocialIcons";
+import ThemePicker from "../common/ThemePicker";
 
 interface HeaderProps {
   name: string;
@@ -14,6 +15,7 @@ const Header: FunctionComponent<HeaderProps> = ({
   description,
 }) => (
   <header id="home" style={{ backgroundPosition: "right" }}>
+    <ThemePicker />
     <nav id="nav-wrap">
       <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
         Show navigation
