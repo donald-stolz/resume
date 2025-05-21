@@ -1,6 +1,7 @@
 {
-  "name": "with-typescript",
+  "name": "resume",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -19,7 +20,7 @@
     "@types/node": "^18.6.0",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
-    "typescript": "^4.4.4"
+    "typescript": "^5.0.0"
   },
   "engines": {
     "node": ">=18.2.0"
