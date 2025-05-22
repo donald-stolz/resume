@@ -1,46 +1,11 @@
-import { FunctionComponent, ChangeEvent } from "react";
-
-interface Theme {
-  name: string;
-  colors: {
-    primary: string;
-    secondary: string;
-    tertiary: string;
-    accent: string;
-  };
-}
-
-const themes: Theme[] = [
-  {
-    name: "Default",
-    colors: {
-      primary: "#194769",
-      secondary: "#f6f6e9",
-      tertiary: "#d7eef2",
-      accent: "#f2855e",
-    },
-  },
-  {
-    name: "Dark",
-    colors: {
-      primary: "#2c3e50",
-      secondary: "#34495e",
-      tertiary: "#7f8c8d",
-      accent: "#e74c3c",
-    },
-  },
-  {
-    name: "Light",
-    colors: {
-      primary: "#3498db",
-      secondary: "#ecf0f1",
-      tertiary: "#bdc3c7",
-      accent: "#e67e22",
-    },
-  },
-];
+import { FunctionComponent, useState, useRef, useEffect } from "react";
+import { Theme, themes } from "./themes";
 
 const ThemePicker: FunctionComponent = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentTheme, setCurrentTheme] = useState<Theme>(themes[0]);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
   const applyTheme = (theme: Theme) => {
     document.documentElement.style.setProperty(
       "--primary-palette-color",
@@ -58,22 +23,99 @@ const ThemePicker: FunctionComponent = () => {
       "--accent-palette-color",
       theme.colors.accent
     );
+    setCurrentTheme(theme);
   };
 
-  const handleThemeChange = (e: ChangeEvent<HTMLSelectElement>) => {
-    const theme = themes.find((t) => t.name === e.target.value);
-    if (theme) applyTheme(theme);
+  const handleColorChange = (
+    colorType: keyof Theme["colors"],
+    value: string
+  ) => {
+    const newTheme = {
+      ...currentTheme,
+      colors: {
+        ...currentTheme.colors,
+        [colorType]: value,
+      },
+    };
+    applyTheme(newTheme);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
-    <div className="theme-picker">
-      <select onChange={handleThemeChange} defaultValue="Default">
-        {themes.map((theme) => (
-          <option key={theme.name} value={theme.name}>
-            {theme.name}
-          </option>
-        ))}
-      </select>
+    <div className="theme-picker" ref={dropdownRef}>
+      <button
+        className="theme-picker-button"
+        onClick={() => setIsOpen(!isOpen)}
+        aria-label="Theme picker"
+      >
+        <i className="fa fa-palette" />
+      </button>
+      {isOpen && (
+        <div className="theme-picker-dropdown">
+          <div className="theme-picker-section">
+            <label>Primary</label>
+            <input
+              type="color"
+              value={currentTheme.colors.primary}
+              onChange={(e) => handleColorChange("primary", e.target.value)}
+            />
+          </div>
+          <div className="theme-picker-section">
+            <label>Secondary</label>
+            <input
+              type="color"
+              value={currentTheme.colors.secondary}
+              onChange={(e) => handleColorChange("secondary", e.target.value)}
+            />
+          </div>
+          <div className="theme-picker-section">
+            <label>Tertiary</label>
+            <input
+              type="color"
+              value={currentTheme.colors.tertiary}
+              onChange={(e) => handleColorChange("tertiary", e.target.value)}
+            />
+          </div>
+          <div className="theme-picker-section">
+            <label>Accent</label>
+            <input
+              type="color"
+              value={currentTheme.colors.accent}
+              onChange={(e) => handleColorChange("accent", e.target.value)}
+            />
+          </div>
+          <div className="theme-picker-presets">
+            {themes.map((theme) => (
+              <button
+                key={theme.name}
+                className="theme-preset-button"
+                onClick={() => applyTheme(theme)}
+                title={theme.name}
+              >
+                <div className="theme-preset-colors">
+                  <div style={{ backgroundColor: theme.colors.primary }} />
+                  <div style={{ backgroundColor: theme.colors.secondary }} />
+                  <div style={{ backgroundColor: theme.colors.tertiary }} />
+                  <div style={{ backgroundColor: theme.colors.accent }} />
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
