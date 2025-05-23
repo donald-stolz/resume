@@ -10,10 +10,10 @@ import {
   Sparkles,
 } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import type { ResumeSchema } from "@/lib/resume-types";
+import type { Basics } from "@/lib/resume-types";
 
 interface ResumeHeaderProps {
-  basics: ResumeSchema["basics"];
+  basics: Basics;
 }
 
 export function ResumeHeader({ basics }: ResumeHeaderProps) {

@@ -1,9 +1,9 @@
-import type { ResumeSchema } from "./resume-types";
+import { SkillLevel, type ResumeSchema } from "./resume-types";
 
 export const resumeData: ResumeSchema = {
   basics: {
     name: "Donald Stolz",
-    label: "Software Engineer",
+    label: "Senior Software Engineer",
     image: "/images/profile-pic.jpg",
     email: "Don@Stolz.dev",
     phone: "",
@@ -269,7 +269,7 @@ export const resumeData: ResumeSchema = {
   skills: [
     {
       name: "Front-end Development",
-      level: "Advanced",
+      level: SkillLevel.Advanced,
       keywords: [
         "HTML",
         "CSS",
@@ -283,17 +283,17 @@ export const resumeData: ResumeSchema = {
     },
     {
       name: "Back-end Development",
-      level: "Expert",
+      level: SkillLevel.Expert,
       keywords: ["Node.js", "Express", "NestJS", "Python", "Ruby on Rails"],
     },
     {
       name: "Database",
-      level: "Intermediate",
+      level: SkillLevel.Intermediate,
       keywords: ["MongoDB", "PostgreSQL", "Firestore", "Redis", "Snowflake"],
     },
     {
       name: "DevOps",
-      level: "Advanced",
+      level: SkillLevel.Advanced,
       keywords: [
         "Docker",
         "Kubernetes",
@@ -305,7 +305,7 @@ export const resumeData: ResumeSchema = {
     },
     {
       name: "AI Tools",
-      level: "Proficient",
+      level: SkillLevel.Proficient,
       keywords: ["Cursor", "Gemini AI", "V0", "Copilot"],
     },
   ],

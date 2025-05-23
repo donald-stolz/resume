@@ -2,10 +2,10 @@
 
 import { GraduationCap, Calendar } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import type { ResumeSchema } from "@/lib/resume-types";
+import type { Education as EducationType } from "@/lib/resume-types";
 
 interface EducationProps {
-  education?: ResumeSchema["education"];
+  education?: EducationType[];
 }
 
 export function Education({ education }: EducationProps) {

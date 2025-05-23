@@ -3,10 +3,11 @@
 import { Code } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import type { ResumeSchema } from "@/lib/resume-types";
+import type { Skill } from "@/lib/resume-types";
+import { SkillLevel } from "@/lib/resume-types";
 
 interface SkillsProps {
-  skills?: ResumeSchema["skills"];
+  skills?: Skill[];
 }
 
 export function Skills({ skills }: SkillsProps) {
@@ -28,15 +29,17 @@ export function Skills({ skills }: SkillsProps) {
     return colors[hash % colors.length];
   };
 
-  const getLevelValue = (level?: string) => {
-    switch (level?.toLowerCase()) {
-      case "expert":
-        return 100;
-      case "advanced":
+  const getLevelValue = (level?: SkillLevel) => {
+    switch (level) {
+      case SkillLevel.Expert:
+        return 95;
+      case SkillLevel.Advanced:
         return 80;
-      case "intermediate":
+      case SkillLevel.Intermediate:
+        return 70;
+      case SkillLevel.Proficient:
         return 60;
-      case "proficient":
+      case SkillLevel.Beginner:
         return 40;
       default:
         return 50;

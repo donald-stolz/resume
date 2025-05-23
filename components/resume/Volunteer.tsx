@@ -4,10 +4,10 @@ import { useState } from "react";
 import { Heart, ChevronDown, ChevronUp } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import type { ResumeSchema } from "@/lib/resume-types";
+import type { Volunteer as VolunteerType } from "@/lib/resume-types";
 
 interface VolunteerProps {
-  volunteer?: ResumeSchema["volunteer"];
+  volunteer?: VolunteerType[];
 }
 
 export function Volunteer({ volunteer }: VolunteerProps) {

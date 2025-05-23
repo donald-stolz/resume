@@ -10,10 +10,10 @@ import {
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import type { ResumeSchema } from "@/lib/resume-types";
+import type { Work } from "@/lib/resume-types";
 
 interface WorkExperienceProps {
-  work?: ResumeSchema["work"];
+  work?: Work[];
 }
 
 export function WorkExperience({ work }: WorkExperienceProps) {
