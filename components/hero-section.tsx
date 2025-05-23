@@ -6,7 +6,8 @@ import { ChevronDown } from "lucide-react";
 import type { ResumeSchema } from "@/lib/resume-types";
 
 export function HeroSection({ resume }: { resume: ResumeSchema }) {
-  const [scrolled, setScrolled] = useState(false);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [_scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -65,6 +66,7 @@ export function HeroSection({ resume }: { resume: ResumeSchema }) {
         >
           <div className="mb-6 inline-block p-1.5 rounded-full bg-white/80 backdrop-blur-sm shadow-md">
             <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-4 border-white shadow-inner">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={
                   resume.basics.image || "/placeholder.svg?height=160&width=160"

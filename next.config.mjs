@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async redirects() {
-    // return [
-    //   {
-    //     source: "/resume",
-    //     destination: "/",
-    //     permanent: true,
-    //   },
-    // ];
+    return [
+      //   {
+      //     source: "/resume",
+      //     destination: "/",
+      //     permanent: true,
+      //   },
+    ];
   },
   async headers() {
     return [

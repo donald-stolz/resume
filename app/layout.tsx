@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { resumeSchema } from "@/lib/resume-schema";
@@ -14,6 +14,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   title: "Donald Stolz - Senior Software Engineer",
@@ -60,7 +65,6 @@ export const metadata: Metadata = {
     creator: "@donstolz",
     images: ["/images/social/donald-stolz-social-preview.jpg"],
   },
-  viewport: "width=device-width, initial-scale=1",
   verification: {
     google: "your-google-site-verification", // Add your Google verification code
   },
