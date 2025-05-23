@@ -1,20 +1,30 @@
 "use client";
 
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Linkedin,
-  Github,
-  Globe,
-  Sparkles,
-} from "lucide-react";
+import { Mail, Phone, MapPin, Sparkles } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import type { Basics } from "@/lib/resume-types";
+import { SocialIcon } from "react-social-icons";
 
 interface ResumeHeaderProps {
   basics: Basics;
 }
+
+const getNetworkForProfile = (network: string): string => {
+  switch (network) {
+    case "Facebook":
+      return "facebook";
+    case "Twitter":
+      return "x";
+    case "LinkedIn":
+      return "linkedin";
+    case "Instagram":
+      return "instagram";
+    case "Github":
+      return "github";
+    default:
+      return "globe";
+  }
+};
 
 export function ResumeHeader({ basics }: ResumeHeaderProps) {
   return (
@@ -62,26 +72,20 @@ export function ResumeHeader({ basics }: ResumeHeaderProps) {
             )}
           </div>
           <div className="mt-3 flex gap-2 justify-center md:justify-start">
-            {basics.profiles?.map((profile, index) => (
-              <a
-                key={index}
-                href={profile.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-700 hover:text-gray-900 bg-white p-2 rounded-full shadow-sm hover:shadow transition-all"
-              >
-                {profile.network === "LinkedIn" && (
-                  <Linkedin className="h-5 w-5 text-blue-600" />
-                )}
-                {profile.network === "GitHub" && (
-                  <Github className="h-5 w-5 text-gray-800" />
-                )}
-                {!["LinkedIn", "GitHub"].includes(profile.network) && (
-                  <Globe className="h-5 w-5 text-purple-600" />
-                )}
-                <span className="sr-only">{profile.network}</span>
-              </a>
-            ))}
+            {basics.profiles?.map((profile, index) => {
+              const network = getNetworkForProfile(profile.network);
+              return (
+                <SocialIcon
+                  key={index}
+                  network={network}
+                  url={profile.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:scale-110 transition-transform"
+                  style={{ width: 40, height: 40 }}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
