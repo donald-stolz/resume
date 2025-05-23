@@ -1,90 +1,62 @@
-import React, { FunctionComponent, useState } from "react";
-import dayjs from "dayjs";
-import BulletPoints from "../common/BulletPoints";
-import { EducationExperience } from "../../interfaces";
-import Image from "next/image";
-import ShowMore from "./ShowMore";
+"use client";
+
+import { GraduationCap, Calendar } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import type { Education as EducationType } from "@/lib/resume-types";
 
 interface EducationProps {
-  experiences: EducationExperience[];
+  education?: EducationType[];
 }
 
-const Education: FunctionComponent<EducationProps> = ({ experiences }) => {
-  const [showAll, setShowAll] = useState<boolean>(false);
-  const onShowMore = () => setShowAll((s) => !s);
+export function Education({ education }: EducationProps) {
+  if (!education || education.length === 0) return null;
 
   return (
-    <div className="row education">
-      <div className="three columns header-col">
-        <h1>
-          <span>Education</span>
-        </h1>
+    <section>
+      <div className="flex items-center mb-4">
+        <div className="bg-pink-100 p-2 rounded-lg mr-3">
+          <GraduationCap className="h-5 w-5 text-pink-600" />
+        </div>
+        <h2 className="text-xl font-bold gradient-text">Education</h2>
       </div>
-      <div className="twelve columns main-col">
-        {experiences.map((education, index, array) => {
-          if (!showAll && index > 2) return;
-          const nextIndex = index + 1;
-          const divider =
-            nextIndex === array.length ? (
-              <br />
-            ) : nextIndex === 3 && !showAll ? (
-              <br />
-            ) : (
-              <hr />
-            );
-          const imagePath = "/images/education/" + education.image;
-          // clean up this var assign
-          const info =
-            education.area === " "
-              ? education.studyType
-              : education.studyType + " in " + education.area;
-          const date = dayjs(education.endDate).format("MMMM YYYY");
-
-          return (
-            <div className="row item" key={education.institution}>
-              <div className="three columns image-cont">
-                <a
-                  href={education.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="work-pic">
-                    <Image
-                      alt={education.institution}
-                      src={imagePath}
-                      height={200}
-                      width={200}
-                    />
+      <div className="space-y-4">
+        {education.map((edu, index) => (
+          <Card key={index} className="overflow-hidden card-hover border-none">
+            <div className="h-2 bg-gradient-to-r from-pink-500 to-purple-500"></div>
+            <CardContent className="p-5">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
+                <div>
+                  <h3 className="font-semibold text-lg">{edu.institution}</h3>
+                  <div className="text-gray-700">
+                    {edu.studyType} in {edu.area}
                   </div>
-                </a>
-              </div>
-              <div className="nine columns">
-                <div key={education.institution}>
-                  <h3>{education.institution}</h3>
-                  <p className="info">
-                    {info}
-                    {education.endDate ? (
-                      <span>
-                        <span>&bull;</span>
-                        <em className="date">{date}</em>
-                      </span>
-                    ) : null}
-                  </p>
-                  {education.highlights && (
-                    <BulletPoints points={education.highlights} />
-                  )}
+                </div>
+                <div className="text-sm text-gray-600 whitespace-nowrap flex items-center">
+                  <Calendar className="h-4 w-4 mr-1 text-gray-400" />
+                  {edu.startDate} — {edu.endDate || "Present"}
                 </div>
               </div>
-              {divider}
-            </div>
-          );
-        })}
-        {experiences.length > 3 && (
-          <ShowMore onClick={onShowMore} open={showAll} />
-        )}
+              {edu.courses && edu.courses.length > 0 && (
+                <div className="mt-3">
+                  <h4 className="text-sm font-semibold text-gray-700 mb-2">
+                    Key Courses:
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {edu.courses.map((course, i) => (
+                      <span
+                        key={i}
+                        className="text-sm bg-gray-100 text-gray-700 px-3 py-1 rounded-full"
+                      >
+                        {course}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        ))}
       </div>
-    </div>
+    </section>
   );
-};
-
-export default Education;
+}

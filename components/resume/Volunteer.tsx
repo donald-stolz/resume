@@ -1,88 +1,90 @@
-import React, { FunctionComponent, useState } from "react";
-import dayjs from "dayjs";
-import BulletPoints from "../common/BulletPoints";
-import { VolunteerExperience } from "../../interfaces";
-import Image from "next/image";
-import ShowMore from "./ShowMore";
+"use client";
+
+import { useState } from "react";
+import { Heart, ChevronDown, ChevronUp } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import type { Volunteer as VolunteerType } from "@/lib/resume-types";
 
 interface VolunteerProps {
-  experiences: VolunteerExperience[];
+  volunteer?: VolunteerType[];
 }
 
-const Volunteer: FunctionComponent<VolunteerProps> = ({ experiences }) => {
-  const [showAll, setShowAll] = useState<boolean>(false);
-  const onShowMore = () => setShowAll((s) => !s);
+export function Volunteer({ volunteer }: VolunteerProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  if (!volunteer || volunteer.length === 0) return null;
+
+  const handleToggle = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  const displayedVolunteer = isExpanded ? volunteer : volunteer.slice(0, 3);
+  const hasMore = volunteer.length > 3;
 
   return (
-    <div className="row Volunteer ">
-      <div className="three columns header-col">
-        <h1>
-          <span>Volunteer</span>
-        </h1>
+    <section>
+      <div className="flex items-center mb-4">
+        <div className="bg-red-100 p-2 rounded-lg mr-3">
+          <Heart className="h-5 w-5 text-red-600" />
+        </div>
+        <h2 className="text-xl font-bold gradient-text">
+          Volunteer Experience
+        </h2>
       </div>
-
-      <div className="twelve columns main-col">
-        {experiences.map((experience, index, array) => {
-          if (!showAll && index > 2) return;
-          const nextIndex = index + 1;
-          const divider =
-            nextIndex === array.length ? (
-              <br />
-            ) : nextIndex === 3 && !showAll ? (
-              <br />
-            ) : (
-              <hr />
-            );
-          const imagePath = "/images/volunteer/" + experience.image;
-          const startDate = dayjs(experience.startDate).format("MMMM YYYY");
-          const endDate = experience.endDate
-            ? dayjs(experience.endDate).format("MMMM YYYY")
-            : "Present";
-
-          return (
-            <div className="row item" key={experience.organization}>
-              <div className="three columns image-cont">
-                <a
-                  href={experience.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="work-pic">
-                    <Image
-                      alt={experience.organization}
-                      src={imagePath}
-                      height={200}
-                      width={200}
-                    />
-                  </div>
-                </a>
-              </div>
-              <div className="nine columns">
-                <div key={experience.organization}>
-                  <h3>{experience.organization}</h3>
-                  <p className="info">
-                    {experience.position}
-                    <span>&bull;</span>
-                    <em className="date">
-                      {startDate} - {endDate}
-                    </em>
-                  </p>
-                  <p className="details">{experience.summary}</p>
-                  {experience.highlights && (
-                    <BulletPoints points={experience.highlights} />
-                  )}
+      <div className="space-y-4">
+        {displayedVolunteer.map((vol, index) => (
+          <Card key={index} className="overflow-hidden card-hover border-none">
+            <div className="h-2 bg-gradient-to-r from-red-500 to-pink-500"></div>
+            <CardContent className="p-5">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
+                <div>
+                  <h3 className="font-semibold text-lg">{vol.organization}</h3>
+                  <div className="text-gray-700">{vol.position}</div>
+                </div>
+                <div className="text-sm text-gray-600">
+                  {vol.startDate} — {vol.endDate || "Present"}
                 </div>
               </div>
-              {divider}
-            </div>
-          );
-        })}
-        {experiences.length > 3 && (
-          <ShowMore onClick={onShowMore} open={showAll} />
-        )}
+              {vol.summary && (
+                <p className="mt-3 text-gray-600">{vol.summary}</p>
+              )}
+              {vol.highlights && vol.highlights.length > 0 && (
+                <ul className="mt-3 space-y-2">
+                  {vol.highlights.map((highlight, i) => (
+                    <li key={i} className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span className="text-gray-600">{highlight}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </CardContent>
+          </Card>
+        ))}
       </div>
-    </div>
+      {hasMore && (
+        <div className="mt-6 flex justify-center">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={handleToggle}
+            className="gap-2"
+          >
+            {isExpanded ? (
+              <>
+                <ChevronUp className="h-4 w-4" />
+                Show Less
+              </>
+            ) : (
+              <>
+                <ChevronDown className="h-4 w-4" />
+                Show More
+              </>
+            )}
+          </Button>
+        </div>
+      )}
+    </section>
   );
-};
-
-export default Volunteer;
+}

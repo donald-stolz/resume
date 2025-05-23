@@ -1,3 +1,6 @@
+# Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://donstolz.tech/sitemap.xml
+
+# Sitemap location
+Sitemap: https://stolz.dev/sitemap.xml
