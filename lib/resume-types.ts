@@ -109,6 +109,13 @@ export interface Project {
   url?: string;
 }
 
+export interface Certificate {
+  name: string;
+  issuer: string;
+  date: string;
+  url?: string;
+}
+
 export interface ResumeSchema {
   basics: Basics;
   work?: Work[];
@@ -121,4 +128,5 @@ export interface ResumeSchema {
   interests?: Interest[];
   references?: Reference[];
   projects?: Project[];
+  certificates?: Certificate[];
 }

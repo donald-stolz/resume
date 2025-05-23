@@ -357,4 +357,12 @@ export const resumeData: ResumeSchema = {
       highlights: ["Java", "Object-Oriented Programming", "Education"],
     },
   ],
+  certificates: [
+    {
+      name: "AWS Solutions Architect Certification",
+      issuer: "Amazon Web Services",
+      date: "2024-01",
+      url: "",
+    },
+  ],
 };

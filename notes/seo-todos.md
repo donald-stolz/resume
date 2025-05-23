@@ -1,0 +1,33 @@
+# SEO Follow-up Items
+
+## High Priority
+
+- [ ] Add Google Search Console verification (via DNS records)
+- [x] Create and add a sitemap.xml file
+- [x] Add robots.txt file
+- [x] Implement structured data (JSON-LD) for resume
+- [ ] Add meta description for individual project pages
+
+## Medium Priority
+
+- [ ] Optimize image alt texts and add descriptive filenames
+- [ ] Implement canonical URLs for all pages
+- [ ] Add social media preview images
+- [ ] Set up Google Analytics
+- [ ] Add breadcrumb navigation
+
+## Low Priority
+
+- [ ] Implement dynamic meta tags for project pages
+- [ ] Add language alternates if planning multilingual support
+- [ ] Set up XML feed for blog (if planned)
+- [ ] Implement AMP pages (if needed)
+- [ ] Add schema markup for skills and experience
+
+## Technical Improvements
+
+- [ ] Implement page load optimization
+- [ ] Add compression for static assets
+- [ ] Set up proper caching headers
+- [ ] Implement lazy loading for images
+- [ ] Add error pages with proper meta tags
