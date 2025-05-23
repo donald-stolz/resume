@@ -3,6 +3,7 @@
 ## High Priority
 
 - [ ] Add Google Search Console verification (via DNS records)
+- [ ] Add NEXT_PUBLIC_GOOGLE_ANALYTICS_ID to vercel environment variables
 - [x] Create and add a sitemap.xml file
 - [x] Add robots.txt file
 - [x] Implement structured data (JSON-LD) for resume
@@ -12,7 +13,7 @@
 - [x] Optimize image alt texts and add descriptive filenames
 - [x] Implement canonical URLs for all pages
 - [x] Add social media preview images
-- [ ] Set up Google Analytics
+- [x] Set up Google Analytics
 
 ## Low Priority
 
