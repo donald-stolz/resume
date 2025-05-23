@@ -15,7 +15,6 @@ export function ResumeActions() {
 
   return (
     <div className="flex justify-between items-center print:hidden mb-6">
-      <h1 className="text-2xl font-bold gradient-text">My Resume</h1>
       <div className="flex gap-2">
         <Button
           variant="outline"

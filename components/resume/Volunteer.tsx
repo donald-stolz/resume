@@ -1,7 +1,9 @@
 "use client";
 
-import { Heart } from "lucide-react";
+import { useState } from "react";
+import { Heart, ChevronDown, ChevronUp } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import type { ResumeSchema } from "@/lib/resume-types";
 
 interface VolunteerProps {
@@ -9,7 +11,16 @@ interface VolunteerProps {
 }
 
 export function Volunteer({ volunteer }: VolunteerProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   if (!volunteer || volunteer.length === 0) return null;
+
+  const handleToggle = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  const displayedVolunteer = isExpanded ? volunteer : volunteer.slice(0, 3);
+  const hasMore = volunteer.length > 3;
 
   return (
     <section>
@@ -22,7 +33,7 @@ export function Volunteer({ volunteer }: VolunteerProps) {
         </h2>
       </div>
       <div className="space-y-4">
-        {volunteer.map((vol, index) => (
+        {displayedVolunteer.map((vol, index) => (
           <Card key={index} className="overflow-hidden card-hover border-none">
             <div className="h-2 bg-gradient-to-r from-red-500 to-pink-500"></div>
             <CardContent className="p-5">
@@ -52,6 +63,28 @@ export function Volunteer({ volunteer }: VolunteerProps) {
           </Card>
         ))}
       </div>
+      {hasMore && (
+        <div className="mt-6 flex justify-center">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={handleToggle}
+            className="gap-2"
+          >
+            {isExpanded ? (
+              <>
+                <ChevronUp className="h-4 w-4" />
+                Show Less
+              </>
+            ) : (
+              <>
+                <ChevronDown className="h-4 w-4" />
+                Show More
+              </>
+            )}
+          </Button>
+        </div>
+      )}
     </section>
   );
 }

@@ -1,27 +1,27 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import { motion } from "framer-motion"
-import { ChevronDown } from "lucide-react"
-import type { ResumeSchema } from "@/lib/resume-types"
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { ChevronDown } from "lucide-react";
+import type { ResumeSchema } from "@/lib/resume-types";
 
 export function HeroSection({ resume }: { resume: ResumeSchema }) {
-  const [scrolled, setScrolled] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50)
-    }
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const scrollToContent = () => {
-    const contentElement = document.getElementById("resume-content")
+    const contentElement = document.getElementById("resume-content");
     if (contentElement) {
-      contentElement.scrollIntoView({ behavior: "smooth" })
+      contentElement.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
 
   return (
     <div className="relative min-h-[90vh] flex items-center justify-center overflow-hidden print:hidden">
@@ -66,7 +66,9 @@ export function HeroSection({ resume }: { resume: ResumeSchema }) {
           <div className="mb-6 inline-block p-1.5 rounded-full bg-white/80 backdrop-blur-sm shadow-md">
             <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-4 border-white shadow-inner">
               <img
-                src={resume.basics.image || "/placeholder.svg?height=160&width=160"}
+                src={
+                  resume.basics.image || "/placeholder.svg?height=160&width=160"
+                }
                 alt={resume.basics.name}
                 className="w-full h-full object-cover"
               />
@@ -77,14 +79,16 @@ export function HeroSection({ resume }: { resume: ResumeSchema }) {
             <span className="gradient-text">{resume.basics.name}</span>
           </h1>
 
-          <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-700 mb-6">{resume.basics.label}</h2>
+          <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-700 mb-6">
+            {resume.basics.label}
+          </h2>
 
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             {resume.basics.summary?.split(" ").slice(0, 20).join(" ")}...
           </p>
 
           <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {resume.skills?.slice(0, 4).map((skill, index) => (
+            {resume.skills?.map((skill, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -112,5 +116,5 @@ export function HeroSection({ resume }: { resume: ResumeSchema }) {
         </motion.div>
       </div>
     </div>
-  )
+  );
 }

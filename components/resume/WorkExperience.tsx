@@ -1,7 +1,15 @@
 "use client";
 
-import { Briefcase, Building, Calendar } from "lucide-react";
+import { useState } from "react";
+import {
+  Briefcase,
+  Building,
+  Calendar,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import type { ResumeSchema } from "@/lib/resume-types";
 
 interface WorkExperienceProps {
@@ -9,7 +17,16 @@ interface WorkExperienceProps {
 }
 
 export function WorkExperience({ work }: WorkExperienceProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   if (!work || work.length === 0) return null;
+
+  const handleToggle = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  const displayedWork = isExpanded ? work : work.slice(0, 3);
+  const hasMore = work.length > 3;
 
   return (
     <section>
@@ -20,7 +37,7 @@ export function WorkExperience({ work }: WorkExperienceProps) {
         <h2 className="text-xl font-bold gradient-text">Work Experience</h2>
       </div>
       <div className="space-y-6">
-        {work.map((job, index) => (
+        {displayedWork.map((job, index) => (
           <Card key={index} className="overflow-hidden card-hover border-none">
             <div className="h-2 bg-gradient-to-r from-purple-500 to-pink-500"></div>
             <CardContent className="p-5">
@@ -61,6 +78,28 @@ export function WorkExperience({ work }: WorkExperienceProps) {
           </Card>
         ))}
       </div>
+      {hasMore && (
+        <div className="mt-6 flex justify-center">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={handleToggle}
+            className="gap-2"
+          >
+            {isExpanded ? (
+              <>
+                <ChevronUp className="h-4 w-4" />
+                Show Less
+              </>
+            ) : (
+              <>
+                <ChevronDown className="h-4 w-4" />
+                Show More
+              </>
+            )}
+          </Button>
+        </div>
+      )}
     </section>
   );
 }

@@ -9,13 +9,11 @@ export const resumeData: ResumeSchema = {
     phone: "",
     url: "https://donald-stolz.github.io/resume/",
     summary:
-      "Senior Software Engineer with 6+ years of experience. Successfully managed the acquisition of the Trend UGC application and streamlined onboarding for new engineers. Proven expertise in cloud technologies and full stack application development. Utilizes problem-solving skills to drive team success and accelerate project delivery.",
+      "Senior Software Engineer with 6+ years of experience. Proven expertise in cloud technologies and full stack application development. Utilizes problem-solving skills to drive team success and accelerate project delivery.",
     location: {
-      address: "123 Main St",
-      postalCode: "10001",
-      city: "New York",
+      city: "Austin",
       countryCode: "US",
-      region: "NY",
+      region: "TX",
     },
     profiles: [
       {
@@ -47,11 +45,21 @@ export const resumeData: ResumeSchema = {
   },
   work: [
     {
+      name: "soona",
+      position: "Senior Software Engineer",
+      url: "https://soona.co",
+      startDate: "2023-06",
+      endDate: "2025-01",
+      summary:
+        "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      highlights: [],
+    },
+    {
       name: "Trend",
       position: "Head of Engineering",
       url: "https://trend.io/",
       startDate: "2021-12",
-      endDate: "2023-04",
+      endDate: "2023-05",
       summary:
         "We help companies win at marketing. We connect brands with creators who provide original & specifically targeted content.",
       highlights: [
