@@ -104,13 +104,9 @@ export interface Project {
   name: string;
   description: string;
   highlights?: string[];
-  keywords?: string[];
   startDate?: string;
   endDate?: string;
   url?: string;
-  roles?: string[];
-  entity?: string;
-  type?: string;
 }
 
 export interface ResumeSchema {

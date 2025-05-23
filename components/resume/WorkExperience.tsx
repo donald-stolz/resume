@@ -66,7 +66,7 @@ export function WorkExperience({ work }: WorkExperienceProps) {
                 <ul className="mt-3 space-y-2 text-gray-700">
                   {job.highlights.map((highlight, i) => (
                     <li key={i} className="flex items-start">
-                      <span className="inline-block h-5 w-5 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-xs mr-2 mt-0.5">
+                      <span className="flex-shrink-0 h-5 w-5 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-xs mr-2 mt-0.5">
                         ✓
                       </span>
                       <span>{highlight}</span>

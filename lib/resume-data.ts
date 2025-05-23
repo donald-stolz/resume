@@ -51,8 +51,14 @@ export const resumeData: ResumeSchema = {
       startDate: "2023-06",
       endDate: "2025-01",
       summary:
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      highlights: [],
+        "soona is your all-in-one platform to make, manage, and optimize photo + video content for all your ecommerce channels.",
+      highlights: [
+        "Member of soona's payment team, utilized Stripe, Postgres, Ruby on Rails, and Vue.js to enhance payment processing features",
+        "Led Trend technical development through acquisition. Used Typescript, React, and Next.js for application development",
+        "Created and presented detailed transition documentation to onboard soona engineers. Utilized Notion, Swagger, & Miro",
+        "Earned AWS Solutions Architect certification",
+        "Built features to scale revenue, grew to over $150,000 monthly",
+      ],
     },
     {
       name: "Trend",
@@ -63,18 +69,11 @@ export const resumeData: ResumeSchema = {
       summary:
         "We help companies win at marketing. We connect brands with creators who provide original & specifically targeted content.",
       highlights: [
-        "Lead technical developer, reporting directly to CEO & CPO",
-        "Planned sprints and brokedown tickets into actionable subtasks with CPO using Asana",
-        "Presented in product demos to keep team members informed on what's being built and to hear feedback",
+        "Led technical development initiatives while directly reporting to the CEO and CPO",
+        "Planned sprints and broke down project tickets in collaboration with the CPO using Asana",
+        "Presented product demos to team members, keeping everyone informed on ongoing builds and collecting valuable feedback for continuous improvement",
         "Managed relationships with outside partners and contractors",
-        "Decided on long-term technical direction and goals. Including new AWS services, cloud function migrations, new frontend frameworks, and other major technical decisions",
-        "Maintained live site while migrating to new backend and frontend. Split traffic between old and new site",
-        "Created technical and non-technical documentation. Used tools such as Notion, Swagger, and OpenAPI",
-        "AWS - Content service, AppRunner, Lambda",
-        "Google Cloud - firestore, firebase, realtime, functions",
-        "Backend Migration - NestJs, Lambdas, AppRunner, Firestore, MongoDB",
-        "Frontend Migration - NextJs, React, Typescript, SASS, Storybook, Custom Design System",
-        "3rd Party Libraries - Stripe, SendGrid, PayPal",
+        "Created comprehensive documentation using tools like Notion, Swagger, and Storybook",
       ],
     },
     {
@@ -307,6 +306,55 @@ export const resumeData: ResumeSchema = {
       name: "AI Tools",
       level: SkillLevel.Proficient,
       keywords: ["Cursor", "Gemini AI", "V0", "Copilot"],
+    },
+  ],
+  projects: [
+    {
+      name: "H2S - Student Management App",
+      description:
+        "A basic React & Node application to help manage Hack High School student check in and daily reports.",
+      url: "https://github.com/codeforfunprojects/H2S-App",
+      highlights: ["React", "Node.js", "Education"],
+    },
+    {
+      name: "H2S - Node JS Curriculum",
+      description:
+        "A project based intro level curriculum for building APIs with Node JS.",
+      url: "https://github.com/donald-stolz/H2S-NodeJS-Curriculum",
+      highlights: ["Node.js", "Education", "API Development"],
+    },
+    {
+      name: "RIPPEN",
+      description:
+        "R based script providing a new Quarter Back analysis metric.",
+      url: "https://github.com/gjm112/RIPPEN",
+      highlights: ["R", "Sports Analytics", "Data Science"],
+    },
+    {
+      name: "Lake Jericho App",
+      description: "React & Electron based custom CRM tool.",
+      url: "https://github.com/donald-stolz/lake-jericho-app",
+      highlights: ["React", "Electron", "CRM"],
+    },
+    {
+      name: "2017 SABR Analytics Project",
+      description:
+        "Project submission for 2017 SABR Diamond Dollars Competition.",
+      url: "https://github.com/donald-stolz/Loyola_SABR_2017",
+      highlights: ["Sports Analytics", "Data Science", "Baseball"],
+    },
+    {
+      name: "42",
+      description: "My programs and exercises at 42 Silicon Valley",
+      url: "https://github.com/donald-stolz/c-projects-42",
+      highlights: ["C", "Systems Programming", "Education"],
+    },
+    {
+      name: "Loyola Course Work",
+      description:
+        "Repositories created for some of the classes I took at Loyola Chicago. Most of the work focuses on Object-Oriented concepts.",
+      url: "https://github.com/DTS-LUC",
+      highlights: ["Java", "Object-Oriented Programming", "Education"],
     },
   ],
 };
