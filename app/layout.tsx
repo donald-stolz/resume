@@ -42,6 +42,14 @@ export const metadata: Metadata = {
     description:
       "Senior Software Engineer with 6+ years of experience in cloud technologies and full stack application development.",
     siteName: "Donald Stolz Portfolio",
+    images: [
+      {
+        url: "/images/social/donald-stolz-social-preview.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Donald Stolz - Senior Software Engineer Portfolio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -49,6 +57,7 @@ export const metadata: Metadata = {
     description:
       "Senior Software Engineer with 6+ years of experience in cloud technologies and full stack application development.",
     creator: "@donstolz",
+    images: ["/images/social/donald-stolz-social-preview.jpg"],
   },
   viewport: "width=device-width, initial-scale=1",
   verification: {

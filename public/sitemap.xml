@@ -5,6 +5,11 @@
     <lastmod>2024-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://stolz.dev/images/social/donald-stolz-social-preview.jpg</image:loc>
+      <image:title>Donald Stolz - Senior Software Engineer Portfolio</image:title>
+      <image:caption>Professional portfolio of Donald Stolz, a Senior Software Engineer with expertise in cloud technologies and full stack development.</image:caption>
+    </image:image>
   </url>
   <!-- Add more URLs for your project pages here -->
 </urlset>

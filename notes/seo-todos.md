@@ -11,7 +11,7 @@
 
 - [x] Optimize image alt texts and add descriptive filenames
 - [x] Implement canonical URLs for all pages
-- [ ] Add social media preview images
+- [x] Add social media preview images
 - [ ] Set up Google Analytics
 
 ## Low Priority
