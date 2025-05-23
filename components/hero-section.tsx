@@ -69,7 +69,7 @@ export function HeroSection({ resume }: { resume: ResumeSchema }) {
                 src={
                   resume.basics.image || "/placeholder.svg?height=160&width=160"
                 }
-                alt={resume.basics.name}
+                alt={`Professional headshot of ${resume.basics.name}, ${resume.basics.label}`}
                 className="w-full h-full object-cover"
               />
             </div>

@@ -33,7 +33,7 @@ export function ResumeHeader({ basics }: ResumeHeaderProps) {
         <Avatar className="h-24 w-24 border-2 border-white shadow-md">
           <AvatarImage
             src={basics.image || "/placeholder.svg?height=96&width=96"}
-            alt={basics.name}
+            alt={`Professional headshot of ${basics.name}, ${basics.label}`}
           />
           <AvatarFallback className="bg-gradient-to-r from-purple-500 to-pink-500 text-white">
             {basics.name

@@ -4,7 +4,7 @@ export const resumeData: ResumeSchema = {
   basics: {
     name: "Donald Stolz",
     label: "Senior Software Engineer",
-    image: "/images/profile-pic.jpg",
+    image: "/images/donald-stolz-profile.jpg",
     email: "Don@Stolz.dev",
     phone: "",
     url: "https://donald-stolz.github.io/resume/",

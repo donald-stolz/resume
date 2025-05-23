@@ -6,11 +6,10 @@
 - [x] Create and add a sitemap.xml file
 - [x] Add robots.txt file
 - [x] Implement structured data (JSON-LD) for resume
-- [ ] Add meta description for individual project pages
 
 ## Medium Priority
 
-- [ ] Optimize image alt texts and add descriptive filenames
+- [x] Optimize image alt texts and add descriptive filenames
 - [ ] Implement canonical URLs for all pages
 - [ ] Add social media preview images
 - [ ] Set up Google Analytics
