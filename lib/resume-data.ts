@@ -7,7 +7,7 @@ export const resumeData: ResumeSchema = {
     image: "/images/donald-stolz-profile.jpg",
     email: "Don@Stolz.dev",
     phone: "",
-    url: "https://donald-stolz.github.io/resume/",
+    url: "https://stolz.dev",
     summary:
       "Senior Software Engineer with 6+ years of experience. Proven expertise in cloud technologies and full stack application development. Utilizes problem-solving skills to drive team success and accelerate project delivery.",
     location: {

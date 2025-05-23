@@ -10,10 +10,9 @@
 ## Medium Priority
 
 - [x] Optimize image alt texts and add descriptive filenames
-- [ ] Implement canonical URLs for all pages
+- [x] Implement canonical URLs for all pages
 - [ ] Add social media preview images
 - [ ] Set up Google Analytics
-- [ ] Add breadcrumb navigation
 
 ## Low Priority
 

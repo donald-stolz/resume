@@ -15,9 +15,13 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Don",
+  title: "Donald Stolz - Senior Software Engineer",
   description:
     "Senior Software Engineer with 6+ years of experience in cloud technologies and full stack application development. Based in Austin, TX.",
+  metadataBase: new URL("https://stolz.dev"),
+  alternates: {
+    canonical: "/",
+  },
   keywords: [
     "Software Engineer",
     "Full Stack Developer",
@@ -33,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://donstolz.tech",
+    url: "https://stolz.dev",
     title: "Donald Stolz - Senior Software Engineer",
     description:
       "Senior Software Engineer with 6+ years of experience in cloud technologies and full stack application development.",
