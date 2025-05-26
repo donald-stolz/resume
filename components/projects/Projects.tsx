@@ -6,6 +6,7 @@ import type { Project } from "@/lib/resume-types";
 import { ProjectCard } from "./ProjectCard";
 import { Button } from "@/components/ui/button";
 import useEmblaCarousel from "embla-carousel-react";
+import { Select, SelectItem } from "@/components/ui/select";
 
 interface ProjectsProps {
   projects?: Project[];
@@ -15,6 +16,7 @@ export function Projects({ projects }: ProjectsProps) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [scrollSnaps, setScrollSnaps] = useState<number[]>([]);
   const [totalSlides, setTotalSlides] = useState(0);
+  const [selectedTag, setSelectedTag] = useState<string>("all");
 
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
@@ -24,6 +26,23 @@ export function Projects({ projects }: ProjectsProps) {
     breakpoints: {
       "(min-width: 768px)": { slidesToScroll: 3 },
     },
+  });
+
+  // Get unique tags from all projects
+  const uniqueTags = projects
+    ? Array.from(
+        new Set(
+          projects
+            .flatMap((project) => project.highlights || [])
+            .filter(Boolean)
+        )
+      ).sort()
+    : [];
+
+  // Filter projects based on selected tag
+  const filteredProjects = projects?.filter((project) => {
+    if (selectedTag === "all") return true;
+    return project.highlights?.includes(selectedTag);
   });
 
   const scrollPrev = useCallback(() => {
@@ -55,23 +74,45 @@ export function Projects({ projects }: ProjectsProps) {
     emblaApi.on("reInit", onSelect);
   }, [emblaApi, onSelect]);
 
+  // Reset carousel when projects are filtered
+  useEffect(() => {
+    if (emblaApi) {
+      emblaApi.reInit();
+      setSelectedIndex(0);
+    }
+  }, [filteredProjects, emblaApi]);
+
   if (!projects || projects.length === 0) return null;
 
   const isLastSlide = selectedIndex === totalSlides - 1;
 
   return (
-    <section className="overflow-x-hidden">
-      <div className="flex items-center mb-4">
-        <div className="bg-blue-100 p-2 rounded-lg mr-3">
-          <Code className="h-5 w-5 text-blue-600" />
+    <section>
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center">
+          <div className="bg-blue-100 p-2 rounded-lg mr-3">
+            <Code className="h-5 w-5 text-blue-600" />
+          </div>
+          <h2 className="text-xl font-bold gradient-text">Projects</h2>
         </div>
-        <h2 className="text-xl font-bold gradient-text">Projects</h2>
+        <Select
+          value={selectedTag}
+          onChange={(tag) => setSelectedTag(tag)}
+          className="w-[180px]"
+        >
+          <SelectItem value="all">All Projects</SelectItem>
+          {uniqueTags.map((tag) => (
+            <SelectItem key={tag} value={tag}>
+              {tag}
+            </SelectItem>
+          ))}
+        </Select>
       </div>
       <div className="relative px-4 md:px-12">
         <div ref={emblaRef}>
           <div className="flex gap-4">
-            {projects.map((project, index) => {
-              const isLast = index === projects.length - 1;
+            {filteredProjects?.map((project, index) => {
+              const isLast = index === filteredProjects.length - 1;
               return (
                 <div
                   key={index}

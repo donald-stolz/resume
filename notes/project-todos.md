@@ -12,9 +12,8 @@
 - [ ] Improve projects section
   - [ ] Card w/ img preview
   - [x] Carousel
-  - [ ] Code & site/example links
   - [ ] Filter by tags
-  - [ ] Add Resume project
+  - [x] Update projects
 - [x] Add a Contact tab
 - [ ] Add a References tab
 - [ ] Add a Blog tab
