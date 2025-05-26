@@ -322,7 +322,7 @@ export const resumeData: ResumeSchema = {
         "My personal website built with Next.js, Tailwind CSS, and TypeScript.",
       url: "https://github.com/donald-stolz/personal-website",
       highlights: ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
-      image: "",
+      image: "personal-website.png",
     },
     {
       name: "H2S - Student Management App",
@@ -368,7 +368,7 @@ export const resumeData: ResumeSchema = {
       description: "React & Electron based custom CRM tool.",
       url: "https://github.com/donald-stolz/lake-jericho-app",
       highlights: ["React", "Electron", "CRM"],
-      image: "lake-jericho-logo.png",
+      image: "lake-jericho-app-screenshot.png",
     },
     {
       name: "Loyola Course Work",

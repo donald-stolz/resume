@@ -9,8 +9,8 @@
   - [x] Fav icon
   - [ ] Print / Download button
 - [ ] 1 Pager Resume Print feature
-- [ ] Improve projects section
-  - [ ] Card w/ img preview
+- [x] Improve projects section
+  - [x] Card w/ img preview
   - [x] Carousel
   - [x] Filter by tags
   - [x] Update projects

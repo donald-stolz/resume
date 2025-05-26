@@ -29,7 +29,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
               {project.highlights.map((highlight, i) => (
                 <span
                   key={i}
-                  className="text-sm px-3 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-500/30"
+                  className="text-sm px-3 py-1 rounded-full bg-blue-500/60 text-blue-200 border border-blue-500/30"
                 >
                   {highlight}
                 </span>

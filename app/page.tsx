@@ -16,12 +16,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <HeroSection resume={resumeData} />
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 ">
         <TabNavigation activeTab={activeTab} onTabChange={setActiveTab} />
         {activeTab === "resume" ? (
           <ResumeDisplay resume={resumeData} />
         ) : activeTab === "projects" ? (
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto ">
             <Projects projects={resumeData.projects} />
           </div>
         ) : (
