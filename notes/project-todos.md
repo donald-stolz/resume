@@ -11,7 +11,7 @@
 - [ ] 1 Pager Resume Print feature
 - [ ] Improve projects section
   - [ ] Card w/ img preview
-  - [ ] Carousel
+  - [x] Carousel
   - [ ] Code & site/example links
   - [ ] Filter by tags
   - [ ] Add Resume project

@@ -310,6 +310,19 @@ export const resumeData: ResumeSchema = {
   ],
   projects: [
     {
+      name: "Counter Space",
+      description: "A cooking resource app",
+      url: "https://kitchen.stolz.dev/",
+      highlights: ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
+    },
+    {
+      name: "Personal Website",
+      description:
+        "My personal website built with Next.js, Tailwind CSS, and TypeScript.",
+      url: "https://github.com/donald-stolz/personal-website",
+      highlights: ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
+    },
+    {
       name: "H2S - Student Management App",
       description:
         "A basic React & Node application to help manage Hack High School student check in and daily reports.",
