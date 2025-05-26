@@ -22,7 +22,10 @@
 
 - [ ] Refactor for consistency & remove unused code
   - [ ] Fix file naming conventions
+  - [ ] Use consistent layout component and styles for tab pages
 
 ## Future
 
+- [ ] Improve tab nav
+- [ ] Update color scheme/styling (keep minimal, but maybe darker more nature colors. Greens, blues, browns, etc.)
 - [ ] Add a Blog tab
