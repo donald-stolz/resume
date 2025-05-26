@@ -3,7 +3,8 @@
 ## App Improvements
 
 - [ ] Clean up details
-  - [ ] Hero image
+  - [x] Hero image
+  - [ ] Hero image mobile
   - [ ] Footer
   - [ ] Fav icon
   - [ ] Print / Download button
