@@ -314,6 +314,7 @@ export const resumeData: ResumeSchema = {
       description: "A cooking resource app",
       url: "https://kitchen.stolz.dev/",
       highlights: ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
+      image: "counter-space.png",
     },
     {
       name: "Personal Website",
@@ -321,6 +322,7 @@ export const resumeData: ResumeSchema = {
         "My personal website built with Next.js, Tailwind CSS, and TypeScript.",
       url: "https://github.com/donald-stolz/personal-website",
       highlights: ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
+      image: "",
     },
     {
       name: "H2S - Student Management App",
@@ -328,6 +330,7 @@ export const resumeData: ResumeSchema = {
         "A basic React & Node application to help manage Hack High School student check in and daily reports.",
       url: "https://github.com/codeforfunprojects/H2S-App",
       highlights: ["React", "Node.js", "Education"],
+      image: "hack-high-school-logo.png",
     },
     {
       name: "H2S - Node JS Curriculum",
@@ -335,6 +338,7 @@ export const resumeData: ResumeSchema = {
         "A project based intro level curriculum for building APIs with Node JS.",
       url: "https://github.com/donald-stolz/H2S-NodeJS-Curriculum",
       highlights: ["Node.js", "Education", "API Development"],
+      image: "hack-high-school-logo.png",
     },
     {
       name: "RIPPEN",
@@ -342,12 +346,7 @@ export const resumeData: ResumeSchema = {
         "R based script providing a new Quarter Back analysis metric.",
       url: "https://github.com/gjm112/RIPPEN",
       highlights: ["R", "Sports Analytics", "Data Science"],
-    },
-    {
-      name: "Lake Jericho App",
-      description: "React & Electron based custom CRM tool.",
-      url: "https://github.com/donald-stolz/lake-jericho-app",
-      highlights: ["React", "Electron", "CRM"],
+      image: "nfl-analytics-logo.png",
     },
     {
       name: "2017 SABR Analytics Project",
@@ -355,12 +354,21 @@ export const resumeData: ResumeSchema = {
         "Project submission for 2017 SABR Diamond Dollars Competition.",
       url: "https://github.com/donald-stolz/Loyola_SABR_2017",
       highlights: ["Sports Analytics", "Data Science", "Baseball"],
+      image: "sabr-analytics-project.png",
     },
     {
       name: "42",
       description: "My programs and exercises at 42 Silicon Valley",
       url: "https://github.com/donald-stolz/c-projects-42",
       highlights: ["C", "Systems Programming", "Education"],
+      image: "42-silicon-valley-logo.png",
+    },
+    {
+      name: "Lake Jericho App",
+      description: "React & Electron based custom CRM tool.",
+      url: "https://github.com/donald-stolz/lake-jericho-app",
+      highlights: ["React", "Electron", "CRM"],
+      image: "lake-jericho-logo.png",
     },
     {
       name: "Loyola Course Work",
@@ -368,6 +376,7 @@ export const resumeData: ResumeSchema = {
         "Repositories created for some of the classes I took at Loyola Chicago. Most of the work focuses on Object-Oriented concepts.",
       url: "https://github.com/DTS-LUC",
       highlights: ["Java", "Object-Oriented Programming", "Education"],
+      image: "java-logo.png",
     },
   ],
   certificates: [

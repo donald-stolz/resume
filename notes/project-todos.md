@@ -12,7 +12,7 @@
 - [ ] Improve projects section
   - [ ] Card w/ img preview
   - [x] Carousel
-  - [ ] Filter by tags
+  - [x] Filter by tags
   - [x] Update projects
 - [x] Add a Contact tab
 - [ ] Add a References tab

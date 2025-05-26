@@ -107,6 +107,8 @@ export interface Project {
   startDate?: string;
   endDate?: string;
   url?: string;
+  // New
+  image?: string;
 }
 
 export interface Certificate {
