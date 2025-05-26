@@ -6,7 +6,7 @@
   - [x] Hero image
   - [ ] Hero image mobile
   - [ ] Footer
-  - [ ] Fav icon
+  - [x] Fav icon
   - [ ] Print / Download button
 - [ ] 1 Pager Resume Print feature
 - [ ] Improve projects section

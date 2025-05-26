@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { resumeSchema } from "@/lib/resume-schema";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { Footer } from "@/components/Footer";
+import { resumeData } from "@/lib/resume-data";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -108,10 +110,11 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <GoogleAnalytics />
-        {children}
+        <main className="flex-1">{children}</main>
+        <Footer basics={resumeData.basics} />
       </body>
     </html>
   );
