@@ -3,8 +3,8 @@
 import { cn } from "@/lib/utils";
 
 interface TabNavigationProps {
-  onTabChange: (tab: "resume" | "projects") => void;
-  activeTab: "resume" | "projects";
+  onTabChange: (tab: "resume" | "projects" | "contact") => void;
+  activeTab: "resume" | "projects" | "contact";
 }
 
 export function TabNavigation({ onTabChange, activeTab }: TabNavigationProps) {
@@ -32,6 +32,17 @@ export function TabNavigation({ onTabChange, activeTab }: TabNavigationProps) {
           )}
         >
           Projects
+        </button>
+        <button
+          onClick={() => onTabChange("contact")}
+          className={cn(
+            "px-4 py-2 rounded-md text-sm font-medium transition-colors",
+            activeTab === "contact"
+              ? "bg-white text-gray-900 shadow-sm"
+              : "text-gray-500 hover:text-gray-900"
+          )}
+        >
+          Contact
         </button>
       </div>
     </div>

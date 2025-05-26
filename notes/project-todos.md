@@ -5,7 +5,7 @@
 - [ ] Clean up details
   - [x] Hero image
   - [ ] Hero image mobile
-  - [ ] Footer
+  - [x] Footer
   - [x] Fav icon
   - [ ] Print / Download button
 - [ ] 1 Pager Resume Print feature
@@ -15,11 +15,10 @@
   - [ ] Code & site/example links
   - [ ] Filter by tags
   - [ ] Add Resume project
-- [ ] Add a Contact tab
+- [x] Add a Contact tab
 - [ ] Add a References tab
 - [ ] Add a Blog tab
 
 ## Codebase
 
 - [ ] Refactor for consistency & remove unused code
-      p
