@@ -32,7 +32,15 @@ export function HeroSection({ resume }: { resume: ResumeSchema }) {
         <Image
           src="/images/hero-image.png"
           alt={`Professional headshot of ${resume.basics.name}, ${resume.basics.label}`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover hidden md:block"
+          width="0"
+          height="0"
+          sizes="100vw"
+        />
+        <Image
+          src="/images/hero-image-mobile.png"
+          alt={`Professional headshot of ${resume.basics.name}, ${resume.basics.label}`}
+          className="w-full h-full object-cover md:hidden"
           width="0"
           height="0"
           sizes="100vw"

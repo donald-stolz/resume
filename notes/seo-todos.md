@@ -17,11 +17,10 @@
 
 ## Low Priority
 
-- [ ] Implement dynamic meta tags for project pages
-- [ ] Add language alternates if planning multilingual support
-- [ ] Set up XML feed for blog (if planned)
-- [ ] Implement AMP pages (if needed)
 - [ ] Add schema markup for skills and experience
+- [ ] Implement dynamic meta tags for project pages
+- [ ] Implement AMP pages (if needed)
+- [ ] Set up XML feed for blog (if planned)
 
 ## Technical Improvements
 
