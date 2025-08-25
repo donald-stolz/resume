@@ -9,7 +9,7 @@ export const resumeData: ResumeSchema = {
     phone: "",
     url: "https://stolz.dev",
     summary:
-      "Senior Software Engineer with 6+ years of experience. Proven expertise in cloud technologies and full stack application development. Utilizes problem-solving skills to drive team success and accelerate project delivery.",
+      "Senior engineer with over 8 years React, & Node.js full stack experience. Enjoys challenges, actively goes outside his comfort zone to gain new experiences. A leader and mentor, with experience coordinating group efforts through open communication.",
     location: {
       city: "Austin",
       countryCode: "US",

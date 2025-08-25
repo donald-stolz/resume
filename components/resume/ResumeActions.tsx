@@ -1,30 +1,17 @@
 "use client";
 
-import { Printer, Download } from "lucide-react";
+import { Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function ResumeActions() {
-  const handlePrint = () => {
-    window.print();
-  };
-
   const handleDownload = () => {
-    // TODO: Implement PDF download functionality
-    console.log("Download PDF");
+    // Open visualcv in a new tab
+    window.open("https://my.visualcv.com/donald-stolz/", "_blank");
   };
 
   return (
     <div className="flex justify-between items-center print:hidden mb-6">
       <div className="flex gap-2">
-        <Button
-          variant="outline"
-          size="sm"
-          className="gap-2"
-          onClick={handlePrint}
-        >
-          <Printer className="h-4 w-4" />
-          Print
-        </Button>
         <Button
           variant="outline"
           size="sm"

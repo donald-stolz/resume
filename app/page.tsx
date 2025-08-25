@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { HeroSection } from "@/components/hero-section";
-import { ResumeDisplay } from "@/components/resume-display";
+import { HeroSection } from "@/components/HeroSection";
+import { ResumeDisplay } from "@/components/ResumeDisplay";
 import { Projects } from "@/components/projects/Projects";
 import { Contact } from "@/components/contact/Contact";
 import { TabNavigation } from "@/components/TabNavigation";
