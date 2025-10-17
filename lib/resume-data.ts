@@ -310,6 +310,13 @@ export const resumeData: ResumeSchema = {
   ],
   projects: [
     {
+      name: "Marathon Training",
+      description: "An app to help me train for the Austin Marathon",
+      url: "https://run.stolz.dev",
+      highlights: ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
+      image: "marathon-training.jpg",
+    },
+    {
       name: "Counter Space",
       description: "A cooking resource app",
       url: "https://kitchen.stolz.dev/",
