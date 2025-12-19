@@ -2398,10 +2398,10 @@ next@14.2.30:
     "@next/swc-win32-ia32-msvc" "14.2.30"
     "@next/swc-win32-x64-msvc" "14.2.30"
 
-nodemailer@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.npmjs.org/nodemailer/-/nodemailer-7.0.3.tgz"
-  integrity sha512-Ajq6Sz1x7cIK3pN6KesGTah+1gnwMnx5gKl3piQlQQE/PwyJ4Mbc8is2psWYxK3RJTVeqsDaCv8ZzXLCDHMTZw==
+nodemailer@^7.0.11:
+  version "7.0.11"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-7.0.11.tgz#5f7b06afaec20073cff36bea92d1c7395cc3e512"
+  integrity sha512-gnXhNRE0FNhD7wPSCGhdNh46Hs6nm+uTyg+Kq0cZukNQiYdnCsoQjodNP9BQVG9XrcK/v6/MgpAPBUFyzh9pvw==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
