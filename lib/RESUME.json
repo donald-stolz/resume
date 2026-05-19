@@ -49,8 +49,23 @@
       "endDate": "Present",
       "summary": "Walter AI is building a ratings standard for investment newsletters. We convert newsletter recommendations into deterministic, auditable track records",
       "highlights": [
-        "[ACTION NEEDED: Insert key technical achievement or metric 1]",
-        "[ACTION NEEDED: Insert key leadership responsibility or metric 2]"
+        "Sole engineer responsible for all architecture, infrastructure, and full stack development using Next.js, NestJS, and AWS",
+        "Built AI-powered newsletter parsing feature to convert investment recommendations into deterministic, auditable track records",
+        "Developed Google Chrome Extension to support newsletter ingestion and user workflows",
+        "Leveraged Claude Code to accelerate development velocity as a one-person engineering team"
+      ]
+    },
+    {
+      "name": "St. Michael's Catholic Preparatory School",
+      "position": "Lacrosse Coach",
+      "url": "",
+      "startDate": "2024-11",
+      "endDate": "Present",
+      "summary": "Part-time coaching role supporting the lacrosse program at St. Michael's Catholic Preparatory School in Austin, TX.",
+      "highlights": [
+        "Coached 5th & 6th grade lacrosse team during Spring 2025 season, leading practice planning and player development",
+        "Designed and ran youth lacrosse practices and camps; focused on introducing new players to the sport and developing fundamental skills.",
+        "Varsity assistant for Spring 2026 season, focusing on faceoff-specific skill development"
       ]
     },
     {
@@ -74,13 +89,11 @@
       "endDate": "2025-01",
       "summary": "soona is your all-in-one platform to make, manage, and optimize photo + video content for all your ecommerce channels.",
       "highlights": [
-        "Spearheaded Trend technical development throughout acquisition",
+        "Spearheaded Trend technical development throughout acquisition, using TypeScript, React, and Next.js",
+        "Created and presented detailed transition documentation to onboard soona engineers, utilizing Notion, Swagger, & Miro",
         "Led onboarding of new engineers to Trend's platform",
-        "Member of soona's payment team, developing invoice features",
         "Planned and developed auth integration feature, allowing connection between soona and Trend users",
-        "Member of soona's payment team, utilized Stripe, Postgres, Ruby on Rails, and Vue.js to enhance payment processing features",
-        "Led Trend technical development through acquisition. Used Typescript, React, and Next.js for application development",
-        "Created and presented detailed transition documentation to onboard soona engineers. Utilized Notion, Swagger, & Miro",
+        "Member of soona's payment team; utilized Stripe, Postgres, Ruby on Rails, and Vue.js to enhance payment processing and invoice features",
         "Earned AWS Solutions Architect certification",
         "Built features to scale revenue, grew to over $150,000 monthly"
       ]
@@ -141,15 +154,13 @@
       "summary": "Unstoppable Domains builds blockchain domains that improve crypto payments.",
       "highlights": [
         "Launched innovative website builder tools, driving domain growth from approximately 100 in 01/2020 to over 15,000 by 06/2020, significantly enhancing customer acquisition and retention",
-        "Revitalized frontend with Next.js, enhancing the performance & SEO",
+        "Revitalized frontend with Next.js, enhancing performance & SEO",
         "Developed analytics services using Docker, RudderStack, and Snowflake",
         "Generated sales and UX reports, allowing the business to make informed decisions",
-        "Took lead on many large tasks such as client side business logic refactor",
+        "Took lead on many large tasks such as client-side business logic refactor",
         "Made major mobile UI & performance improvements",
-        "Improved client-side site performance by transitioning site from CRA to Next JS",
-        "Setup multiple site integrations for business analytics, including technologies such as Segment, Snowflake, & Mode",
-        "Implemented integrations that saved development time and cut costs. E.g. RudderStack and Lever",
-        "Created first iteration of our Website builder tools and our advanced templates. New tools helped grow domains with sites from ~100 in January to >15,000 in June"
+        "Setup multiple site integrations for business analytics, including Segment, Snowflake, & Mode",
+        "Implemented integrations that saved development time and cut costs, including RudderStack and Lever"
       ]
     },
     {
@@ -224,7 +235,7 @@
       "studyType": "Master of Artificial Intelligence",
       "startDate": "2026-01",
       "endDate": "Present",
-      "url": "",
+      "url": "https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-artificial-intelligence-masters-degree",
       "score": "3.8",
       "highlights": ["Graduate Student Online Teaching Certificate"]
     },
