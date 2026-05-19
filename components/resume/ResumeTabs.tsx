@@ -5,6 +5,7 @@ import { WorkExperience } from "./WorkExperience";
 import { Education } from "./Education";
 import { Skills } from "./Skills";
 import { Volunteer } from "./Volunteer";
+import { Awards } from "./Awards";
 import type { ResumeSchema } from "@/lib/resume-types";
 
 interface ResumeTabsProps {
@@ -39,6 +40,18 @@ export function ResumeTabs({ resume }: ResumeTabsProps) {
         >
           Skills
         </TabsTrigger>
+        <TabsTrigger
+          value="volunteer"
+          className="data-[state=active]:bg-white data-[state=active]:text-purple-600"
+        >
+          Volunteer
+        </TabsTrigger>
+        <TabsTrigger
+          value="awards"
+          className="data-[state=active]:bg-white data-[state=active]:text-purple-600"
+        >
+          Awards
+        </TabsTrigger>
       </TabsList>
 
       <TabsContent value="all" className="space-y-8">
@@ -46,6 +59,7 @@ export function ResumeTabs({ resume }: ResumeTabsProps) {
         <Education education={resume.education} />
         <Skills skills={resume.skills} />
         <Volunteer volunteer={resume.volunteer} />
+        <Awards awards={resume.awards} />
       </TabsContent>
 
       <TabsContent value="experience" className="space-y-8">
@@ -58,6 +72,14 @@ export function ResumeTabs({ resume }: ResumeTabsProps) {
 
       <TabsContent value="skills" className="space-y-8">
         <Skills skills={resume.skills} />
+      </TabsContent>
+
+      <TabsContent value="volunteer" className="space-y-8">
+        <Volunteer volunteer={resume.volunteer} />
+      </TabsContent>
+
+      <TabsContent value="awards" className="space-y-8">
+        <Awards awards={resume.awards} />
       </TabsContent>
     </Tabs>
   );
