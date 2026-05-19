@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Donald Stolz",
-    "label": "Senior Software Engineer",
+    "name": "Donald Thomas Stolz",
+    "label": "Senior Software Engineer / Head of Engineering",
     "image": "/images/donald-stolz-profile.jpg",
-    "email": "Don@Stolz.dev",
-    "phone": "",
+    "email": "don@stolz.dev",
+    "phone": "314-216-0123",
     "url": "https://stolz.dev",
-    "summary": "Senior engineer with over 8 years React, & Node.js full stack experience. Enjoys challenges, actively goes outside his comfort zone to gain new experiences. A leader and mentor, with experience coordinating group efforts through open communication.",
+    "summary": "Senior engineer with over 7+ years full stack experience, specializing in driving technical development and delivering high-impact solutions within fast-paced startup teams. A leader and mentor, with experience coordinating group efforts through open communication.",
     "location": {
       "city": "Austin",
       "countryCode": "US",
@@ -25,7 +25,7 @@
       },
       {
         "network": "LinkedIn",
-        "username": "Donald Stolz",
+        "username": "donaldstolz",
         "url": "https://www.linkedin.com/in/donaldstolz"
       },
       {
@@ -42,13 +42,41 @@
   },
   "work": [
     {
-      "name": "soona",
-      "position": "Senior Software Engineer",
+      "name": "Walter Grades",
+      "position": "Head of Engineering",
+      "url": "",
+      "startDate": "2026-05",
+      "endDate": "Present",
+      "summary": "[ACTION NEEDED: Brief 1-2 sentence summary of Walter Grades]",
+      "highlights": [
+        "[ACTION NEEDED: Insert key technical achievement or metric 1]",
+        "[ACTION NEEDED: Insert key leadership responsibility or metric 2]"
+      ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Full Stack Engineer",
+      "url": "",
+      "startDate": "2025-02",
+      "endDate": "2026-05",
+      "summary": "Independent engineering contractor.",
+      "highlights": [
+        "Utilized Gemini LLM to perform user personality analysis & generate engaging insights based on user interactions",
+        "Created scalable data processing features using Google Cloud Tasks"
+      ]
+    },
+    {
+      "name": "soona (Acquired Trend)",
+      "position": "Senior Full Stack Engineer",
       "url": "https://soona.co",
       "startDate": "2023-06",
       "endDate": "2025-01",
       "summary": "soona is your all-in-one platform to make, manage, and optimize photo + video content for all your ecommerce channels.",
       "highlights": [
+        "Spearheaded Trend technical development throughout acquisition",
+        "Led onboarding of new engineers to Trend's platform",
+        "Member of soona's payment team, developing invoice features",
+        "Planned and developed auth integration feature, allowing connection between soona and Trend users",
         "Member of soona's payment team, utilized Stripe, Postgres, Ruby on Rails, and Vue.js to enhance payment processing features",
         "Led Trend technical development through acquisition. Used Typescript, React, and Next.js for application development",
         "Created and presented detailed transition documentation to onboard soona engineers. Utilized Notion, Swagger, & Miro",
@@ -61,14 +89,19 @@
       "position": "Head of Engineering",
       "url": "https://trend.io/",
       "startDate": "2021-12",
-      "endDate": "2023-05",
+      "endDate": "2023-06",
       "summary": "We help companies win at marketing. We connect brands with creators who provide original & specifically targeted content.",
       "highlights": [
         "Led technical development initiatives while directly reporting to the CEO and CPO",
         "Planned sprints and broke down project tickets in collaboration with the CPO using Asana",
         "Presented product demos to team members, keeping everyone informed on ongoing builds and collecting valuable feedback for continuous improvement",
         "Managed relationships with outside partners and contractors",
-        "Created comprehensive documentation using tools like Notion, Swagger, and Storybook"
+        "Created comprehensive documentation using tools like Notion, Swagger, and Storybook",
+
+        "Conceptualized and defined long-term technical direction and goals, aligning the team with future growth initiatives",
+        "Used scheduled event queues to develop features for processing creator deadlines",
+        "Implemented content processing pipeline using lambdas with microservices pattern",
+        "Built admin dashboards and tooling, improving workflows for customer success agents and sales"
       ]
     },
     {
@@ -77,7 +110,7 @@
       "url": "https://assetdash.com/",
       "startDate": "2021-01",
       "endDate": "2021-12",
-      "summary": "The leaderboard for assets. Asset Dash ranks the top stocks, ETFs, and cryptocurrencies by market capitalization. Track over 4,000 of the largest companies and cryptos.",
+      "summary": "The leaderboard for assets. Asset Dash ranks the top stocks, ETFs, and cryptocurrencies by market capitalization.",
       "highlights": [
         "Migrated backend and database from Heroku to Google Cloud Platform",
         "Updated and maintained Postgres database Refactored client to Next.js; Improved performance & SEO",
@@ -105,8 +138,12 @@
       "url": "https://unstoppabledomains.com/",
       "startDate": "2019-04",
       "endDate": "2020-11",
-      "summary": "Unstoppable Domains builds blockchain domains, that improve crypto payments by replacing wallet addresses with human readable names and can connect to censorship-resistant decentralized websites.",
+      "summary": "Unstoppable Domains builds blockchain domains that improve crypto payments.",
       "highlights": [
+        "Launched innovative website builder tools, driving domain growth from approximately 100 in 01/2020 to over 15,000 by 06/2020, significantly enhancing customer acquisition and retention",
+        "Revitalized frontend with Next.js, enhancing the performance & SEO",
+        "Developed analytics services using Docker, RudderStack, and Snowflake",
+        "Generated sales and UX reports, allowing the business to make informed decisions",
         "Took lead on many large tasks such as client side business logic refactor",
         "Made major mobile UI & performance improvements",
         "Improved client-side site performance by transitioning site from CRA to Next JS",
@@ -121,7 +158,7 @@
       "url": "http://codeforfun.com",
       "startDate": "2018-10",
       "endDate": "2019-05",
-      "summary": "Code for fun is a non­profit organization, located in the San Francisco Bay Area, committed to exposing all students to computer science at an early age.",
+      "summary": "Code for fun is a nonprofit organization, located in the San Francisco Bay Area, committed to exposing all students to computer science at an early age.",
       "highlights": [
         "Taught students 7 to 16 years old the fundamentals of programming",
         "Wrote curriculums for the Web Development topic at Hack High School",
@@ -182,32 +219,46 @@
   ],
   "education": [
     {
+      "institution": "Pennsylvania State University",
+      "area": "Artificial Intelligence",
+      "studyType": "Master of Artificial Intelligence",
+      "startDate": "2026-01",
+      "endDate": "Present",
+      "url": "",
+      "score": "3.8",
+      "courses": ["Graduate Teaching Course"]
+    },
+    {
       "institution": "42 - Silicon Valley",
       "area": "Software Engineering",
       "studyType": "Software Engineering",
       "startDate": "2018-09",
       "endDate": "2019-06",
       "url": "https://www.42.us.org/",
-      "courses": [
-        "Project based learning",
-        "C"
-      ]
+      "courses": ["Project based learning", "C"]
     },
     {
       "institution": "Loyola University Chicago",
-      "area": "Computer Science",
+      "area": "Software Engineering",
       "studyType": "Bachelor of Science",
-      "startDate": "2014-09",
+      "startDate": "2015-08",
       "endDate": "2018-05",
       "url": "https://www.luc.edu/",
-      "courses": [
-        "Computer Science",
-        "Mathematics",
-        "Business Administration"
-      ]
+      "courses": ["Graduated in 3 years", "Computer Science", "Mathematics"]
     }
   ],
   "volunteer": [
+    {
+      "organization": "Bridge Lacrosse",
+      "position": "Volunteer Coach",
+      "url": "https://bridgelacrosse.org/",
+      "startDate": "2025-10",
+      "summary": "Bridge Lacrosse is a lacrosse club for kids in the Austin area.",
+      "highlights": [
+        "Assisted with player development and team building",
+        "Helped with practices"
+      ]
+    },
     {
       "organization": "Hack High School",
       "position": "Volunteer Mentor",
@@ -272,24 +323,12 @@
     {
       "name": "Back-end Development",
       "level": "Expert",
-      "keywords": [
-        "Node.js",
-        "Express",
-        "NestJS",
-        "Python",
-        "Ruby on Rails"
-      ]
+      "keywords": ["Node.js", "Express", "NestJS", "Python", "Ruby on Rails"]
     },
     {
       "name": "Database",
       "level": "Intermediate",
-      "keywords": [
-        "MongoDB",
-        "PostgreSQL",
-        "Firestore",
-        "Redis",
-        "Snowflake"
-      ]
+      "keywords": ["MongoDB", "PostgreSQL", "Firestore", "Redis", "Snowflake"]
     },
     {
       "name": "DevOps",
@@ -306,12 +345,7 @@
     {
       "name": "AI Tools",
       "level": "Proficient",
-      "keywords": [
-        "Cursor",
-        "Gemini AI",
-        "V0",
-        "Copilot"
-      ]
+      "keywords": ["Cursor", "Gemini AI", "V0", "Copilot"]
     }
   ],
   "projects": [
@@ -319,116 +353,70 @@
       "name": "Marathon Training",
       "description": "An app to help me train for the Austin Marathon",
       "url": "https://run.stolz.dev",
-      "highlights": [
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript",
-        "V0",
-        "Cursor"
-      ],
+      "highlights": ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
       "image": "marathon-training.jpg"
     },
     {
       "name": "Counter Space",
       "description": "A cooking resource app",
       "url": "https://kitchen.stolz.dev/",
-      "highlights": [
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript",
-        "V0",
-        "Cursor"
-      ],
+      "highlights": ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
       "image": "counter-space.png"
     },
     {
       "name": "Personal Website",
       "description": "My personal website built with Next.js, Tailwind CSS, and TypeScript.",
       "url": "https://github.com/donald-stolz/personal-website",
-      "highlights": [
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript",
-        "V0",
-        "Cursor"
-      ],
+      "highlights": ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
       "image": "personal-website.png"
     },
     {
       "name": "H2S - Student Management App",
       "description": "A basic React & Node application to help manage Hack High School student check in and daily reports.",
       "url": "https://github.com/codeforfunprojects/H2S-App",
-      "highlights": [
-        "React",
-        "Node.js",
-        "Education"
-      ],
+      "highlights": ["React", "Node.js", "Education"],
       "image": "hack-high-school-logo.png"
     },
     {
       "name": "H2S - Node JS Curriculum",
       "description": "A project based intro level curriculum for building APIs with Node JS.",
       "url": "https://github.com/donald-stolz/H2S-NodeJS-Curriculum",
-      "highlights": [
-        "Node.js",
-        "Education",
-        "API Development"
-      ],
+      "highlights": ["Node.js", "Education", "API Development"],
       "image": "hack-high-school-logo.png"
     },
     {
       "name": "RIPPEN",
       "description": "R based script providing a new Quarter Back analysis metric.",
       "url": "https://github.com/gjm112/RIPPEN",
-      "highlights": [
-        "R",
-        "Sports Analytics",
-        "Data Science"
-      ],
+      "highlights": ["R", "Sports Analytics", "Data Science"],
       "image": "nfl-analytics-logo.png"
     },
     {
       "name": "2017 SABR Analytics Project",
       "description": "Project submission for 2017 SABR Diamond Dollars Competition.",
       "url": "https://github.com/donald-stolz/Loyola_SABR_2017",
-      "highlights": [
-        "Sports Analytics",
-        "Data Science",
-        "Baseball"
-      ],
+      "highlights": ["Sports Analytics", "Data Science", "Baseball"],
       "image": "sabr-analytics-project.png"
     },
     {
       "name": "42",
       "description": "My programs and exercises at 42 Silicon Valley",
       "url": "https://github.com/donald-stolz/c-projects-42",
-      "highlights": [
-        "C",
-        "Systems Programming",
-        "Education"
-      ],
+      "highlights": ["C", "Systems Programming", "Education"],
       "image": "42-silicon-valley-logo.png"
     },
     {
       "name": "Lake Jericho App",
       "description": "React & Electron based custom CRM tool.",
       "url": "https://github.com/donald-stolz/lake-jericho-app",
-      "highlights": [
-        "React",
-        "Electron",
-        "CRM"
-      ],
+      "highlights": ["React", "Electron", "CRM"],
       "image": "lake-jericho-app-screenshot.png"
     },
     {
       "name": "Loyola Course Work",
       "description": "Repositories created for some of the classes I took at Loyola Chicago. Most of the work focuses on Object-Oriented concepts.",
       "url": "https://github.com/DTS-LUC",
-      "highlights": [
-        "Java",
-        "Object-Oriented Programming",
-        "Education"
-      ],
+      "highlights": ["Java", "Object-Oriented Programming", "Education"],
       "image": "java-logo.png"
     }
   ],

@@ -1,26 +1,26 @@
-import { resumeData } from "./resume-data";
+import resumeJSON from "./RESUME.json";
 
 export const resumeSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: resumeData.basics.name,
-  jobTitle: resumeData.basics.label,
-  url: resumeData.basics.url,
-  image: resumeData.basics.image,
-  email: resumeData.basics.email,
-  description: resumeData.basics.summary,
-  address: resumeData.basics.location
+  name: resumeJSON.basics.name,
+  jobTitle: resumeJSON.basics.label,
+  url: resumeJSON.basics.url,
+  image: resumeJSON.basics.image,
+  email: resumeJSON.basics.email,
+  description: resumeJSON.basics.summary,
+  address: resumeJSON.basics.location
     ? {
         "@type": "PostalAddress",
-        addressLocality: resumeData.basics.location.city,
-        addressRegion: resumeData.basics.location.region,
-        addressCountry: resumeData.basics.location.countryCode,
+        addressLocality: resumeJSON.basics.location.city,
+        addressRegion: resumeJSON.basics.location.region,
+        addressCountry: resumeJSON.basics.location.countryCode,
       }
     : undefined,
-  sameAs: resumeData.basics.profiles?.map((profile) => profile.url) || [],
-  knowsAbout: resumeData.skills?.flatMap((skill) => skill.keywords) || [],
+  sameAs: resumeJSON.basics.profiles?.map((profile) => profile.url) || [],
+  knowsAbout: resumeJSON.skills?.flatMap((skill) => skill.keywords) || [],
   workExperience:
-    resumeData.work?.map((job) => ({
+    resumeJSON.work?.map((job) => ({
       "@type": "Organization",
       name: job.name,
       url: job.url,
@@ -30,7 +30,7 @@ export const resumeSchema = {
       description: job.summary,
     })) || [],
   alumniOf:
-    resumeData.education?.map((edu) => ({
+    resumeJSON.education?.map((edu) => ({
       "@type": "EducationalOrganization",
       name: edu.institution,
       url: edu.url,
@@ -51,13 +51,13 @@ export const resumeSchema = {
     },
   ],
   hasCredential:
-    resumeData.skills?.map((skill) => ({
+    resumeJSON.skills?.map((skill) => ({
       "@type": "EducationalCredential",
       credentialCategory: skill.name,
       competencyRequired: skill.keywords,
     })) || [],
   memberOf:
-    resumeData.volunteer?.map((org) => ({
+    resumeJSON.volunteer?.map((org) => ({
       "@type": "Organization",
       name: org.organization,
       url: org.url,
@@ -67,7 +67,7 @@ export const resumeSchema = {
       description: org.summary,
     })) || [],
   creator:
-    resumeData.projects?.map((project) => ({
+    resumeJSON.projects?.map((project) => ({
       "@type": "CreativeWork",
       name: project.name,
       url: project.url,
