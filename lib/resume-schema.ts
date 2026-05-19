@@ -43,13 +43,13 @@ export const resumeSchema = {
       startDate: edu.startDate,
       endDate: edu.endDate,
     })) || [],
-  award: [
-    {
+  award:
+    resumeJSON.awards?.map((award) => ({
       "@type": "Award",
-      name: "AWS Solutions Architect Certification",
-      awardedBy: "Amazon Web Services",
-    },
-  ],
+      name: award.title,
+      awardedBy: award.awarder,
+      date: award.date,
+    })) || [],
   hasCredential:
     resumeJSON.skills?.map((skill) => ({
       "@type": "EducationalCredential",

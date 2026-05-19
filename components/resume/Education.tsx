@@ -36,18 +36,23 @@ export function Education({ education }: EducationProps) {
                   {edu.startDate} — {edu.endDate || "Present"}
                 </div>
               </div>
-              {edu.courses && edu.courses.length > 0 && (
+              {edu.highlights && edu.highlights.length > 0 && (
                 <div className="mt-3">
                   <h4 className="text-sm font-semibold text-gray-700 mb-2">
-                    Key Courses:
+                    Highlights:
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    {edu.courses.map((course, i) => (
+                    {edu.score && (
+                      <span className="text-sm bg-gray-100 text-gray-700 px-3 py-1 rounded-full">
+                        {edu.score} gpa
+                      </span>
+                    )}
+                    {edu.highlights.map((highlight, i) => (
                       <span
                         key={i}
                         className="text-sm bg-gray-100 text-gray-700 px-3 py-1 rounded-full"
                       >
-                        {course}
+                        {highlight}
                       </span>
                     ))}
                   </div>
