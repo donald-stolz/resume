@@ -20,7 +20,12 @@ export function Education({ education }: EducationProps) {
         <h2 className="text-xl font-bold gradient-text">Education</h2>
       </div>
       <div className="space-y-4">
-        {education.map((edu, index) => (
+        {education.map((edu, index) => {
+          const hasScore = Boolean(edu.score);
+          const highlights = edu.highlights ?? [];
+          const hasHighlights = highlights.length > 0;
+
+          return (
           <Card key={index} className="overflow-hidden card-hover border-none">
             <div className="h-2 bg-gradient-to-r from-pink-500 to-purple-500"></div>
             <CardContent className="p-5">
@@ -36,18 +41,20 @@ export function Education({ education }: EducationProps) {
                   {edu.startDate} — {edu.endDate || "Present"}
                 </div>
               </div>
-              {edu.highlights && edu.highlights.length > 0 && (
+              {(hasScore || hasHighlights) && (
                 <div className="mt-3">
-                  <h4 className="text-sm font-semibold text-gray-700 mb-2">
-                    Highlights:
-                  </h4>
+                  {hasHighlights && (
+                    <h4 className="text-sm font-semibold text-gray-700 mb-2">
+                      Highlights:
+                    </h4>
+                  )}
                   <div className="flex flex-wrap gap-2">
-                    {edu.score && (
+                    {hasScore && (
                       <span className="text-sm bg-gray-100 text-gray-700 px-3 py-1 rounded-full">
                         {edu.score} gpa
                       </span>
                     )}
-                    {edu.highlights.map((highlight, i) => (
+                    {highlights.map((highlight, i) => (
                       <span
                         key={i}
                         className="text-sm bg-gray-100 text-gray-700 px-3 py-1 rounded-full"
@@ -60,7 +67,8 @@ export function Education({ education }: EducationProps) {
               )}
             </CardContent>
           </Card>
-        ))}
+          );
+        })}
       </div>
     </section>
   );
