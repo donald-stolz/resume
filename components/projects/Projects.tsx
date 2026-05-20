@@ -5,6 +5,7 @@ import { Code } from "lucide-react";
 import type { Project } from "@/lib/resume-types";
 import { ProjectCard } from "./ProjectCard";
 import { Select, SelectItem } from "@/components/ui/select";
+import { tabSectionHeaderMargin } from "@/lib/tab-layout";
 
 interface ProjectsProps {
   projects?: Project[];
@@ -34,7 +35,9 @@ export function Projects({ projects }: ProjectsProps) {
 
   return (
     <section>
-      <div className="flex items-center justify-between mb-6">
+      <div
+        className={`flex items-center justify-between ${tabSectionHeaderMargin}`}
+      >
         <div className="flex items-center">
           <div className="bg-blue-100 p-2 rounded-lg mr-3">
             <Code className="h-5 w-5 text-blue-600" />
@@ -54,7 +57,7 @@ export function Projects({ projects }: ProjectsProps) {
           ))}
         </Select>
       </div>
-      <div className="flex flex-wrap gap-6 justify-center items-stretch">
+      <div className="flex flex-wrap gap-4 justify-center items-stretch">
         {filteredProjects?.map((project, index) => (
           <div key={index} className="flex-1 min-w-[240px] min-h-[240px]">
             <ProjectCard project={project} />

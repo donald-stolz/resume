@@ -5,6 +5,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import type { Basics } from "@/lib/resume-types";
 import { SocialIcon } from "react-social-icons";
 import { ResumeActions } from "./ResumeActions";
+import { tabContentPadding } from "@/lib/tab-layout";
+import { cn } from "@/lib/utils";
 
 interface ResumeHeaderProps {
   basics: Basics;
@@ -29,7 +31,12 @@ const getNetworkForProfile = (network: string): string => {
 
 export function ResumeHeader({ basics }: ResumeHeaderProps) {
   return (
-    <div className="relative bg-gradient-to-r from-purple-50 to-pink-50 p-6 md:p-8 border-b">
+    <div
+      className={cn(
+        "relative bg-gradient-to-r from-purple-50 to-pink-50 border-b",
+        tabContentPadding
+      )}
+    >
       <ResumeActions />
       <div className="flex flex-col md:flex-row gap-6 items-center md:items-start pt-10 md:pt-0">
         <Avatar className="h-24 w-24 border-2 border-white shadow-md">

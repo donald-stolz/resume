@@ -3,6 +3,7 @@
 import { Mail } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useState } from "react";
+import { tabSectionHeaderMargin } from "@/lib/tab-layout";
 
 interface ContactFormData {
   name: string;
@@ -59,13 +60,13 @@ export function Contact() {
 
   return (
     <section>
-      <div className="flex items-center mb-4 max-w-2xl mx-auto">
+      <div className={`flex items-center ${tabSectionHeaderMargin}`}>
         <div className="bg-blue-100 p-2 rounded-lg mr-3">
           <Mail className="h-5 w-5 text-blue-600" />
         </div>
         <h2 className="text-xl font-bold gradient-text">Contact</h2>
       </div>
-      <Card className="overflow-hidden card-hover border-none max-w-2xl mx-auto">
+      <Card className="overflow-hidden card-hover border-none w-full">
         <div className="h-2 bg-gradient-to-r from-blue-500 to-purple-500"></div>
         <CardContent className="p-5">
           <form onSubmit={handleSubmit} className="space-y-4">
