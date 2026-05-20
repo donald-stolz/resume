@@ -1,0 +1,486 @@
+{
+  "basics": {
+    "name": "Donald Thomas Stolz",
+    "label": "Senior Software Engineer / Head of Engineering",
+    "image": "/images/donald-stolz-profile.jpg",
+    "email": "don@stolz.dev",
+    "phone": "314-216-0123",
+    "url": "https://stolz.dev",
+    "summary": "Senior engineer with over 9 years of full stack experience, specializing in driving technical development and delivering high-impact solutions within fast-paced startup teams. Proven track record of going zero-to-one on greenfield systems — from architecture through deployment. Comfortable owning the entire stack as a solo engineer or leading small teams.",
+    "location": {
+      "city": "Austin",
+      "countryCode": "US",
+      "region": "TX"
+    },
+    "profiles": [
+      {
+        "network": "Facebook",
+        "username": "dtstolz",
+        "url": "http://facebook.com/dtstolz"
+      },
+      {
+        "network": "Twitter",
+        "username": "donstolz",
+        "url": "https://twitter.com/donstolz"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "donaldstolz",
+        "url": "https://www.linkedin.com/in/donaldstolz"
+      },
+      {
+        "network": "Instagram",
+        "username": "donstolz",
+        "url": "https://www.instagram.com/donstolz/"
+      },
+      {
+        "network": "Github",
+        "username": "donald-stolz",
+        "url": "https://github.com/donald-stolz"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Walter Grades",
+      "position": "Head of Engineering",
+      "url": "",
+      "startDate": "2026-02",
+      "endDate": "Present",
+      "summary": "Walter AI is building a ratings standard for investment newsletters. We convert newsletter recommendations into deterministic, auditable track records.",
+      "highlights": [
+        "Architected and built the entire platform as sole engineer — full stack, infrastructure, and DevOps — using Next.js, NestJS, and AWS",
+        "Built AI-powered newsletter parsing pipeline using Gemini and AWS Lambda to extract stock trade recommendations from financial newsletters and generate auditable performance track records",
+        "Developed Google Chrome Extension to automate Gmail filter setup, streamlining newsletter ingestion into the platform",
+        "Currently rolling out beta; architected for scale from day one with webhook-based email ingestion via Postmark",
+        "Leveraged Claude Code to accelerate development velocity as a one-person engineering team"
+      ]
+    },
+    {
+      "name": "St. Michael's Catholic Preparatory School",
+      "position": "Lacrosse Coach",
+      "url": "",
+      "startDate": "2024-11",
+      "endDate": "Present",
+      "summary": "Part-time coaching role supporting the lacrosse program at St. Michael's Catholic Preparatory School in Austin, TX.",
+      "highlights": [
+        "Coached 5th & 6th grade lacrosse team during Spring 2025 season, leading practice planning and player development",
+        "Designed and ran youth lacrosse practices and camps; focused on introducing new players to the sport and developing fundamental skills",
+        "Varsity assistant for Spring 2026 season, focusing on faceoff-specific skill development"
+      ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Full Stack Engineer",
+      "url": "",
+      "startDate": "2025-02",
+      "endDate": "2026-05",
+      "summary": "Independent engineering contractor.",
+      "highlights": [
+        "Utilized Gemini LLM to perform user personality analysis and generate engaging insights based on user interactions",
+        "Created scalable data processing features using Google Cloud Tasks",
+        "Working with GCP, Firebase, and Terraform to provide cloud solutions"
+      ]
+    },
+    {
+      "name": "soona (Acquired Trend)",
+      "position": "Senior Full Stack Engineer",
+      "url": "https://soona.co",
+      "startDate": "2023-06",
+      "endDate": "2025-01",
+      "summary": "soona is your all-in-one platform to make, manage, and optimize photo + video content for all your ecommerce channels.",
+      "highlights": [
+        "Spearheaded Trend technical development throughout acquisition, using TypeScript, React, and Next.js",
+        "Created and presented detailed transition documentation to onboard soona engineers, utilizing Notion, Swagger, & Miro",
+        "Led onboarding of new engineers to Trend's platform",
+        "Planned and developed auth integration feature, allowing connection between soona and Trend users",
+        "Member of soona's payment team; utilized Stripe, Postgres, Ruby on Rails, and Vue.js to enhance payment processing and invoice features",
+        "Earned AWS Solutions Architect certification",
+        "Built features to scale revenue, grew to over $150,000 monthly"
+      ]
+    },
+    {
+      "name": "Trend",
+      "position": "Head of Engineering",
+      "url": "https://trend.io/",
+      "startDate": "2021-12",
+      "endDate": "2023-06",
+      "summary": "We help companies win at marketing. We connect brands with creators who provide original & specifically targeted content.",
+      "highlights": [
+        "Primary engineer and technical decision-maker on revenue-driving features; grew platform to over $150,000 MRR",
+        "Led technical development initiatives while directly reporting to the CEO and CPO",
+        "Planned sprints and broke down project tickets in collaboration with the CPO using Asana",
+        "Presented product demos to team members, keeping everyone informed on ongoing builds and collecting valuable feedback for continuous improvement",
+        "Managed relationships with outside partners and contractors",
+        "Created comprehensive documentation using tools like Notion, Swagger, and Storybook",
+        "Conceptualized and defined long-term technical direction and goals, aligning the team with future growth initiatives",
+        "Built SQS-driven deadline processing system to automate creator workflow enforcement at scale",
+        "Built serverless content processing pipeline using AWS Lambda to automatically watermark and generate thumbnails for all creator image and video submissions",
+        "Built admin dashboards and tooling, improving workflows for customer success agents and sales"
+      ]
+    },
+    {
+      "name": "Asset Dash",
+      "position": "Co-Founder & Technology Lead",
+      "url": "https://assetdash.com/",
+      "startDate": "2021-01",
+      "endDate": "2021-12",
+      "summary": "The leaderboard for assets. Asset Dash ranks the top stocks, ETFs, and cryptocurrencies by market capitalization.",
+      "highlights": [
+        "Migrated backend and database from Heroku to Google Cloud Platform",
+        "Updated and maintained Postgres database; refactored client to Next.js, improving performance & SEO",
+        "Created new features to drive user growth and increase session duration"
+      ]
+    },
+    {
+      "name": "Elevator Media",
+      "position": "Full Stack Engineer",
+      "url": "https://elevatormag.com/",
+      "startDate": "2021-02",
+      "endDate": "2021-10",
+      "summary": "The dopest new hip hop, upcoming artists, music news, culture, and style.",
+      "highlights": [
+        "Maintenance and support for backend, frontend, and internal tools",
+        "Created internal utility library",
+        "Updated and significantly grew usage of socialite open-source tool",
+        "Published packages privately to GitHub and publicly to NPM",
+        "Implemented BitPay crypto payments"
+      ]
+    },
+    {
+      "name": "Unstoppable Domains",
+      "position": "Full Stack Engineer",
+      "url": "https://unstoppabledomains.com/",
+      "startDate": "2019-04",
+      "endDate": "2020-11",
+      "summary": "Unstoppable Domains builds blockchain domains that improve crypto payments.",
+      "highlights": [
+        "Launched innovative website builder tools, driving domain growth from approximately 100 in 01/2020 to over 15,000 by 06/2020, significantly enhancing customer acquisition and retention",
+        "Revitalized frontend with Next.js, enhancing performance & SEO",
+        "Developed analytics services using Docker, RudderStack, and Snowflake",
+        "Generated sales and UX reports, allowing the business to make informed decisions",
+        "Took lead on many large tasks such as client-side business logic refactor",
+        "Made major mobile UI & performance improvements",
+        "Setup multiple site integrations for business analytics, including Segment, Snowflake, & Mode",
+        "Implemented integrations that saved development time and cut costs, including RudderStack and Lever"
+      ]
+    },
+    {
+      "name": "Code for Fun",
+      "position": "Instructor",
+      "url": "http://codeforfun.com",
+      "startDate": "2018-10",
+      "endDate": "2019-05",
+      "summary": "Code for fun is a nonprofit organization, located in the San Francisco Bay Area, committed to exposing all students to computer science at an early age.",
+      "highlights": [
+        "Led weekly programming classes of 5-8 students (ages 7-16), supporting self-paced and advanced learners across web development topics",
+        "Designed and taught full web development curriculum from scratch covering React, Node.js REST APIs, and MongoDB — culminating in a student-built TODO application",
+        "Delivered after-school programs and summer camps teaching Scratch to beginner-level students",
+        "Conducted interviews for summer camp hiring"
+      ]
+    },
+    {
+      "name": "Bricks 4 Kidz",
+      "position": "Junior Robotics Teacher",
+      "url": "https://bricks4kidz.com",
+      "startDate": "2016-10",
+      "endDate": "2018-04",
+      "summary": "Bricks 4 Kidz is a STEM.org-accredited program teaching engineering and creativity through LEGO-based robotics for children.",
+      "highlights": [
+        "Led after-school STEAM programs for children ages 5-9, with class sizes of 5-8 students",
+        "Guided students through project-based LEGO robotics builds, developing problem-solving and fine motor skills"
+      ]
+    },
+    {
+      "name": "Axlry",
+      "position": "Software Engineer",
+      "url": "https://axlry.com",
+      "startDate": "2018-01",
+      "endDate": "2019-05",
+      "summary": "Axlry is an app that helps connect independent artists and record labels to music video directors.",
+      "highlights": [
+        "Front-end react-native developer",
+        "Full stack web developer"
+      ]
+    },
+    {
+      "name": "Lake Jericho",
+      "position": "Financial Technology Intern",
+      "url": "http://lakejericho.com",
+      "startDate": "2017-01",
+      "endDate": "2018-05",
+      "summary": "In charge of designing and implementing software solutions to assist with customer resource management and meeting Global Investment Performance Standard.",
+      "highlights": [
+        "Created a custom CRM application using Electron, React JS, and NeDB."
+      ]
+    },
+    {
+      "name": "Tau Kappa Epsilon",
+      "position": "Historian & Webmaster",
+      "url": "http://tkeloyola.org",
+      "startDate": "2016-08",
+      "endDate": "2018-04",
+      "summary": "Responsible for improving Alumni involvement, developing chapter website, and coordinating online fundraising.",
+      "highlights": [
+        "Member of Board of Advisors, Executive Board, Philanthropy and Recruitment Committees.",
+        "Assisted with marketing, coordinating social media fundraising and creating event webpages.",
+        "Coordinated and marketed events between alumni and undergraduates.",
+        "Published quarterly newsletters and maintained Alumni Website."
+      ]
+    },
+    {
+      "name": "Midwest Pool Management",
+      "position": "Assistant Manager / Head Guard",
+      "url": "http://midwestpool.com/",
+      "startDate": "2012-05",
+      "endDate": "2016-07",
+      "summary": "Responsible for monitoring pool safety and responding to emergency situations.",
+      "highlights": [
+        "Managed 20 guard staff",
+        "Resolved patron issues",
+        "Performed bi-hourly maintenance checks",
+        "Substituted for Manager when needed"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Pennsylvania State University",
+      "area": "Artificial Intelligence",
+      "studyType": "Master of Artificial Intelligence",
+      "startDate": "2026-01",
+      "endDate": "Present",
+      "url": "https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-artificial-intelligence-masters-degree",
+      "score": "3.8",
+      "highlights": [
+        "Graduate Student Online Teaching Certificate (in progress)",
+        "Relevant coursework: AI-801 Foundations of Artificial Intelligence, STAT-500 Applied Statistics"
+      ]
+    },
+    {
+      "institution": "42 - Silicon Valley",
+      "area": "Software Engineering",
+      "studyType": "Software Engineering",
+      "startDate": "2018-09",
+      "endDate": "2019-06",
+      "url": "https://www.42.us.org/",
+      "highlights": ["Project based learning", "C"]
+    },
+    {
+      "institution": "Loyola University Chicago",
+      "area": "Software Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015-08",
+      "endDate": "2018-05",
+      "url": "https://www.luc.edu/",
+      "score": "3.5",
+      "highlights": [
+        "Graduated in 3 years",
+        "Greek Life - 2016 New Member of the Year"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Bridge Lacrosse",
+      "position": "Volunteer Coach",
+      "url": "https://bridgelacrosse.org/",
+      "startDate": "2025-10",
+      "summary": "Bridge Lacrosse is a lacrosse club for kids in the Austin area.",
+      "highlights": [
+        "Assisted with player development and team building",
+        "Helped with practices"
+      ]
+    },
+    {
+      "organization": "Hack High School",
+      "position": "Volunteer Mentor",
+      "url": "https://www.42.us.org/program/high-school-students-free-coding-program/",
+      "startDate": "2019-01",
+      "endDate": "2019-05",
+      "summary": "The goal of HackHighSchool is to provide equality of access to computer science and digital literacy for the 21st Century to all high school students age 14-18. HackHighSchool(H2S) is a free, 8-month long coding club open from September to May.",
+      "highlights": [
+        "Created Node JS Curriculum",
+        "Taught JavaScript & Web Development",
+        "Built app to help manage student check-in and daily reports."
+      ]
+    },
+    {
+      "organization": "St. Jude Children's Research Hospital",
+      "position": "Volunteer",
+      "url": "https://www.stjude.org/",
+      "startDate": "2016-02",
+      "endDate": "2018-05",
+      "summary": "The mission of St. Jude Children's Research Hospital is to advance cures, and means of prevention, for pediatric catastrophic diseases through research and treatment. I coordinated and participated in philanthropic events for St. Jude"
+    },
+    {
+      "organization": "Food Recovery Network",
+      "position": "Volunteer",
+      "url": "https://www.foodrecoverynetwork.org/illinois/#loyolauniversityofchicago",
+      "startDate": "2017-01",
+      "endDate": "2018-05",
+      "summary": "Participated in food recovery runs after campus events, recovering food that can be donated to a local food pantry. Assisted with food drives and helped coordinate volunteers from my fraternity."
+    },
+    {
+      "organization": "KEEN",
+      "position": "Volunteer",
+      "url": "http://www.keenstlouis.org/",
+      "startDate": "2011-09",
+      "endDate": "2015-05",
+      "summary": "Played sports with mentally and physically disabled kids, mentoring them and building social skills."
+    },
+    {
+      "organization": "Loyola Academy",
+      "position": "Volunteer",
+      "url": "http://www.loyolaacademy.org/",
+      "startDate": "2015-01",
+      "endDate": "2015-01",
+      "summary": "Served as a tutor and teacher's assistant at Loyola Academy, a Jesuit Middle School for boys who have the potential for college preparatory work, but whose progress may be impeded by economic or social circumstances"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front-end Development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "NextJS",
+        "Vue",
+        "React Native"
+      ]
+    },
+    {
+      "name": "Back-end Development",
+      "level": "Expert",
+      "keywords": ["Node.js", "Express", "NestJS", "Python", "Ruby on Rails"]
+    },
+    {
+      "name": "Database",
+      "level": "Intermediate",
+      "keywords": ["MongoDB", "PostgreSQL", "Firestore", "Redis", "Snowflake"]
+    },
+    {
+      "name": "DevOps",
+      "level": "Advanced",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "CI/CD",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "AI/ML Engineering",
+      "level": "Proficient",
+      "keywords": ["LLM Integration", "Prompt Engineering", "Gemini AI"]
+    },
+    {
+      "name": "AI-Assisted Development",
+      "level": "Advanced",
+      "keywords": ["Claude Code", "Cursor", "V0", "Codex"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Marathon Training",
+      "description": "An app to help me train for the Austin Marathon",
+      "url": "https://run.stolz.dev",
+      "highlights": ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
+      "image": "marathon-training.jpg"
+    },
+    {
+      "name": "Counter Space",
+      "description": "A cooking resource app",
+      "url": "https://kitchen.stolz.dev/",
+      "highlights": ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
+      "image": "counter-space.png"
+    },
+    {
+      "name": "Personal Website",
+      "description": "My personal website built with Next.js, Tailwind CSS, and TypeScript.",
+      "url": "https://github.com/donald-stolz/personal-website",
+      "highlights": ["Next.js", "Tailwind CSS", "TypeScript", "V0", "Cursor"],
+      "image": "personal-website.png"
+    },
+    {
+      "name": "H2S - Student Management App",
+      "description": "A basic React & Node application to help manage Hack High School student check in and daily reports.",
+      "url": "https://github.com/codeforfunprojects/H2S-App",
+      "highlights": ["React", "Node.js", "Education"],
+      "image": "hack-high-school-logo.png"
+    },
+    {
+      "name": "H2S - Node JS Curriculum",
+      "description": "A project based intro level curriculum for building APIs with Node JS.",
+      "url": "https://github.com/donald-stolz/H2S-NodeJS-Curriculum",
+      "highlights": ["Node.js", "Education", "API Development"],
+      "image": "hack-high-school-logo.png"
+    },
+    {
+      "name": "RIPPEN",
+      "description": "R based script providing a new Quarter Back analysis metric.",
+      "url": "https://github.com/gjm112/RIPPEN",
+      "highlights": ["R", "Sports Analytics", "Data Science"],
+      "image": "nfl-analytics-logo.png"
+    },
+    {
+      "name": "2017 SABR Analytics Project",
+      "description": "Project submission for 2017 SABR Diamond Dollars Competition.",
+      "url": "https://github.com/donald-stolz/Loyola_SABR_2017",
+      "highlights": ["Sports Analytics", "Data Science", "Baseball"],
+      "image": "sabr-analytics-project.png"
+    },
+    {
+      "name": "42",
+      "description": "My programs and exercises at 42 Silicon Valley",
+      "url": "https://github.com/donald-stolz/c-projects-42",
+      "highlights": ["C", "Systems Programming", "Education"],
+      "image": "42-silicon-valley-logo.png"
+    },
+    {
+      "name": "Lake Jericho App",
+      "description": "React & Electron based custom CRM tool.",
+      "url": "https://github.com/donald-stolz/lake-jericho-app",
+      "highlights": ["React", "Electron", "CRM"],
+      "image": "lake-jericho-app-screenshot.png"
+    },
+    {
+      "name": "Loyola Course Work",
+      "description": "Repositories created for some of the classes I took at Loyola Chicago. Most of the work focuses on Object-Oriented concepts.",
+      "url": "https://github.com/DTS-LUC",
+      "highlights": ["Java", "Object-Oriented Programming", "Education"],
+      "image": "java-logo.png"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Solutions Architect Certification",
+      "issuer": "Amazon Web Services",
+      "date": "2024-01",
+      "url": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": "AWS Solutions Architect Certification",
+      "date": "2023-12",
+      "awarder": "Amazon Web Services"
+    },
+    {
+      "title": "2016 New Member of the Year",
+      "date": "2017-04",
+      "awarder": "Sorority & Fraternity Life and Student Activities & Greek Affairs"
+    },
+    {
+      "title": "Eagle Scout",
+      "date": "2011-02",
+      "awarder": "Boy Scouts of America"
+    }
+  ]
+}

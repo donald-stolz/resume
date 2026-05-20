@@ -53,7 +53,7 @@ export interface Education {
   startDate: string;
   endDate?: string;
   score?: string;
-  courses?: string[];
+  highlights?: string[];
 }
 
 export interface Award {
