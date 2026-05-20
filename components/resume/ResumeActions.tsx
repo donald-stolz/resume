@@ -2,13 +2,11 @@
 
 import { Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import resumeJSON from "@/lib/RESUME.json";
 
 export function ResumeActions() {
   const handleDownload = () => {
-    window.open(
-      "https://drive.google.com/file/d/1HYp9mQ1wSOz7YtjC5qLFlidxt3Q_2u3I/view?usp=sharing",
-      "_blank"
-    );
+    window.open(resumeJSON.basics.resumeDownloadUrl, "_blank");
   };
 
   return (
