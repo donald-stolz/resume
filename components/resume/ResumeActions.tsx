@@ -5,23 +5,22 @@ import { Button } from "@/components/ui/button";
 
 export function ResumeActions() {
   const handleDownload = () => {
-    // Open visualcv in a new tab
-    window.open("https://my.visualcv.com/donald-stolz/", "_blank");
+    window.open(
+      "https://drive.google.com/file/d/1HYp9mQ1wSOz7YtjC5qLFlidxt3Q_2u3I/view?usp=sharing",
+      "_blank"
+    );
   };
 
   return (
-    <div className="flex justify-between items-center print:hidden mb-6">
-      <div className="flex gap-2">
-        <Button
-          variant="outline"
-          size="sm"
-          className="gap-2"
-          onClick={handleDownload}
-        >
-          <Download className="h-4 w-4" />
-          Download PDF
-        </Button>
-      </div>
-    </div>
+    <Button
+      variant="outline"
+      size="sm"
+      className="absolute top-4 right-4 z-10 gap-2 bg-white/90 backdrop-blur-sm print:hidden"
+      onClick={handleDownload}
+      aria-label="Download resume PDF"
+    >
+      <Download className="h-4 w-4" aria-hidden="true" />
+      Download PDF
+    </Button>
   );
 }
